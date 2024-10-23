@@ -13,4 +13,12 @@ items:
   target: "/fr/organisations/"
   kind: page
   children: []
+- title: Agenda
+  target: "/fr/agenda/"
+  kind: page
+  children: []
+- title: Projets
+  target: "/fr/projets/"
+  kind: page
+  children: []
 
