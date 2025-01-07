@@ -57,4 +57,11 @@ items:
   children: []
   path: "/locations"
   file: content/en/locations/_index.html
+- title: Publications
+  target: "/en/publications/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/publications"
+  file: content/en/publications/_index.html
 
