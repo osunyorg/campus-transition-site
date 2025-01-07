@@ -18,7 +18,7 @@ en:
     posts_categories: /posts/:slug/
     diplomas: /diplomas/:slug/
     programs: /programs/:slug/
-    publications: /:year-:slug/
+    publications: /publications/:year-:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
     researchers: /team/:slug/publications/
