@@ -36,4 +36,25 @@ items:
   children: []
   path: "/projects"
   file: content/en/projects/_index.html
+- title: Diplomas
+  target: "/en/diplomas/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/diplomas"
+  file: content/en/diplomas/_index.html
+- title: Programs
+  target: "/en/programs/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/programs"
+  file: content/en/programs/_index.html
+- title: Campus
+  target: "/en/campus/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/locations"
+  file: content/en/locations/_index.html
 

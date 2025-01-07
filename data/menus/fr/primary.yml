@@ -36,4 +36,32 @@ items:
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
+- title: Diplômes
+  target: "/fr/diplomes/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/diplomas"
+  file: content/fr/diplomas/_index.html
+- title: Formations
+  target: "/fr/formations/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/programs"
+  file: content/fr/programs/_index.html
+- title: Campus
+  target: "/fr/campus/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/locations"
+  file: content/fr/locations/_index.html
+- title: Publications
+  target: "/fr/publications/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/publications"
+  file: content/fr/publications/_index.html
 
