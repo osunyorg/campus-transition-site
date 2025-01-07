@@ -21,6 +21,7 @@ en:
     publications: /publications/:year-:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
+    administrators: /team/:slug/roles/
     researchers: /team/:slug/publications/
     teachers: /team/:slug/programs/
   taxonomies:
@@ -57,6 +58,7 @@ fr:
     publications: /publications/:year-:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
+    administrators: /equipe/:slug/roles/
     researchers: /equipe/:slug/publications/
     teachers: /equipe/:slug/programs/
   taxonomies:
