@@ -22,8 +22,8 @@ items:
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
-- title: Publications
-  target: "/fr/publications/"
+- title: Publications grand public
+  target: "/fr/publications-grand-public/"
   kind: page
   new_tab: false
   children: []
