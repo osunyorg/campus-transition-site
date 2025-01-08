@@ -49,8 +49,8 @@ fr:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    projects: /publications/:year-:slug/
-    projects_categories: /publications/:slug/
+    projects: /publications-grand-public/:year-:slug/
+    projects_categories: /publications-grand-public/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
