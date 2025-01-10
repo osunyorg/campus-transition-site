@@ -12,13 +12,13 @@ en:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    projects: /la-recherche/projects/:year-:slug/
-    projects_categories: /la-recherche/projects/:slug/
+    projects: /recherche/projects/:year-:slug/
+    projects_categories: /recherche/projects/:slug/
     posts: /posts/:year-:month-:day-:slug/
     posts_categories: /posts/:slug/
-    diplomas: /les-formations/diplomas/:slug/
-    programs: /les-formations/programs/:slug/
-    publications: /la-recherche/publications/:year-:slug/
+    diplomas: /formations/diplomas/:slug/
+    programs: /formations/programs/:slug/
+    publications: /recherche/publications/:year-:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
     administrators: /team/:slug/roles/
@@ -49,13 +49,13 @@ fr:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    projects: /la-recherche/publications-grand-public/:year-:slug/
-    projects_categories: /la-recherche/publications-grand-public/:slug/
+    projects: /recherche/publications-grand-public/:year-:slug/
+    projects_categories: /recherche/publications-grand-public/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
-    diplomas: /les-formations/diplomes/:slug/
-    programs: /les-formations/offres-de-formation/:slug/
-    publications: /la-recherche/publications-scientifiques/:year-:slug/
+    diplomas: /formations/diplomes/:slug/
+    programs: /formations/offres-de-formation/:slug/
+    publications: /recherche/publications-scientifiques/:year-:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     administrators: /equipe/:slug/roles/
