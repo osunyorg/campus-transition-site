@@ -43,20 +43,6 @@ items:
   children: []
   path: "/events"
   file: content/en/events/_index.html
-- title: Diplomas
-  target: "/en/les-formations/diplomas/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/diplomas"
-  file: content/en/diplomas/_index.html
-- title: Programs
-  target: "/en/les-formations/programs/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/programs"
-  file: content/en/programs/_index.html
 - title: Campus
   target: "/en/campus/"
   kind: page
