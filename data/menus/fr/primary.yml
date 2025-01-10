@@ -13,6 +13,13 @@ items:
     children: []
     path: "/pages/eco-lieu/association"
     file: content/fr/pages/eco-lieu/association/_index.html
+  - title: Domaine
+    target: "/fr/eco-lieu/domaine/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/eco-lieu/domaine"
+    file: content/fr/pages/eco-lieu/domaine/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
 - title: Formations
