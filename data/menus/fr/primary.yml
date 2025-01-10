@@ -28,7 +28,7 @@ items:
   new_tab: false
   children:
   - title: Publications grand public
-    target: "/fr/recherche/publications-grand-public/"
+    target: "/fr/recherche/publications/publications-grand-public/"
     kind: page
     new_tab: false
     children: []
