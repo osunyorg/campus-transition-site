@@ -8,7 +8,7 @@ items:
   children: []
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
-- title: Les formations
+- title: Formations
   target: "/fr/formations/"
   kind: page
   new_tab: false
