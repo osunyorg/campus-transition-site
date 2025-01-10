@@ -23,19 +23,19 @@ items:
   path: "/pages/formations"
   file: content/fr/pages/formations/_index.html
 - title: La recherche
-  target: "/fr/la-recherche/"
+  target: "/fr/recherche/"
   kind: page
   new_tab: false
   children:
   - title: Publications scientifiques
-    target: "/fr/la-recherche/publications-scientifiques/"
+    target: "/fr/recherche/publications-scientifiques/"
     kind: page
     new_tab: false
     children: []
     path: "/publications"
     file: content/fr/publications/_index.html
-  path: "/pages/la-recherche"
-  file: content/fr/pages/la-recherche/_index.html
+  path: "/pages/recherche"
+  file: content/fr/pages/recherche/_index.html
 - title: Contact
   target: "/fr/contact/"
   kind: page
