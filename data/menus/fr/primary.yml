@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: L'éco-lieu
+- title: Éco-lieu
   target: "/fr/eco-lieu/"
   kind: page
   new_tab: false
