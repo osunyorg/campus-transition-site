@@ -22,13 +22,6 @@ items:
   children: []
   path: "/organizations"
   file: content/en/organizations/_index.html
-- title: Projects
-  target: "/en/la-recherche/projects/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/projects"
-  file: content/en/projects/_index.html
 - title: Agenda
   target: "/en/agenda/"
   kind: page
@@ -36,11 +29,4 @@ items:
   children: []
   path: "/events"
   file: content/en/events/_index.html
-- title: Campus
-  target: "/en/campus/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/locations"
-  file: content/en/locations/_index.html
 
