@@ -29,13 +29,6 @@ items:
   children: []
   path: "/projects"
   file: content/en/projects/_index.html
-- title: Publications
-  target: "/en/la-recherche/publications/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/publications"
-  file: content/en/publications/_index.html
 - title: Agenda
   target: "/en/agenda/"
   kind: page
