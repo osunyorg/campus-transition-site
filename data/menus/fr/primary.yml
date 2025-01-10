@@ -54,7 +54,14 @@ items:
   target: "/fr/nous-soutenir/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Faire un don
+    target: "/fr/nous-soutenir/donation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/nous-soutenir/donation"
+    file: content/fr/pages/nous-soutenir/donation/_index.html
   path: "/pages/nous-soutenir"
   file: content/fr/pages/nous-soutenir/_index.html
 
