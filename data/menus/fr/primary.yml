@@ -33,7 +33,14 @@ items:
   target: "/fr/la-recherche/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Publications scientifiques
+    target: "/fr/la-recherche/publications-scientifiques/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/publications"
+    file: content/fr/publications/_index.html
   path: "/pages/la-recherche"
   file: content/fr/pages/la-recherche/_index.html
 - title: Contact
@@ -78,13 +85,6 @@ items:
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Publications scientifiques
-  target: "/fr/publications-scientifiques/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/publications"
-  file: content/fr/publications/_index.html
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
