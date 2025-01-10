@@ -13,7 +13,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Offre de formation
+  - title: Offres de formation
     target: "/fr/formations/offres-de-formation/"
     kind: page
     new_tab: false
