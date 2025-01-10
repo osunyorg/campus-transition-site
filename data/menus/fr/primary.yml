@@ -5,7 +5,14 @@ items:
   target: "/fr/eco-lieu/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Association
+    target: "/fr/eco-lieu/association/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/eco-lieu/association"
+    file: content/fr/pages/eco-lieu/association/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
 - title: Formations
