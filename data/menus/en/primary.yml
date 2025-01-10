@@ -23,7 +23,7 @@ items:
   path: "/organizations"
   file: content/en/organizations/_index.html
 - title: Projects
-  target: "/en/projects/"
+  target: "/en/la-recherche/projects/"
   kind: page
   new_tab: false
   children: []
