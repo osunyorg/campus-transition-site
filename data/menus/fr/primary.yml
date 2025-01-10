@@ -29,6 +29,13 @@ items:
     file: content/fr/diplomas/_index.html
   path: "/pages/les-formations"
   file: content/fr/pages/les-formations/_index.html
+- title: La recherche
+  target: "/fr/la-recherche/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/la-recherche"
+  file: content/fr/pages/la-recherche/_index.html
 - title: Actualités
   target: "/fr/actualites/"
   kind: page
@@ -78,11 +85,18 @@ items:
   children: []
   path: "/locations"
   file: content/fr/locations/_index.html
-- title: La recherche
-  target: "/fr/la-recherche/"
+- title: Contact
+  target: "/fr/contact/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/la-recherche"
-  file: content/fr/pages/la-recherche/_index.html
+  path: "/pages/contact"
+  file: content/fr/pages/contact/_index.html
+- title: Nous soutenir
+  target: "/fr/nous-soutenir/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/nous-soutenir"
+  file: content/fr/pages/nous-soutenir/_index.html
 
