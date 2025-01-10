@@ -1,6 +1,13 @@
 ---
 title: Menu principal
 items:
+- title: L'éco-lieu
+  target: "/fr/leco-lieu/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/leco-lieu"
+  file: content/fr/pages/leco-lieu/_index.html
 - title: Les formations
   target: "/fr/les-formations/"
   kind: page
@@ -22,13 +29,6 @@ items:
     file: content/fr/diplomas/_index.html
   path: "/pages/les-formations"
   file: content/fr/pages/les-formations/_index.html
-- title: L'éco-lieu
-  target: "/fr/leco-lieu/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/leco-lieu"
-  file: content/fr/pages/leco-lieu/_index.html
 - title: Actualités
   target: "/fr/actualites/"
   kind: page
