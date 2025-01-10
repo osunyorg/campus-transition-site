@@ -57,18 +57,4 @@ items:
   children: []
   path: "/pages/nous-soutenir"
   file: content/fr/pages/nous-soutenir/_index.html
-- title: Actualités
-  target: "/fr/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
-- title: Équipe
-  target: "/fr/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
 
