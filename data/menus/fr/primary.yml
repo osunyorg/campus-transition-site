@@ -35,7 +35,7 @@ items:
     path: "/projects"
     file: content/fr/projects/_index.html
   - title: Publications scientifiques
-    target: "/fr/recherche/publications-scientifiques/"
+    target: "/fr/recherche/publications/publications-scientifiques/"
     kind: page
     new_tab: false
     children: []
