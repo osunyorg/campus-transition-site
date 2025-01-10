@@ -71,4 +71,11 @@ items:
   children: []
   path: "/locations"
   file: content/fr/locations/_index.html
+- title: L'éco-lieu
+  target: "/fr/leco-lieu/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/leco-lieu"
+  file: content/fr/pages/leco-lieu/_index.html
 
