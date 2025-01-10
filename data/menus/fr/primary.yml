@@ -2,26 +2,26 @@
 title: Menu principal
 items:
 - title: L'éco-lieu
-  target: "/fr/leco-lieu/"
+  target: "/fr/eco-lieu/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/leco-lieu"
-  file: content/fr/pages/leco-lieu/_index.html
+  path: "/pages/eco-lieu"
+  file: content/fr/pages/eco-lieu/_index.html
 - title: Les formations
-  target: "/fr/les-formations/"
+  target: "/fr/formations/"
   kind: page
   new_tab: false
   children:
   - title: Offre de formation
-    target: "/fr/les-formations/offres-de-formation/"
+    target: "/fr/formations/offres-de-formation/"
     kind: page
     new_tab: false
     children: []
     path: "/programs"
     file: content/fr/programs/_index.html
-  path: "/pages/les-formations"
-  file: content/fr/pages/les-formations/_index.html
+  path: "/pages/formations"
+  file: content/fr/pages/formations/_index.html
 - title: La recherche
   target: "/fr/la-recherche/"
   kind: page
