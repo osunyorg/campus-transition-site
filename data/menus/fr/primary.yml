@@ -85,11 +85,4 @@ items:
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Agenda
-  target: "/fr/agenda/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/events"
-  file: content/fr/events/_index.html
 
