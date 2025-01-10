@@ -18,7 +18,7 @@ en:
     posts_categories: /posts/:slug/
     diplomas: /formations/diplomas/:slug/
     programs: /formations/programs/:slug/
-    publications: /recherche/publications/:year-:slug/
+    publications: /recherche/publications/publications/:year-:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
     administrators: /team/:slug/roles/
@@ -55,7 +55,7 @@ fr:
     posts_categories: /actualites/:slug/
     diplomas: /formations/diplomes/:slug/
     programs: /formations/offres-de-formation/:slug/
-    publications: /recherche/publications-scientifiques/:year-:slug/
+    publications: /recherche/publications/publications-scientifiques/:year-:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     administrators: /equipe/:slug/roles/
