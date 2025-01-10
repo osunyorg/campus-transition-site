@@ -27,13 +27,13 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Publications scientifiques
-    target: "/fr/recherche/publications-scientifiques/"
+  - title: Publications grand public
+    target: "/fr/recherche/publications-grand-public/"
     kind: page
     new_tab: false
     children: []
-    path: "/publications"
-    file: content/fr/publications/_index.html
+    path: "/projects"
+    file: content/fr/projects/_index.html
   - title: Publications scientifiques
     target: "/fr/recherche/publications-scientifiques/"
     kind: page
