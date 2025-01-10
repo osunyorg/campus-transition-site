@@ -14,7 +14,7 @@ items:
   new_tab: false
   children:
   - title: Offre de formation
-    target: "/fr/les-formations/offre-de-formation/"
+    target: "/fr/les-formations/offres-de-formation/"
     kind: page
     new_tab: false
     children: []

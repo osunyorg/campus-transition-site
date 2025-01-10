@@ -12,8 +12,8 @@ en:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    projects: /projects/:year-:slug/
-    projects_categories: /projects/:slug/
+    projects: /la-recherche/projects/:year-:slug/
+    projects_categories: /la-recherche/projects/:slug/
     posts: /posts/:year-:month-:day-:slug/
     posts_categories: /posts/:slug/
     diplomas: /les-formations/diplomas/:slug/
@@ -49,12 +49,12 @@ fr:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    projects: /publications-grand-public/:year-:slug/
-    projects_categories: /publications-grand-public/:slug/
+    projects: /la-recherche/publications-grand-public/:year-:slug/
+    projects_categories: /la-recherche/publications-grand-public/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /les-formations/diplomes/:slug/
-    programs: /les-formations/offre-de-formation/:slug/
+    programs: /les-formations/offres-de-formation/:slug/
     publications: /la-recherche/publications-scientifiques/:year-:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
