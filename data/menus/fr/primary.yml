@@ -22,11 +22,18 @@ items:
     file: content/fr/programs/_index.html
   path: "/pages/formations"
   file: content/fr/pages/formations/_index.html
-- title: La recherche
+- title: Recherche
   target: "/fr/recherche/"
   kind: page
   new_tab: false
   children:
+  - title: Publications scientifiques
+    target: "/fr/recherche/publications-scientifiques/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/publications"
+    file: content/fr/publications/_index.html
   - title: Publications scientifiques
     target: "/fr/recherche/publications-scientifiques/"
     kind: page
