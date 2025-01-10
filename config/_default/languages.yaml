@@ -19,6 +19,8 @@ en:
     diplomas: /formations/diplomas/:slug/
     programs: /formations/programs/:slug/
     publications: /recherche/publications/publications/:year-:slug/
+    organizations: /organizations/:slug/
+    organizations_categories: /organizations/categories/:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
     administrators: /team/:slug/roles/
@@ -56,6 +58,8 @@ fr:
     diplomas: /formations/diplomes/:slug/
     programs: /formations/offres-de-formation/:slug/
     publications: /recherche/publications/publications-scientifiques/:year-:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     administrators: /equipe/:slug/roles/
