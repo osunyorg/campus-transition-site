@@ -8,3 +8,8 @@ params:
   logo:
     header: '/assets/images/logo.png'
     footer: '/assets/images/logo.png'
+  menu:
+    primary:
+      level_2:
+        title:
+          active: true
