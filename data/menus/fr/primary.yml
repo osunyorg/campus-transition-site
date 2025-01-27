@@ -110,14 +110,7 @@ items:
   target: "/fr/nous-soutenir/"
   kind: page
   new_tab: false
-  children:
-  - title: Devenir bénévole
-    target: "/fr/nous-soutenir/benevolat/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/nous-soutenir/benevolat"
-    file: content/fr/pages/nous-soutenir/benevolat/_index.html
+  children: []
   path: "/pages/nous-soutenir"
   file: content/fr/pages/nous-soutenir/_index.html
 
