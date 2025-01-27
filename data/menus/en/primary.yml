@@ -30,7 +30,7 @@ items:
   path: "/persons"
   file: content/en/persons/_index.html
 - title: Organizations
-  target: "/en/organizations/"
+  target: "/en/projet-global/organizations/"
   kind: page
   new_tab: false
   children: []
