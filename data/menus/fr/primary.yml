@@ -1,6 +1,13 @@
 ---
 title: Menu principal
 items:
+- title: Projet global
+  target: "/fr/projet-global/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/projet-global"
+  file: content/fr/pages/projet-global/_index.html
 - title: Éco-lieu
   target: "/fr/eco-lieu/"
   kind: page
@@ -92,11 +99,4 @@ items:
     file: content/fr/pages/nous-soutenir/benevolat/_index.html
   path: "/pages/nous-soutenir"
   file: content/fr/pages/nous-soutenir/_index.html
-- title: Projet global
-  target: "/fr/projet-global/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/projet-global"
-  file: content/fr/pages/projet-global/_index.html
 
