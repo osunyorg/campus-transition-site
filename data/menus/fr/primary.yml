@@ -5,7 +5,14 @@ items:
   target: "/fr/projet-global/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Qui sommes-nous
+    target: "/fr/projet-global/qui-sommes-nous/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/projet-global/qui-sommes-nous"
+    file: content/fr/pages/projet-global/qui-sommes-nous/_index.html
   path: "/pages/projet-global"
   file: content/fr/pages/projet-global/_index.html
 - title: Éco-lieu
