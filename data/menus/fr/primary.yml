@@ -105,12 +105,12 @@ items:
     path: "/pages/eco-lieu/experience"
     file: content/fr/pages/eco-lieu/experience/_index.html
   - title: Devenir bénévole
-    target: "/fr/eco-lieu/benevolat/"
+    target: "/fr/eco-lieu/devenir-benevole/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/eco-lieu/benevolat"
-    file: content/fr/pages/eco-lieu/benevolat/_index.html
+    path: "/pages/eco-lieu/devenir-benevole"
+    file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
 - title: Nous soutenir
