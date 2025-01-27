@@ -59,7 +59,7 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /formations/diplomes/:slug/
-    programs: /formations/offres-de-formation/:slug/
+    programs: /formations/offre-de-formation/:slug/
     publications: /recherche/publications/publications-scientifiques/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
