@@ -48,6 +48,13 @@ items:
     children: []
     path: "/pages/eco-lieu/domaine"
     file: content/fr/pages/eco-lieu/domaine/_index.html
+  - title: Expérience
+    target: "/fr/eco-lieu/experience/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/eco-lieu/experience"
+    file: content/fr/pages/eco-lieu/experience/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
 - title: Formations
