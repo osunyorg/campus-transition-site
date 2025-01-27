@@ -41,13 +41,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Équipe
-    target: "/fr/projet-global/equipe-1/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/projet-global/equipe-1"
-    file: content/fr/pages/projet-global/equipe-1/_index.html
   - title: Domaine
     target: "/fr/eco-lieu/domaine/"
     kind: page
