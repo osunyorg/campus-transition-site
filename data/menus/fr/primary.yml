@@ -20,6 +20,13 @@ items:
     children: []
     path: "/pages/projet-global/equipe-1"
     file: content/fr/pages/projet-global/equipe-1/_index.html
+  - title: Partenaires
+    target: "/fr/projet-global/partenaires/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/projet-global/partenaires"
+    file: content/fr/pages/projet-global/partenaires/_index.html
   path: "/pages/projet-global"
   file: content/fr/pages/projet-global/_index.html
 - title: Éco-lieu
