@@ -106,13 +106,6 @@ items:
     file: content/fr/pages/eco-lieu/experience/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
-- title: Contact
-  target: "/fr/contact/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/contact"
-  file: content/fr/pages/contact/_index.html
 - title: Nous soutenir
   target: "/fr/nous-soutenir/"
   kind: page
@@ -120,4 +113,11 @@ items:
   children: []
   path: "/pages/nous-soutenir"
   file: content/fr/pages/nous-soutenir/_index.html
+- title: Contact
+  target: "/fr/contact/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/contact"
+  file: content/fr/pages/contact/_index.html
 
