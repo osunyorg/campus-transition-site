@@ -48,6 +48,13 @@ items:
     children: []
     path: "/programs"
     file: content/fr/programs/_index.html
+  - title: Voyages apprenants
+    target: "/fr/formations/voyages-apprenants/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/formations/voyages-apprenants"
+    file: content/fr/pages/formations/voyages-apprenants/_index.html
   path: "/pages/formations"
   file: content/fr/pages/formations/_index.html
 - title: Recherche
