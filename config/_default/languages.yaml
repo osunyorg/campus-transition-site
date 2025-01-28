@@ -18,6 +18,7 @@ en:
     posts: /posts/:year-:month-:day-:slug/
     posts_categories: /posts/:slug/
     diplomas: /diplomas/:slug/
+    programs_categories: /formations/programs/categories/:slug/
     programs: /formations/programs/:slug/
     publications: /recherche/publications/publications/:year-:slug/
     organizations: /organizations/:slug/
@@ -37,6 +38,7 @@ en:
     pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
+    programs_category: programs_categories
     projects_category: projects_categories
     researcher: researchers
     teacher: teachers
@@ -59,6 +61,7 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
+    programs_categories: /formations/offre-de-formation/categories/:slug/
     programs: /formations/offre-de-formation/:slug/
     publications: /recherche/publications/publications-scientifiques/:year-:slug/
     organizations: /organisations/:slug/
@@ -78,6 +81,7 @@ fr:
     pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
+    programs_category: programs_categories
     projects_category: projects_categories
     researcher: researchers
     teacher: teachers
