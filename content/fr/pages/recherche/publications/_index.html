@@ -6,7 +6,7 @@ title: >-
 url: "/fr/recherche/publications/"
 slug: "publications"
 date: 2025-01-10T12:38:00+01:00
-lastmod: 2025-01-28T12:05:47+01:00
+lastmod: 2025-01-28T12:05:54+01:00
 meta:
   hugo:
     permalink: "/fr/recherche/publications/"
@@ -15,7 +15,7 @@ meta:
     slug: "publications"
   dates:
     created_at: 2025-01-10T12:38:00+01:00
-    updated_at: 2025-01-28T12:05:47+01:00
+    updated_at: 2025-01-28T12:05:54+01:00
     published_at: 2025-01-10T12:38:00+01:00
 
 breadcrumbs:
@@ -155,6 +155,41 @@ contents:
 
 
   - kind: block
+    template: projects
+    title: >-
+      Ouvrages
+    slug: >-
+      ouvrages
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Ouvrages
+        heading: 3
+        link: "/fr/ressources/recherche/publication/ouvrage/"
+    data:
+      mode: category
+      category: "recherche/publication/ouvrage"
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: true
+
+      projects:
+        - permalink: "/fr/ressources/2021-lillusion-de-la-finance-verte/"
+          path: "/projects/2021-lillusion-de-la-finance-verte"
+          slug: "lillusion-de-la-finance-verte"
+          file: "content/fr/projects/2021-lillusion-de-la-finance-verte.html"
+
+
+  - kind: block
     template: title
     title: >-
       Publications scientifiques (HAL)
@@ -208,32 +243,33 @@ contents:
   - kind: block
     template: projects
     title: >-
-      Ouvrages
+      
     slug: >-
-      ouvrages
+      
     ranks:
       base: 3
-      self: 3
-      children: 4
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Ouvrages
-        heading: 3
-        link: "/fr/ressources/recherche/publication/ouvrage/"
+      active: false
     data:
-      mode: category
-      category: "recherche/publication/ouvrage"
+      mode: all
       layout: grid
       options:
         categories: true
         image: true
         subtitle: true
-        summary: true
+        summary: false
         year: true
 
       projects:
+        - permalink: "/fr/ressources/2024-manuel-de-la-grande-transition/"
+          path: "/projects/2024-manuel-de-la-grande-transition"
+          slug: "manuel-de-la-grande-transition"
+          file: "content/fr/projects/2024-manuel-de-la-grande-transition.html"
+        - permalink: "/fr/ressources/2022-petits-manuels-de-la-grande-transition/"
+          path: "/projects/2022-petits-manuels-de-la-grande-transition"
+          slug: "petits-manuels-de-la-grande-transition"
+          file: "content/fr/projects/2022-petits-manuels-de-la-grande-transition.html"
         - permalink: "/fr/ressources/2021-lillusion-de-la-finance-verte/"
           path: "/projects/2021-lillusion-de-la-finance-verte"
           slug: "lillusion-de-la-finance-verte"
