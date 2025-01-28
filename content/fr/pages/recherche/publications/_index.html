@@ -6,7 +6,7 @@ title: >-
 url: "/fr/recherche/publications/"
 slug: "publications"
 date: 2025-01-10T12:38:00+01:00
-lastmod: 2025-01-28T12:06:03+01:00
+lastmod: 2025-01-28T12:06:05+01:00
 meta:
   hugo:
     permalink: "/fr/recherche/publications/"
@@ -15,7 +15,7 @@ meta:
     slug: "publications"
   dates:
     created_at: 2025-01-10T12:38:00+01:00
-    updated_at: 2025-01-28T12:06:03+01:00
+    updated_at: 2025-01-28T12:06:05+01:00
     published_at: 2025-01-10T12:38:00+01:00
 
 breadcrumbs:
@@ -157,6 +157,36 @@ contents:
   - kind: block
     template: projects
     title: >-
+      Documents de travail
+    slug: >-
+      documents-de-travail
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Documents de travail
+        heading: 3
+        link: "/fr/ressources/recherche/publication/documents-de-travail/"
+    data:
+      mode: category
+      category: "recherche/publication/documents-de-travail"
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: true
+
+      projects:
+
+
+  - kind: block
+    template: projects
+    title: >-
       Ouvrages
     slug: >-
       ouvrages
@@ -243,31 +273,37 @@ contents:
   - kind: block
     template: projects
     title: >-
-      Documents de travail
+      
     slug: >-
-      documents-de-travail
+      
     ranks:
       base: 3
-      self: 3
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Documents de travail
-        heading: 3
-        link: "/fr/ressources/recherche/publication/documents-de-travail/"
+      active: false
     data:
-      mode: category
-      category: "recherche/publication/documents-de-travail"
+      mode: all
       layout: grid
       options:
         categories: true
         image: true
         subtitle: true
-        summary: true
+        summary: false
         year: true
 
       projects:
+        - permalink: "/fr/ressources/2024-manuel-de-la-grande-transition/"
+          path: "/projects/2024-manuel-de-la-grande-transition"
+          slug: "manuel-de-la-grande-transition"
+          file: "content/fr/projects/2024-manuel-de-la-grande-transition.html"
+        - permalink: "/fr/ressources/2022-petits-manuels-de-la-grande-transition/"
+          path: "/projects/2022-petits-manuels-de-la-grande-transition"
+          slug: "petits-manuels-de-la-grande-transition"
+          file: "content/fr/projects/2022-petits-manuels-de-la-grande-transition.html"
+        - permalink: "/fr/ressources/2021-lillusion-de-la-finance-verte/"
+          path: "/projects/2021-lillusion-de-la-finance-verte"
+          slug: "lillusion-de-la-finance-verte"
+          file: "content/fr/projects/2021-lillusion-de-la-finance-verte.html"
 
 
 
