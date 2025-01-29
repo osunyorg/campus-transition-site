@@ -79,6 +79,10 @@ backlinks:
   current_website:
     name: "Campus de la Transition"
     pages:
+      - permalink: "/fr/formations/"
+        path: "/pages/formations"
+        slug: "formations"
+        file: "content/fr/pages/formations/_index.html"
     posts:
     events:
     projects:
@@ -87,9 +91,15 @@ persons_categories:
   - "formation"
   - "formation/enseignante"
 taxonomies:
-  - name: "Éco-lieu"
-    slug: "eco-lieu"
+  - name: "Catégories"
+    slug: ""
     categories:
+      - permalink: "/fr/equipe/categories/formation/"
+        path: "/persons_categories/formation"
+        slug: "formation"
+        file: "content/fr/persons_categories/formation/_index.html"
+        name: "Formation"
+
   - name: "Formation"
     slug: "formation"
     categories:
@@ -98,15 +108,7 @@ taxonomies:
         slug: "formation/enseignante"
         file: "content/fr/persons_categories/formation/enseignante/_index.html"
         name: "Enseignant·e"
-  - name: "Recherche"
-    slug: "recherche"
-    categories:
-free_categories:
-  - permalink: "/fr/equipe/categories/formation/"
-    path: "/persons_categories/formation"
-    slug: "formation"
-    file: "content/fr/persons_categories/formation/_index.html"
-    name: "Formation"
+
 
 biography: >-
   <p>Laboratoire ETHICS EA 7446</p>

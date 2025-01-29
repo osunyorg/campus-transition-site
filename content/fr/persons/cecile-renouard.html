@@ -90,6 +90,10 @@ backlinks:
   current_website:
     name: "Campus de la Transition"
     pages:
+      - permalink: "/fr/formations/"
+        path: "/pages/formations"
+        slug: "formations"
+        file: "content/fr/pages/formations/_index.html"
     posts:
     events:
     projects:
@@ -102,6 +106,25 @@ persons_categories:
   - "eco-lieu/association/bureau"
   - "formation/enseignante"
 taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/fr/equipe/categories/eco-lieu/"
+        path: "/persons_categories/eco-lieu"
+        slug: "eco-lieu"
+        file: "content/fr/persons_categories/eco-lieu/_index.html"
+        name: "Éco-lieu"
+      - permalink: "/fr/equipe/categories/formation/"
+        path: "/persons_categories/formation"
+        slug: "formation"
+        file: "content/fr/persons_categories/formation/_index.html"
+        name: "Formation"
+      - permalink: "/fr/equipe/categories/recherche/"
+        path: "/persons_categories/recherche"
+        slug: "recherche"
+        file: "content/fr/persons_categories/recherche/_index.html"
+        name: "Recherche"
+
   - name: "Éco-lieu"
     slug: "eco-lieu"
     categories:
@@ -115,6 +138,7 @@ taxonomies:
         slug: "eco-lieu/association/bureau"
         file: "content/fr/persons_categories/eco-lieu/association/bureau/_index.html"
         name: "Bureau"
+
   - name: "Formation"
     slug: "formation"
     categories:
@@ -123,25 +147,7 @@ taxonomies:
         slug: "formation/enseignante"
         file: "content/fr/persons_categories/formation/enseignante/_index.html"
         name: "Enseignant·e"
-  - name: "Recherche"
-    slug: "recherche"
-    categories:
-free_categories:
-  - permalink: "/fr/equipe/categories/eco-lieu/"
-    path: "/persons_categories/eco-lieu"
-    slug: "eco-lieu"
-    file: "content/fr/persons_categories/eco-lieu/_index.html"
-    name: "Éco-lieu"
-  - permalink: "/fr/equipe/categories/formation/"
-    path: "/persons_categories/formation"
-    slug: "formation"
-    file: "content/fr/persons_categories/formation/_index.html"
-    name: "Formation"
-  - permalink: "/fr/equipe/categories/recherche/"
-    path: "/persons_categories/recherche"
-    slug: "recherche"
-    file: "content/fr/persons_categories/recherche/_index.html"
-    name: "Recherche"
+
 
 biography: >-
   <p>Philosophe, enseignante aux Facultés Loyola Paris, directrice scientifique du programme CODEV à l’ESSEC Business School</p>
