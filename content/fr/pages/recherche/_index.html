@@ -63,7 +63,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 18
+  seconds: 19
   text: >-
     moins d'une minute
 contents:
@@ -349,13 +349,19 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Aller plus loin
     slug: >-
-      
+      aller-plus-loin
     ranks:
       base: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Aller plus loin
+        heading: 2
     data:
       options:
         image: true
@@ -364,6 +370,14 @@ contents:
 
       layout: grid
       pages:
+        - permalink: "/fr/formations/"
+          path: "/pages/formations"
+          slug: "formations"
+          file: "content/fr/pages/formations/_index.html"
+        - permalink: "/fr/eco-lieu/"
+          path: "/pages/eco-lieu"
+          slug: "eco-lieu"
+          file: "content/fr/pages/eco-lieu/_index.html"
 
 
 
