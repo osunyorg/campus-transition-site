@@ -20,7 +20,7 @@ en:
     diplomas: /diplomas/:slug/
     programs_categories: /formations/programs/categories/:slug/
     programs: /formations/programs/:slug/
-    publications: /recherche/publications/publications/:year-:slug/
+    publications: /recherche/publications/:year-:slug/
     organizations: /organizations/:slug/
     organizations_categories: /organizations/categories/:slug/
     persons: /team/:slug/
@@ -63,7 +63,7 @@ fr:
     diplomas: /diplomes/:slug/
     programs_categories: /formations/offre-de-formation/categories/:slug/
     programs: /formations/offre-de-formation/:slug/
-    publications: /recherche/publications/publications-scientifiques/:year-:slug/
+    publications: /recherche/publications-hal/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
