@@ -76,13 +76,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Publications
-    target: "/fr/recherche/publications/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/publications"
-    file: content/fr/pages/recherche/publications/_index.html
   - title: Expérimentations
     target: "/fr/recherche/experimentations/"
     kind: page
