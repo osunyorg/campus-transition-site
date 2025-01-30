@@ -83,6 +83,13 @@ items:
     children: []
     path: "/pages/recherche/publications-editees"
     file: content/fr/pages/recherche/publications-editees/_index.html
+  - title: Publications HAL
+    target: "/fr/recherche/publications-scientifiques/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/publications"
+    file: content/fr/publications/_index.html
   - title: Expérimentations
     target: "/fr/recherche/experimentations/"
     kind: page
@@ -104,13 +111,6 @@ items:
     children: []
     path: "/pages/recherche/collectif-fortes"
     file: content/fr/pages/recherche/collectif-fortes/_index.html
-  - title: Publications HAL
-    target: "/fr/recherche/publications-scientifiques/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/publications"
-    file: content/fr/publications/_index.html
   path: "/pages/recherche"
   file: content/fr/pages/recherche/_index.html
 - title: Éco-lieu
