@@ -56,8 +56,8 @@ fr:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
-    projects: /ressources/:year-:slug/
-    projects_categories: /ressources/:slug/
+    projects: /projets/:year-:slug/
+    projects_categories: /projets/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
