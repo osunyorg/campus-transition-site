@@ -84,7 +84,7 @@ items:
     path: "/pages/recherche/publications-editees"
     file: content/fr/pages/recherche/publications-editees/_index.html
   - title: Publications HAL
-    target: "/fr/recherche/publications-scientifiques/"
+    target: "/fr/recherche/publications-hal/"
     kind: page
     new_tab: false
     children: []
