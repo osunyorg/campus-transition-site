@@ -2,6 +2,11 @@
 
 baseURL: https://site.campus-transition.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: 45ac0f99-6dfc-4c8c-951a-2bce7b444a13
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
