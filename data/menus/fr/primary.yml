@@ -91,12 +91,12 @@ items:
     path: "/publications"
     file: content/fr/publications/_index.html
   - title: Expérimentations
-    target: "/fr/recherche/experimentations/"
+    target: "/fr/recherche/recherche-action/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/recherche/experimentations"
-    file: content/fr/pages/recherche/experimentations/_index.html
+    path: "/pages/recherche/recherche-action"
+    file: content/fr/pages/recherche/recherche-action/_index.html
   - title: Laboratoire
     target: "/fr/recherche/laboratoire/"
     kind: page
