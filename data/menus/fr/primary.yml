@@ -104,7 +104,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Domaine
+  - title: Domaine de Forges
     target: "/fr/eco-lieu/domaine/"
     kind: page
     new_tab: false
