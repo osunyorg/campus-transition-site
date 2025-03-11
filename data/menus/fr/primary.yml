@@ -111,7 +111,7 @@ items:
     children: []
     path: "/pages/eco-lieu/domaine"
     file: content/fr/pages/eco-lieu/domaine/_index.html
-  - title: Expérience
+  - title: Expérience de l'éco-lieu
     target: "/fr/eco-lieu/experience/"
     kind: page
     new_tab: false
