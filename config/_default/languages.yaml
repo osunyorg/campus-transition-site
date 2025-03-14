@@ -12,7 +12,7 @@ en:
 
   permalinks:
     events: /agenda/:year/:slug/
-    exhibitions: /:year-:month-:day-:slug/
+    exhibitions: /exhibitions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
     projects: /projects/:year-:slug/
