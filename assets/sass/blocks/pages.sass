@@ -1,0 +1,25 @@
+.block-pages
+    &--cards
+        @include in-page-without-sidebar
+            .top
+                .description
+                    @include lead-hero
+        // colored blocks for home
+        .page__home &
+            .card:first-child
+                .media
+                    background-color: $site-red
+            .card:nth-child(2)
+                .media
+                    background-color: $site-green
+            .card:last-child
+                .media
+                    background-color: $site-blue
+    &--list
+        &.block-class-block-background-red
+            background: $site-red
+            padding-bottom: $spacing-4
+            padding-top: $spacing-4 !important
+            @include media-breakpoint-up(desktop)
+                padding-bottom: space(20)
+                padding-top: space(20) !important

@@ -1,0 +1,13 @@
+header#document-header
+    .nav-level-1 
+        > li:nth-last-child(3)
+            background: rgba($color-accent, 0.1)
+            margin-right: space(5)
+            margin-left: space(3)
+    .dropdown-menu
+        .dropdown-menu-heading a
+            @include icon(arrow-right-line, after, true)
+                font-size: 80%
+            @include hover-translate-icon
+            &, &:hover
+                text-decoration: none

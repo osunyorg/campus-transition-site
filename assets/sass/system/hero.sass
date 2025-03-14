@@ -2,6 +2,8 @@
     .content
         .hero-text
             margin-top: 0
+            .has-lead > p
+                margin-top: $spacing-4
             .btn
                 @extend .button-accent
                 margin-top: $spacing-4
@@ -24,3 +26,9 @@
                 object-fit: cover
             @include media-breakpoint-up(desktop)
                 margin-right: var(--grid-gutter-negative)
+    @include media-breakpoint-up(desktop)
+        .breadcrumb-nav + .content
+            padding-top: space(20)
+    @include media-breakpoint-down(desktop)
+        .page__home &
+            margin-bottom: 0

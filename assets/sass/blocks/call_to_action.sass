@@ -1,0 +1,13 @@
+.block-call_to_action
+    .call_to_action--without-image
+        &:not(.call_to_action--without-text)
+            > div 
+                @include in-page-without-sidebar
+                    @include media-breakpoint-up(xxl)
+                        .top
+                            grid-column: 1/8
+                        .actions
+                            grid-column: 9/13
+    .top
+        .block-title
+            margin-bottom: $spacing-3
