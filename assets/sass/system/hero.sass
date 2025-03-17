@@ -3,10 +3,13 @@
     margin-right: var(--grid-gutter-negative)
     padding-left: var(--grid-gutter)
     padding-right: var(--grid-gutter)
+
 .hero
     .content
         .hero-text
             margin-top: 0
+            @include media-breakpoint-up(desktop)
+                width: calc(#{columns(7)} + var(--column-width))
             .has-lead > p
                 margin-top: $spacing-4
             .btn
@@ -31,10 +34,12 @@
                 object-fit: cover
             @include media-breakpoint-up(desktop)
                 margin-right: var(--grid-gutter-negative)
+                width: calc(#{columns(4)} + var(--column-width))
     // colors in hero and breadcrumb
     .ancestor-research &,
     .projects_categories__term &,
     .projects__page &,
+    .projects__section &,
     .ancestor-formation &,
     .ancestor-eco-place &,
     .programs_categories__term &,
@@ -43,9 +48,12 @@
         border-bottom-style: solid
         .breadcrumb-nav
             @include background-without-margin
+            @include media-breakpoint-down(desktop)
+                margin-bottom: $spacing-3
     .ancestor-research &,
     .projects_categories__term &,
-    .projects__page &
+    .projects__page &,
+    .projects__section &
         border-color: $site-blue
         .breadcrumb-nav
             background: $site-blue
@@ -64,9 +72,12 @@
     .page-formation &
         .content
             @include background-without-margin
-            padding-bottom: space(20)
             figure
                 margin-right: 0
+            @include media-breakpoint-up(desktop)
+                padding-bottom: space(20)
+            @include media-breakpoint-down(desktop)
+                padding-top: $spacing-3
     .content
         .page-research & 
             background: $site-blue
@@ -80,3 +91,12 @@
     @include media-breakpoint-down(desktop)
         .page__home &
             margin-bottom: 0
+        // empêcher les images de se décaler hors du hero
+        &--image-portrait,
+        &--image-square
+            margin-bottom: $spacing-5
+            .page-research &,
+            .page-eco-place &,
+            .page-formation &
+                figure
+                    margin-bottom: 0

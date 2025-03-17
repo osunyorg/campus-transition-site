@@ -1,0 +1,24 @@
+.projects__page 
+    .hero 
+        .content
+            .hero-actions
+                display: flex
+                gap: var(--grid-gutter)
+                @include media-breakpoint-down(desktop)
+                    margin-top: 0
+                    a, button
+                        margin-top: $spacing-1
+                        width: columns(6)
+            .dropdown-share
+                --btn-min-width: unset
+                position: relative
+                bottom: unset
+                right: unset
+                margin-top: 0
+                button
+                    --btn-background: var(--color-border)
+                    --btn-color: var(--color-text)
+                    @include media-breakpoint-up(desktop)
+                        width: unset
+                    &::after
+                        margin-left: space()
