@@ -18,3 +18,28 @@
             background-size: 100% 100%
             @include media-breakpoint-up(desktop)
                 @include background-without-margin
+
+// footer and header colors
+header#document-header,
+footer#document-footer
+    // colors
+    border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
+    .page-research &,
+    .projects_categories__term &,
+    .projects__page &,
+    .projects__section &,
+    .ancestor-research &
+        border-color: $site-blue
+        border-image: none
+    .page-schooling &,
+    .ancestor-schooling &
+        border-color: $site-red
+        border-image: none
+    .page-eco-place &,
+    .ancestor-eco-place &
+        border-color: $site-green
+        border-image: none
+
+footer#document-footer
+    border-top-width: 2px
+    border-top-style: solid

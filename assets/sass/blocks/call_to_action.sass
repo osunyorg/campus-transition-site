@@ -14,3 +14,12 @@
     .call_to_action
         .description p
             @include lead-hero
+// chapter with cta (cf. nous soutenir)
+.block-class-with-button
+    &
+        margin-bottom: 0
+    & + .block-call_to_action
+        margin-top: 0
+        @include media-breakpoint-up(desktop)
+            .actions a
+                margin-top: $spacing-4

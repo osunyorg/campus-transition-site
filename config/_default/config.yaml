@@ -13,3 +13,6 @@ params:
       level_2:
         title:
           active: true
+  persons:
+    index:
+      layout: list

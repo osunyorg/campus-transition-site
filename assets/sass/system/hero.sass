@@ -6,6 +6,8 @@
                 width: calc(#{columns(7)} + var(--column-width))
             .has-lead > p
                 margin-top: $spacing-4
+            .hero-actions
+                margin-top: 0
             .btn
                 @extend .button-accent
                 margin-top: $spacing-4
@@ -27,14 +29,15 @@
                 aspect-ratio: 1
                 object-fit: cover
             @include media-breakpoint-up(desktop)
-                margin-right: var(--grid-gutter-negative)
-                width: calc(#{columns(4)} + var(--column-width))
+                body:not(.persons__page) &
+                    margin-right: var(--grid-gutter-negative)
+                    width: calc(#{columns(4)} + var(--column-width))
     // colors in hero and breadcrumb
     .ancestor-research &,
     .projects_categories__term &,
     .projects__page &,
     .projects__section &,
-    .ancestor-formation &,
+    .ancestor-schooling &,
     .ancestor-eco-place &,
     .programs_categories__term &,
     .programs__section &
@@ -49,7 +52,7 @@
         border-color: $site-blue
         .breadcrumb-nav
             background: $site-blue
-    .ancestor-formation &,
+    .ancestor-schooling &,
     .programs_categories__term &,
     .programs__section &
         border-color: $site-red
@@ -61,7 +64,8 @@
             background: $site-green
     .page-research &,
     .page-eco-place &,
-    .page-formation &
+    .page-schooling &
+        border: none
         .content
             @include background-without-margin
             figure
@@ -72,7 +76,7 @@
                 padding-top: $spacing-3
     .ancestor-research &,
     .ancestor-eco-place &,
-    .ancestor-formation &
+    .ancestor-schooling &
         border-image: none
         .breadcrumb-nav
             ol
@@ -80,7 +84,7 @@
     .content
         .page-research & 
             background: $site-blue
-        .page-formation & 
+        .page-schooling & 
             background: $site-red
         .page-eco-place & 
             background: $site-green
@@ -92,9 +96,11 @@
             margin-bottom: $spacing-4
         .page__home &
             margin-bottom: 0
+            .hero-text
+                padding-top: $spacing-4
         .page-research &,
         .page-eco-place &,
-        .page-formation &
+        .page-schooling &
             .breadcrumb-nav
                 margin-bottom: 0
         // empêcher les images de se décaler hors du hero
@@ -103,7 +109,7 @@
             margin-bottom: $spacing-5
             .page-research &,
             .page-eco-place &,
-            .page-formation &
+            .page-schooling &
                 .breadcrumb-nav
                     margin-bottom: 0
                 figure

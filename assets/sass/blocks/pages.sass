@@ -26,6 +26,10 @@
             @include media-breakpoint-up(desktop)
                 padding-bottom: space(20)
                 padding-top: space(20) !important
+    &--grid
+        @include in-page-with-or-without-sidebar
+            .grid
+                @include grid(2, desktop)
     // navigation block at the end of primary pages
     &.block-class-navigation-block
         @include in-page-with-or-without-sidebar
@@ -34,16 +38,9 @@
                     @include h4
         @include in-page-without-sidebar
             .grid
-                @include grid(2)
-            .page-research &
                 .media img
                     aspect-ratio: 16/6
                     object-position: center
-        .page-research &
-            .page:first-child .media
-                background: $site-red
-            .page:last-child .media
-                background: $site-green
         // ex: page "le projet"
         .pages__section &
             .page:first-child .media
@@ -52,5 +49,48 @@
                 background: $site-green
             .page:last-child .media
                 background: $site-blue
+        .page-research &
+            .page:first-child .media
+                background: $site-red
+            .page:last-child .media
+                background: $site-green
+        .page-schooling &
+            .page:first-child .media
+                background: $site-green
+            .page:last-child .media
+                background: $site-blue
+        .page-research &
+            .page:first-child .media
+                background: $site-red
+            .page:last-child .media
+                background: $site-green
+    &--list
+        .page
+            article
+                .media img
+                    aspect-ratio: 1
+    &--large
+        .page
             .media img
-                aspect-ratio: 1
+                aspect-ratio: 7 / 5
+            .page-title
+                @include in-page-with-sidebar
+                    @include h3
+                a
+                    @include icon(arrow-right-line, after, true)
+                        font-size: 80%
+                    @include hover-translate-icon
+                    text-decoration: none
+            .more
+                @extend .sr-only
+            @include media-breakpoint-up(desktop)
+                align-items: center
+                .media 
+                    margin-bottom: 0
+        &.block-class-background-alt
+            background-color: var(--color-background-alt)
+                padding-bottom: $spacing-4
+                padding-top: $spacing-4
+            @include media-breakpoint-up(desktop)
+                padding-bottom: space(20)
+                padding-top: space(20)

@@ -1,0 +1,10 @@
+.block-projects
+    &--large
+        @include in-page-with-sidebar
+            .project-title
+                @include h3
+            @include media-breakpoint-down(xxl)
+                .project
+                    align-items: flex-start
+        .more
+            @extend .sr-only

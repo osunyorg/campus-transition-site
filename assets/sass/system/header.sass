@@ -1,24 +1,9 @@
 header#document-header
-    // colors
-    border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
-    .page-research &,
-    .projects_categories__term &,
-    .projects__page &,
-    .projects__section &
-        border-color: $site-blue
-    .page-formation &
-        border-color: $site-red
-    .page-eco-place &
-        border-color: $site-green
-    .page-research &,
-    .page-eco-place &,
-    .page-formation &
-        border-image: none
     .ancestor-research &,
     .projects_categories__term &,
     .projects__page &,
     .projects__section &,
-    .ancestor-formation &,
+    .ancestor-schooling &,
     .ancestor-eco-place &,
     .programs_categories__term &,
     .programs__section &
@@ -26,32 +11,74 @@ header#document-header
     // menu
     .nav-level-1 
         > li:nth-last-child(3)
-            a
-                background: rgba($color-accent, 0.1)
+            border-bottom: 0
+            background: rgba($color-accent, 0.1)
             @include media-breakpoint-up(desktop)
                 margin-right: space(5)
                 margin-left: space(3)
             @include media-breakpoint-down(desktop)
-                padding: $spacing-3 0
-                a
-                    padding: $spacing-1 $spacing-2
-    .dropdown-menu
-        .dropdown-menu-heading a
-            @include icon(arrow-right-line, after, true)
-                font-size: 80%
-            @include hover-translate-icon
-            &, &:hover
-                text-decoration: none
-        border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
-        border-top-width: 2px
-        border-top-style: solid
-        padding-top: $spacing-4
+    @include media-breakpoint-down(desktop)
+        border-bottom: $header-border-bottom-width solid var(--color-border)
+        .menu.is-opened
+            margin-left: var(--grid-gutter-negative)
+            margin-right: var(--grid-gutter-negative)
+            .nav-search span
+                // remove sr-only style
+                border: initial !important
+                clip: auto !important
+                clip-path: none !important
+                height: auto !important
+                overflow: visible !important
+                padding: initial !important
+                margin: initial !important
+                position: static !important
+                width: auto !important
+                white-space: normal !important
+            .nav-level-1
+                display: flex
+                flex-direction: column
+                > li
+                    padding-left: var(--grid-gutter)
+                    padding-right: var(--grid-gutter)
+                    &:nth-last-child(4),
+                    &:nth-last-child(2)
+                        border-bottom: 1.5px solid $color-border
+                    &:nth-last-child(3)
+                        order: 2
+                    > a, button, span
+                        @include signature
+                    ul a
+                        @include h4
+                > li:first-child
+                    border: none
+                > li:nth-child(2)
+                    background: $site-red
+                    border: none
+                > li:nth-child(3)
+                    background: $site-blue
+                    border: none
+                > li:nth-child(4)
+                    background: $site-green
+                    border: none
+                    
+    .dropdown-menu:not(.dropdown-languages)
+        @include media-breakpoint-up(desktop)
+            border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
+            border-top-width: 2px
+            border-top-style: solid
+            padding-top: $spacing-4
+            .dropdown-menu-heading a
+                @include icon(arrow-right-line, after, true)
+                    font-size: 80%
+                @include hover-translate-icon
+                &, &:hover
+                    text-decoration: none
         // dropdowns border
-        &[aria-labelledby="dropdown-formations"],
+        &[aria-labelledby="dropdown-schoolings"],
         &[aria-labelledby="dropdown-éco-lieu"],
         &[aria-labelledby="dropdown-recherche"]
             border-image: none
-        &[aria-labelledby="dropdown-formations"]
+        &[aria-labelledby="dropdown-schoolings"]
             border-color: $site-red
         &[aria-labelledby="dropdown-éco-lieu"]
             border-color: $site-green

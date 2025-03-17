@@ -1,8 +1,26 @@
 .block-persons
     &--grid
+        &.block-with-long-text:not(.block-persons--large)
+            .persons
+                @include in-page-without-sidebar
+                    @include grid(6)
+                    .person
+                        flex-direction: column
+                        .description
+                            margin-top: 0
+                        .person-role
+                            margin-top: space(2)
+                        .avatar
+                            width: offset(1)
         .person
             .person-name
                 @include h6
                 text-transform: none
-            .avatar
-                border-radius: 0
+    &--large        
+        .contacts-details
+            margin-top: space(8)
+            ul + ul,
+            li + li
+                margin-top: space(5)
+        .more
+            @extend .sr-only
