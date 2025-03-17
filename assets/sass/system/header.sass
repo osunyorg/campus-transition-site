@@ -1,4 +1,11 @@
 header#document-header
+    border-image:   linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 5
+    .page-research &
+        border-color: $site-blue
+        border-image: none
+    .ancestor-research &
+        border: none
+        border-image: none
     .nav-level-1 
         > li:nth-last-child(3)
             background: rgba($color-accent, 0.1)

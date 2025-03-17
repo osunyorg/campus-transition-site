@@ -1,3 +1,8 @@
+@mixin background-without-margin
+    margin-left: var(--grid-gutter-negative)
+    margin-right: var(--grid-gutter-negative)
+    padding-left: var(--grid-gutter)
+    padding-right: var(--grid-gutter)
 .hero
     .content
         .hero-text
@@ -26,6 +31,19 @@
                 object-fit: cover
             @include media-breakpoint-up(desktop)
                 margin-right: var(--grid-gutter-negative)
+    // colors in hero and breadcrumb
+    .ancestor-research &
+        border-bottom: 2px solid $site-blue
+        .breadcrumb-nav
+            background: $site-blue
+            @include background-without-margin
+    .page-research &
+        .content
+            @include background-without-margin
+            background: $site-blue
+            padding-bottom: space(20)
+            figure
+                margin-right: 0
     @include media-breakpoint-up(desktop)
         .breadcrumb-nav + .content
             padding-top: space(20)

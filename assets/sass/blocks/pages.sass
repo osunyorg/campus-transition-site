@@ -23,3 +23,19 @@
             @include media-breakpoint-up(desktop)
                 padding-bottom: space(20)
                 padding-top: space(20) !important
+    // navigation block at the end of primary pages
+    &.block-class-navigation-block
+        @include in-page-without-sidebar
+            .grid
+                @include grid(2)
+            .page
+                &-title
+                    @include h4
+                .media img
+                    aspect-ratio: 16/6
+                    object-position: center
+        .page-research &
+            .page:first-child .media
+                background: $site-red
+            .page:last-child .media
+                background: $site-green
