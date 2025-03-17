@@ -28,12 +28,14 @@
                 padding-top: space(20) !important
     // navigation block at the end of primary pages
     &.block-class-navigation-block
-        @include in-page-without-sidebar
-            .grid
-                @include grid(2)
+        @include in-page-with-or-without-sidebar
             .page
                 &-title
                     @include h4
+        @include in-page-without-sidebar
+            .grid
+                @include grid(2)
+            .page-research &
                 .media img
                     aspect-ratio: 16/6
                     object-position: center
@@ -42,3 +44,13 @@
                 background: $site-red
             .page:last-child .media
                 background: $site-green
+        // ex: page "le projet"
+        .pages__section &
+            .page:first-child .media
+                background: $site-red
+            .page:nth-child(2) .media
+                background: $site-green
+            .page:last-child .media
+                background: $site-blue
+            .media img
+                aspect-ratio: 1
