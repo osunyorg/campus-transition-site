@@ -1,9 +1,3 @@
-@mixin background-without-margin
-    margin-left: var(--grid-gutter-negative)
-    margin-right: var(--grid-gutter-negative)
-    padding-left: var(--grid-gutter)
-    padding-right: var(--grid-gutter)
-
 .hero
     .content
         .hero-text
@@ -36,34 +30,32 @@
                 margin-right: var(--grid-gutter-negative)
                 width: calc(#{columns(4)} + var(--column-width))
     // colors in hero and breadcrumb
-    .ancestor-research &,
+    .page-ancestor-research &,
     .projects_categories__term &,
     .projects__page &,
     .projects__section &,
-    .ancestor-formation &,
-    .ancestor-eco-place &,
+    .page-ancestor-formation &,
+    .page-ancestor-eco-place &,
     .programs_categories__term &,
     .programs__section &
         border-bottom-width: 2px
         border-bottom-style: solid
         .breadcrumb-nav
             @include background-without-margin
-            @include media-breakpoint-down(desktop)
-                margin-bottom: $spacing-3
-    .ancestor-research &,
+    .page-ancestor-research &,
     .projects_categories__term &,
     .projects__page &,
     .projects__section &
         border-color: $site-blue
         .breadcrumb-nav
             background: $site-blue
-    .ancestor-formation &,
+    .page-ancestor-formation &,
     .programs_categories__term &,
     .programs__section &
         border-color: $site-red
         .breadcrumb-nav
             background: $site-red
-    .ancestor-eco-place &
+    .page-ancestor-eco-place &
         border-color: $site-green
         .breadcrumb-nav
             background: $site-green
@@ -78,6 +70,13 @@
                 padding-bottom: space(20)
             @include media-breakpoint-down(desktop)
                 padding-top: $spacing-3
+    .page-ancestor-research &,
+    .page-ancestor-eco-place &,
+    .page-ancestor-formation &
+        border-image: none
+        .breadcrumb-nav
+            ol
+                padding-left: 0
     .content
         .page-research & 
             background: $site-blue
@@ -89,8 +88,15 @@
         .breadcrumb-nav + .content
             padding-top: space(20)
     @include media-breakpoint-down(desktop)
+        .breadcrumb-nav
+            margin-bottom: $spacing-4
         .page__home &
             margin-bottom: 0
+        .page-research &,
+        .page-eco-place &,
+        .page-formation &
+            .breadcrumb-nav
+                margin-bottom: 0
         // empêcher les images de se décaler hors du hero
         &--image-portrait,
         &--image-square
@@ -98,5 +104,7 @@
             .page-research &,
             .page-eco-place &,
             .page-formation &
+                .breadcrumb-nav
+                    margin-bottom: 0
                 figure
                     margin-bottom: 0

@@ -1,6 +1,6 @@
 header#document-header
     // colors
-    border-image:   linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 5
+    border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
     .page-research &,
     .projects_categories__term &,
     .projects__page &,
@@ -42,3 +42,18 @@ header#document-header
             @include hover-translate-icon
             &, &:hover
                 text-decoration: none
+        border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
+        border-top-width: 2px
+        border-top-style: solid
+        padding-top: $spacing-4
+        // dropdowns border
+        &[aria-labelledby="dropdown-formations"],
+        &[aria-labelledby="dropdown-éco-lieu"],
+        &[aria-labelledby="dropdown-recherche"]
+            border-image: none
+        &[aria-labelledby="dropdown-formations"]
+            border-color: $site-red
+        &[aria-labelledby="dropdown-éco-lieu"]
+            border-color: $site-green
+        &[aria-labelledby="dropdown-recherche"]
+            border-color: $site-blue

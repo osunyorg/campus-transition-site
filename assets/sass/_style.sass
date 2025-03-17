@@ -1,0 +1,20 @@
+// MIXIN
+@mixin background-without-margin
+    margin-left: var(--grid-gutter-negative)
+    margin-right: var(--grid-gutter-negative)
+    padding-left: var(--grid-gutter)
+    padding-right: var(--grid-gutter)
+
+.pages__section
+    .hero
+        border-bottom-width: 2px
+        border-bottom-style: solid
+        border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
+    &.ancestor-about
+        header#document-header
+            border: none
+        .breadcrumb-nav
+            background-image: linear-gradient(90deg, $site-red 33.33%, $site-green 33.33%, $site-green 66.66%, $site-blue 66.66%)
+            background-size: 100% 100%
+            @include media-breakpoint-up(desktop)
+                @include background-without-margin
