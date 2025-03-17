@@ -32,18 +32,48 @@
             @include media-breakpoint-up(desktop)
                 margin-right: var(--grid-gutter-negative)
     // colors in hero and breadcrumb
-    .ancestor-research &
-        border-bottom: 2px solid $site-blue
+    .ancestor-research &,
+    .projects_categories__term &,
+    .projects__page &,
+    .ancestor-formation &,
+    .ancestor-eco-place &,
+    .programs_categories__term &,
+    .programs__section &
+        border-bottom-width: 2px
+        border-bottom-style: solid
+        .breadcrumb-nav
+            @include background-without-margin
+    .ancestor-research &,
+    .projects_categories__term &,
+    .projects__page &
+        border-color: $site-blue
         .breadcrumb-nav
             background: $site-blue
-            @include background-without-margin
-    .page-research &
+    .ancestor-formation &,
+    .programs_categories__term &,
+    .programs__section &
+        border-color: $site-red
+        .breadcrumb-nav
+            background: $site-red
+    .ancestor-eco-place &
+        border-color: $site-green
+        .breadcrumb-nav
+            background: $site-green
+    .page-research &,
+    .page-eco-place &,
+    .page-formation &
         .content
             @include background-without-margin
-            background: $site-blue
             padding-bottom: space(20)
             figure
                 margin-right: 0
+    .content
+        .page-research & 
+            background: $site-blue
+        .page-formation & 
+            background: $site-red
+        .page-eco-place & 
+            background: $site-green
     @include media-breakpoint-up(desktop)
         .breadcrumb-nav + .content
             padding-top: space(20)

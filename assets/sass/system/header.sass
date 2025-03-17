@@ -1,16 +1,38 @@
 header#document-header
+    // colors
     border-image:   linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 5
-    .page-research &
+    .page-research &,
+    .projects_categories__term &,
+    .projects__page &
         border-color: $site-blue
+    .page-formation &
+        border-color: $site-red
+    .page-eco-place &
+        border-color: $site-green
+    .page-research &,
+    .page-eco-place &,
+    .page-formation &
         border-image: none
-    .ancestor-research &
+    .ancestor-research &,
+    .projects_categories__term &,
+    .projects__page &,
+    .ancestor-formation &,
+    .ancestor-eco-place &,
+    .programs_categories__term &,
+    .programs__section &
         border: none
-        border-image: none
+    // menu
     .nav-level-1 
         > li:nth-last-child(3)
-            background: rgba($color-accent, 0.1)
-            margin-right: space(5)
-            margin-left: space(3)
+            a
+                background: rgba($color-accent, 0.1)
+            @include media-breakpoint-up(desktop)
+                margin-right: space(5)
+                margin-left: space(3)
+            @include media-breakpoint-down(desktop)
+                padding: $spacing-3 0
+                a
+                    padding: $spacing-1 $spacing-2
     .dropdown-menu
         .dropdown-menu-heading a
             @include icon(arrow-right-line, after, true)
