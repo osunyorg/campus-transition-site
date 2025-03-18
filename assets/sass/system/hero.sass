@@ -12,18 +12,15 @@
                 @extend .button-accent
                 margin-top: $spacing-4
         .page__home &
+            padding-top: space(9)
             @include media-breakpoint-up(desktop)
+                padding-top: space(40)
                 align-items: stretch
-                .hero-text,
-                    align-items: flex-start
-                    display: flex
-                    flex-direction: column
-                    height: auto
-                    justify-content: space-between
                 hgroup
                     flex: 1
                     h1 + p
                         margin-top: $spacing-6
+                        max-width: 42ch
         figure
             img
                 aspect-ratio: 1
