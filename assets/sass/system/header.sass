@@ -50,7 +50,11 @@ header#document-header
                     ul a
                         @include h4
                 > li:first-child
-                    border: none
+                    // todo : mixin
+                    border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
+                    border-top-width: 2px
+                    border-top-style: solid
+                    border-bottom: none
                 > li:nth-child(2)
                     background: $site-red
                     border: none
