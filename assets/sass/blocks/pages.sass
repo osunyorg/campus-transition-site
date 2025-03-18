@@ -8,16 +8,16 @@
             .page-title
                 @include h4
         // colored blocks for home
-        .page__home &
-            .card:first-child
-                .media
-                    background-color: $site-red
-            .card:nth-child(2)
-                .media
-                    background-color: $site-green
-            .card:last-child
-                .media
-                    background-color: $site-blue
+    &.block-class-colored-pages
+        article:first-child
+            .media
+                background-color: $site-red
+        article:nth-child(2)
+            .media
+                background-color: $site-green
+        article:last-child
+            .media
+                background-color: $site-blue
     &--list
         &.block-class-block-background-red
             background: $site-red
@@ -27,20 +27,24 @@
                 padding-bottom: space(20)
                 padding-top: space(20) !important
     &--grid
-        @include in-page-with-or-without-sidebar
-            .grid
-                @include grid(2, desktop)
+        .grid 
+            article
+                .media img
+                    object-fit: contain
+            @include in-page-without-sidebar
+                > :nth-child(2):nth-last-child(1),
+                > :nth-child(1):nth-last-child(2)
+                    width: columns(6)
+                    .media img
+                        aspect-ratio: 16/6
+                        object-position: center
+                        object-fit: cover
     // navigation block at the end of primary pages
     &.block-class-navigation-block
         @include in-page-with-or-without-sidebar
             .page
                 &-title
                     @include h4
-        @include in-page-without-sidebar
-            .grid
-                .media img
-                    aspect-ratio: 16/6
-                    object-position: center
         // ex: page "le projet"
         .pages__section &
             .page:first-child .media
