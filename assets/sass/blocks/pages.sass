@@ -26,6 +26,10 @@
             @include media-breakpoint-up(desktop)
                 padding-bottom: space(20)
                 padding-top: space(20) !important
+        @include in-page-with-or-without-sidebar
+            .top
+                .description p
+                    @include lead-hero
     &--grid
         .grid 
             article
