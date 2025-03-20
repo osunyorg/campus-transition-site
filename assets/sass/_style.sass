@@ -5,6 +5,15 @@
     padding-left: var(--grid-gutter)
     padding-right: var(--grid-gutter)
 
+@mixin category-button
+    @include meta
+    text-decoration: none
+    border: 1px solid $color-border
+    padding: space() space(2)
+    transition: background-color 0.3s ease
+    &:hover
+        background-color: $color-border
+
 .pages__section
     .hero
         border-bottom-width: 2px
@@ -49,3 +58,16 @@ footer#document-footer
 .call_to_action .actions a
     @include icon(arrow-right-line, after, true)
     @include hover-translate-icon
+
+// taxonomies
+.taxonomies-single
+    .terms
+        .taxonomy-children
+            display: flex
+            flex-wrap: wrap
+            gap: space(2)
+        a
+            @include category-button
+    .taxonomy-public
+        a
+            background-color: $color-border
