@@ -16,3 +16,6 @@ params:
   persons:
     index:
       layout: list
+  posts:
+    index:
+      layout: grid
