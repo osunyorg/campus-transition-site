@@ -1,2 +1,28 @@
 .block-categories
     &--grid
+        .category-item 
+            .programs_category-title
+                @include h4
+        @include in-page-without-sidebar
+            .top
+                display: flex
+                gap: var(--grid-gutter)
+                margin-bottom: $spacing-5
+                .block-title
+                    width: columns(4)
+                .description
+                    flex: 1
+                    margin-top: 0
+    &.block-class-stretched-link-from-content
+        .top
+            position: relative
+            &:hover
+                .block-title::after
+                    transform: translateX(space())
+            .block-title
+                @include icon(arrow-right-line, after, true)
+                    display: inline-block
+                    transition: all 0.3s ease
+            .description a
+                @include stretched-link
+                text-decoration: none

@@ -71,3 +71,8 @@ footer#document-footer
     .taxonomy-public
         a
             background-color: $color-border
+
+// external links with icons
+a[target="_blank"]:not(.icon)::after, 
+.link[target="_blank"]:not(.icon)::after
+    @include icon-site("icon-external")

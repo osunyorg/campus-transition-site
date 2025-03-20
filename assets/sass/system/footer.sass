@@ -6,3 +6,19 @@ footer#document-footer
         margin-top: $spacing-3
         &:not(a)
             color: var(--color-text-alt)
+    .footer-social
+        li::after
+            width: pxToRem(18)
+            @include media-breakpoint-up(desktop)
+                font-size: 90%
+                margin-left: space()
+        li.instagram::after
+            @include icon-site("icon-instagram")
+        li.facebook::after
+            @include icon-site("icon-facebook")
+        li.linkedin::after
+            @include icon-site("icon-linkedin")
+        li.youtube::after
+            @include icon-site("icon-youtube")
+            @include media-breakpoint-up(desktop)
+                font-size: 80%
