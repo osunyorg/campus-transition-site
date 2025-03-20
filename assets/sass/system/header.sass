@@ -37,33 +37,63 @@ header#document-header
             .nav-level-1
                 display: flex
                 flex-direction: column
-                > li
+                > li > a,
+                > li button,
+                > li [role="button"],
+                .dropdown-menu
+                    padding-bottom: $spacing-1
+                    padding-top: $spacing-1
                     padding-left: var(--grid-gutter)
                     padding-right: var(--grid-gutter)
+                .dropdown-menu
+                    padding-top: $spacing-2
+                > li
+                    > a, button, span
+                        @include signature
+                    ul a
+                        @include h4
+                    // simple links with borders
                     &:nth-last-child(4),
                     &:nth-last-child(2)
                         border-bottom: 1.5px solid $color-border
                     &:nth-last-child(3)
                         order: 2
-                    > a, button, span
-                        @include signature
-                    ul a
-                        @include h4
+                    // dropdowns titles with colored border
+                    .dropdown-menu-heading
+                        position: relative
+                        &::after
+                            content: ''
+                            background: var(--color-border)
+                            height: 2px
+                            position: absolute
+                            left: var(--grid-gutter-negative)
+                            right: var(--grid-gutter-negative)
+                            margin-top: $spacing-2
+
                 > li:first-child
                     // todo : mixin
                     border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
                     border-top-width: 2px
                     border-top-style: solid
                     border-bottom: none
+                    .dropdown-menu-heading::after
+                        background-image: linear-gradient(90deg, $site-red 33.33%, $site-green 33.33%, $site-green 66.66%, $site-blue 66.66%)
+                // todo: mixin?
                 > li:nth-child(2)
-                    background: $site-red
                     border: none
+                    .dropdown-menu-heading::after,
+                    > a
+                        background: $site-red
                 > li:nth-child(3)
-                    background: $site-blue
                     border: none
+                    .dropdown-menu-heading::after,
+                    > a
+                        background: $site-blue
                 > li:nth-child(4)
-                    background: $site-green
                     border: none
+                    .dropdown-menu-heading::after,
+                    > a
+                        background: $site-green
                     
     .dropdown-menu:not(.dropdown-languages)
         @include media-breakpoint-up(desktop)
