@@ -79,9 +79,17 @@
                 flex-direction: column
                 padding-top: $spacing-3
                 figure
+                    align-items: center
+                    aspect-ratio: 3/2
+                    display: flex
+                    justify-content: flex-end
                     margin-bottom: $spacing-3
+                    max-width: columns(6)
                     order: -1
-                    width: columns(6)
+                    overflow: hidden
+                    picture
+                        width: 200%
+                        transform: translateX(-40%)
     .ancestor-research &,
     .ancestor-eco-place &,
     .ancestor-schooling &
