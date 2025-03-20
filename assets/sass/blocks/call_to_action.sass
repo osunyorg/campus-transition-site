@@ -14,6 +14,13 @@
     .call_to_action
         .description p
             @include lead-hero
+        body.full-width &
+            .actions
+                a:not(:first-child)
+                    --btn-background: #{$color-background-alt}
+                    --btn-color: #{$color-text}
+                    --btn-hover-background: #{$color-border}
+                    @extend .button--alt
 // chapter with cta (cf. nous soutenir)
 .block-class-with-button
     &

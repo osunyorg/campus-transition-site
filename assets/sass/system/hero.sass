@@ -4,6 +4,11 @@
             margin-top: 0
             @include media-breakpoint-up(desktop)
                 width: calc(#{columns(7)} + var(--column-width))
+            @include media-breakpoint-between(desktop, xl)
+                h1
+                    @include h2
+                .has-lead > p
+                    @include h4
             .has-lead > p
                 margin-top: $spacing-4
             .hero-actions
@@ -70,7 +75,13 @@
             @include media-breakpoint-up(desktop)
                 padding-bottom: space(20)
             @include media-breakpoint-down(desktop)
+                display: flex
+                flex-direction: column
                 padding-top: $spacing-3
+                figure
+                    margin-bottom: $spacing-3
+                    order: -1
+                    width: columns(6)
     .ancestor-research &,
     .ancestor-eco-place &,
     .ancestor-schooling &

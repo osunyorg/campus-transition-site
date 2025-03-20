@@ -43,3 +43,9 @@ footer#document-footer
 footer#document-footer
     border-top-width: 2px
     border-top-style: solid
+
+// arrow icon on buttons
+.hero-actions .btn,
+.call_to_action .actions a
+    @include icon(arrow-right-line, after, true)
+    @include hover-translate-icon
