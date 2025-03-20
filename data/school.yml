@@ -1,0 +1,69 @@
+---
+name: "Campus de la Transition"
+address: >-
+  2 rue de Salins
+zipcode: "77130"
+city: "Forges"
+country: "France"
+phone: ""
+url: "https://campus-transition.org"
+contact_details:
+  postal_address:
+    data:
+      address_name: >-
+        
+      address: >-
+        2 rue de Salins
+      address_additional: >-
+        
+      zipcode: >-
+        77130
+      city: >-
+        Forges
+      country:
+        name: >-
+          France
+        alpha2: >-
+          FR
+        alpha3: >-
+          FRA
+    geolocation:
+      latitude: 
+      longitude: 
+    text: >-
+      2 rue de Salins 77130 Forges FRANCE
+    html: >-
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">2 rue de Salins</span> <span itemprop="postalCode">77130</span> <span itemprop="addressLocality">Forges</span> <span itemprop="addressCountry">FRANCE</span></address>
+  websites:
+    website:
+      label: >-
+        campus-transition.org
+      value: >-
+        https://campus-transition.org
+
+logo:
+  id: "b96e94c6-d1eb-4141-87d4-83834ff290ac"
+administrators:
+  - "emmanuel-delcourt"
+  - "cecile-renouard"
+administrators_description:
+  "emmanuel-delcourt": >-
+    Secrétaire général
+  "cecile-renouard": >-
+    Présidente
+roles:
+  - title: >-
+      Présidente
+    persons:
+      - permalink: "/fr/equipe/cecile-renouard/"
+        path: "/persons/cecile-renouard"
+        slug: "cecile-renouard"
+        file: "content/fr/persons/cecile-renouard.html"
+  - title: >-
+      Secrétaire général
+    persons:
+      - permalink: "/fr/equipe/emmanuel-delcourt/"
+        path: "/persons/emmanuel-delcourt"
+        slug: "emmanuel-delcourt"
+        file: "content/fr/persons/emmanuel-delcourt.html"
+---
