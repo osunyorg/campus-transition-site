@@ -16,7 +16,7 @@
             .person-name
                 @include h6
                 text-transform: none
-    &--large        
+    &--large
         .contacts-details
             margin-top: space(8)
             ul + ul,
@@ -24,3 +24,6 @@
                 margin-top: space(5)
         .more
             @extend .sr-only
+        @include media-breakpoint-down(desktop)
+            .description *
+                text-align: left
