@@ -2,6 +2,13 @@ footer#document-footer
     ul 
         .footer-i18n
             margin-top: $spacing-3
+    .footer-site
+        p
+            font-weight: bold
+            + address
+                margin-top: space()
+        [itemprop="addressCountry"]
+            @extend .sr-only
     .footer-credit
         margin-top: $spacing-3
         &:not(a)
