@@ -9,6 +9,27 @@ en:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            campusdelatransition
+          value: >-
+            https://www.facebook.com/campusdelatransition
+        instagram:
+          label: >-
+            campus_transition
+          value: >-
+            https://instagram.com/campus_transition
+        linkedin:
+          label: >-
+            linkedin.comschoolcampus-de-la-transition
+          value: >-
+            https://www.linkedin.com/school/campus-de-la-transition/
+        youtube:
+          label: >-
+            channelUCjhDWqTfEIzBTpWmpK1Tgmg
+          value: >-
+            https://www.youtube.com/@channelUCjhDWqTfEIzBTpWmpK1Tgmg
 
   permalinks:
     events: /agenda/:year/:slug/
@@ -54,6 +75,27 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            campusdelatransition
+          value: >-
+            https://www.facebook.com/campusdelatransition
+        instagram:
+          label: >-
+            campus_transition
+          value: >-
+            https://instagram.com/campus_transition
+        linkedin:
+          label: >-
+            linkedin.comschoolcampus-de-la-transition
+          value: >-
+            https://www.linkedin.com/school/campus-de-la-transition/
+        youtube:
+          label: >-
+            channelUCjhDWqTfEIzBTpWmpK1Tgmg
+          value: >-
+            https://www.youtube.com/@channelUCjhDWqTfEIzBTpWmpK1Tgmg
 
   permalinks:
     events: /agenda/:year/:slug/
