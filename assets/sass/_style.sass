@@ -61,6 +61,7 @@ footer#document-footer
 // arrow icon on buttons
 .hero-actions .btn,
 .call_to_action .actions a
+    // --btn-background-color: rgba($color-accent, 0.3)
     @include icon(arrow-right-line, after, true)
     @include hover-translate-icon
 
@@ -81,3 +82,18 @@ footer#document-footer
 a[target="_blank"]:not(.icon)::after, 
 .link[target="_blank"]:not(.icon)::after
     @include icon-site("icon-external")
+
+// Table of content
+.toc-container
+    .toc-pages
+        ol li
+            a
+                @include icon(arrow-right-line, after, true)
+                @include hover-translate-icon(after, 4, true)
+                text-decoration: none
+                &[aria-current="true"],
+                &:hover
+                    text-decoration: none
+                    &::after
+                        opacity: 1
+                

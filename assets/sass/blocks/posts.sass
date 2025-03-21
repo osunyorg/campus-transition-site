@@ -1,4 +1,17 @@
-.block-posts
-    &--grid
+
+.block-posts--grid,
+.posts__section
+    .posts--grid
+    .post
         .post-title
             @include h4
+            a
+                @include icon(arrow-right-line, after)
+                @include hover-translate-icon(after, 4)
+                @include stretched-link(before)
+                &::after
+                    position: relative
+                    left: unset
+                    right: unset
+                    bottom: unset
+                    top: unset

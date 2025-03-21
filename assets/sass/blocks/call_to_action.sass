@@ -16,6 +16,8 @@
             @include lead-hero
         body.full-width &
             .actions
+                a:first-child
+                    --btn-hover-background: #{$btn-hover-background}
                 a:not(:first-child)
                     --btn-background: #{$color-background-alt}
                     --btn-color: #{$color-text}
