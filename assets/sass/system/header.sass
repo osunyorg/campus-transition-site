@@ -1,12 +1,17 @@
 header#document-header
     // menu
     .nav-level-1 
-        > li:nth-last-child(3)
-            border-bottom: 0
-            background: rgba($color-accent, 0.1)
-            transition: all 0.3s ease
-            &:hover
-                background: rgba($color-accent, 0.2)
+        > li:nth-last-child(3) 
+            margin-left: space(3)
+            margin-right: space(3)
+            a
+                border-bottom: 0
+                background: rgba($color-accent, 0.1)
+                transition: all 0.3s ease
+                padding-left: space(5)
+                padding-right: space(5)
+                &:hover
+                    background: rgba($color-accent, 0.2)
             @include media-breakpoint-up(desktop)
                 margin-right: space(5)
                 margin-left: space(3)

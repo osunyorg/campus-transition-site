@@ -19,9 +19,12 @@
                 a:first-child
                     --btn-hover-background: #{$btn-hover-background}
                 a:not(:first-child)
-                    --btn-background: #{$color-background-alt}
+                    --btn-background: #{rgba($color-accent, 0.1)}
+                    --btn-border: #{rgba($color-accent, 0.1)}
                     --btn-color: #{$color-text}
-                    --btn-hover-background: #{$color-border}
+                    --btn-hover-background: #{rgba($color-accent, 0.2)}
+                    --btn-hover-border: #{rgba($color-accent, 0.2)}
+                    --btn-hover-color: #{$color-text}
                     @extend .button-alt
 
 // chapter with cta (cf. nous soutenir)

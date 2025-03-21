@@ -7,10 +7,10 @@
 
 @mixin category-button
     @include meta
-    text-decoration: none
+    text-decoration: none !important
     border: 1px solid $color-border
     padding: space() space(2)
-    transition: background-color 0.3s ease
+    transition: all 0.3s ease
     &:hover
         background-color: $color-border
 
@@ -59,7 +59,7 @@ footer#document-footer
     border-top-style: solid
 
 // arrow icon on buttons
-.hero-actions .btn,
+.hero-actions a.btn,
 .call_to_action .actions a
     // --btn-background-color: rgba($color-accent, 0.3)
     @include icon(arrow-right-line, after, true)

@@ -16,8 +16,13 @@
                 right: unset
                 margin-top: 0
                 button
-                    --btn-background: var(--color-border-alt)
-                    --btn-color: var(--color-text)
+                    background-color: $color-border-alt
+                    color: $color-text
+                    border-color: $color-border-alt
+                    &:hover
+                        background-color: $color-border
+                        border-color: $color-border
+                        color: $color-text
                     @include media-breakpoint-up(desktop)
                         width: unset
                     &::after
