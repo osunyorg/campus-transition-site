@@ -1,9 +1,8 @@
 header#document-header
     // menu
     .nav-level-1 
-        > li:nth-last-child(3) 
-            margin-left: space(3)
-            margin-right: space(3)
+        > li:nth-last-child(3)
+            border-bottom: 0
             a
                 border-bottom: 0
                 background: rgba($color-accent, 0.1)
@@ -77,6 +76,10 @@ header#document-header
                     // dropdowns titles with colored border
                     .dropdown-menu-heading
                         position: relative
+                        a
+                            @include icon(arrow-right-line, after)
+                                margin-left: space()
+                                font-size: 80%
                         &::after
                             content: ''
                             background: var(--color-border)
