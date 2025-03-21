@@ -64,34 +64,6 @@ items:
     file: content/fr/pages/formations/conseil-academique/_index.html
   path: "/pages/formations"
   file: content/fr/pages/formations/_index.html
-- title: Recherche
-  target: "/fr/recherche/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Publications éditées
-    target: "/fr/recherche/publications-editees/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/publications-editees"
-    file: content/fr/pages/recherche/publications-editees/_index.html
-  - title: Recherche-action
-    target: "/fr/recherche/recherche-action/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/recherche-action"
-    file: content/fr/pages/recherche/recherche-action/_index.html
-  - title: Réseau
-    target: "/fr/recherche/collectif-fortes/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/collectif-fortes"
-    file: content/fr/pages/recherche/collectif-fortes/_index.html
-  path: "/pages/recherche"
-  file: content/fr/pages/recherche/_index.html
 - title: Éco-lieu
   target: "/fr/eco-lieu/"
   kind: page
@@ -120,6 +92,34 @@ items:
     file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
+- title: Recherche
+  target: "/fr/recherche/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Publications éditées
+    target: "/fr/recherche/publications-editees/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/publications-editees"
+    file: content/fr/pages/recherche/publications-editees/_index.html
+  - title: Recherche-action
+    target: "/fr/recherche/recherche-action/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/recherche-action"
+    file: content/fr/pages/recherche/recherche-action/_index.html
+  - title: Réseau
+    target: "/fr/recherche/collectif-fortes/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/collectif-fortes"
+    file: content/fr/pages/recherche/collectif-fortes/_index.html
+  path: "/pages/recherche"
+  file: content/fr/pages/recherche/_index.html
 - title: Contact
   target: "/fr/contact/"
   kind: page
