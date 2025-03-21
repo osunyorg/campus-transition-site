@@ -7,6 +7,9 @@
             text-decoration: none
     .more
         @extend .sr-only
+    .page-title + p 
+        b
+            font-weight: normal
     &--cards
         @include in-page-without-sidebar
             .top
@@ -50,9 +53,6 @@
                     @include lead-hero
     &--grid
         .grid 
-            article
-                .page-title + p b
-                    font-weight: normal
             @include in-page-without-sidebar
                 > :nth-child(2):nth-last-child(1),
                 > :nth-child(1):nth-last-child(2)
@@ -95,8 +95,17 @@
     &--list
         .page
             article
-                .media img
+                .media
                     aspect-ratio: 1
+        &.block-class-navigation-block
+            @include in-page-with-sidebar
+                article
+                    .media
+                        display: flex
+                        align-items: center
+                        img
+                            padding: 0
+                            aspect-ratio: 16/6
     &--large
         .page
             .media img
@@ -104,7 +113,7 @@
             .page-title
                 @include in-page-with-or-without-sidebar
                     @include h3
-                    a::after                
+                    a::after        
                         font-size: 80%
             @include media-breakpoint-up(desktop)
                 align-items: center
@@ -112,8 +121,8 @@
                     margin-bottom: 0
         &.block-class-background-alt
             background-color: var(--color-background-alt)
-                padding-bottom: $spacing-4
-                padding-top: $spacing-4
+            padding-bottom: $spacing-4
+            padding-top: $spacing-4
             @include media-breakpoint-up(desktop)
                 padding-bottom: space(20)
                 padding-top: space(20)
