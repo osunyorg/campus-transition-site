@@ -40,10 +40,15 @@
                 margin-bottom: $spacing-2 !important
                 padding-bottom: $spacing-2 !important
                 padding-top: 0 !important
-    .taxonomy-type
-        order: -1
-        a
-            background-color: $color-border
+    .taxonomies-single
+        .taxonomy-type
+            order: -1
+            a
+                background-color: $color-border
+        @include media-breakpoint-down(desktop)
+            display: flex
+            flex-direction: column
+            gap: $spacing-3
 
 .project
     // "type" category in grey for research types
