@@ -90,6 +90,13 @@ items:
     children: []
     path: "/pages/eco-lieu/devenir-benevole"
     file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
+  - title: Séminaire immersif
+    target: "/fr/eco-lieu/seminaire-immersif/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/eco-lieu/seminaire-immersif"
+    file: content/fr/pages/eco-lieu/seminaire-immersif/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
 - title: Recherche
