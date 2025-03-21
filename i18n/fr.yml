@@ -1,2 +1,16 @@
 commons:
   credit: Un site éco-conçu par <a href="https://collectifbam.fr/ecosysteme/anthony-ferretti/" title="Anthony Feretti - lien externe" target="_blank" rel="noreferrer">Anthony Feretti</a> et <a href="https://www.noesya.coop/" title="noesya - lien externe" target="_blank" rel="noreferrer">noesya</a> avec <a href="https://www.osuny.org/" title="Osuny - lien externe" target="_blank" rel="noreferrer">Osuny</a>
+projects:
+  count:
+    one: "1 production"
+    other: "{{ .Count }} productions"
+  informations: Informations
+  next: production suivante
+  next_aria: production suivante “{{ .Title }}”
+  none: Aucune production
+  previous: production précédente
+  previous_aria: production précédente “{{ .Title }}”
+  see_all: Voir toutes les productions
+  see_all_in_program: Voir toutes les productions de la formation
+  see_all_in_category: Voir toutes les productions “{{ .Title }}”
+  title: productions

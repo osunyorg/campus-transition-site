@@ -63,7 +63,8 @@ footer#document-footer
 .call_to_action .actions a
     // --btn-background-color: rgba($color-accent, 0.3)
     @include icon(arrow-right-line, after, true)
-    @include hover-translate-icon
+    &:not([target="_blank"])
+        @include hover-translate-icon
 
 // taxonomies
 .taxonomies-single
@@ -82,6 +83,7 @@ footer#document-footer
 a[target="_blank"]:not(.icon)::after, 
 .link[target="_blank"]:not(.icon)::after
     @include icon-site("icon-external")
+    margin-left: space(2)
 
 // Table of content
 .toc-container
@@ -97,3 +99,9 @@ a[target="_blank"]:not(.icon)::after,
                     &::after
                         opacity: 1
                 
+// share dropdown
+.dropdown-share
+    > button::after
+        @include icon-site("icon-share")
+        font-size: 80%
+        margin-left: space(2) !important

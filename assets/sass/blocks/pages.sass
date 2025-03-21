@@ -1,4 +1,12 @@
 .block-pages
+    // general
+    .page-title
+        a
+            @include icon(arrow-right-line, after, true)
+            @include hover-translate-icon
+            text-decoration: none
+    .more
+        @extend .sr-only
     &--cards
         @include in-page-without-sidebar
             .top
@@ -94,15 +102,10 @@
             .media img
                 aspect-ratio: 7 / 5
             .page-title
-                @include in-page-with-sidebar
+                @include in-page-with-or-without-sidebar
                     @include h3
-                a
-                    @include icon(arrow-right-line, after, true)
+                    a::after                
                         font-size: 80%
-                    @include hover-translate-icon
-                    text-decoration: none
-            .more
-                @extend .sr-only
             @include media-breakpoint-up(desktop)
                 align-items: center
                 .media 
