@@ -11,6 +11,15 @@
                     position: relative !important
                     width: columns(1) !important
                     margin-right: $spacing-3
+    blockquote
+        position: relative
+        &::before
+            color: var(--color-text-alt)
+            content: '«'
+            position: absolute
+            left: -(space(6))
+            line-height: 1
+            font-size: 80%
     figcaption
         .meta
             color: var(--color-text-alt)
