@@ -6,6 +6,11 @@
             @include media-breakpoint-down(xxl)
                 .project
                     align-items: flex-start
+        .project-description
+            display: flex
+            flex-direction: column
+            .project-meta
+                order: 2
         .more
             @extend .sr-only
     &--list
