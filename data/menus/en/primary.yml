@@ -29,13 +29,6 @@ items:
   children: []
   path: "/diplomas"
   file: content/en/diplomas/_index.html
-- title: Team
-  target: "/en/projet-global/team/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/en/persons/_index.html
 - title: Organizations
   target: "/en/organizations/"
   kind: page
