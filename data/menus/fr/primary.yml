@@ -37,33 +37,33 @@ items:
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Formations
-  target: "/fr/formations/"
+  target: "/fr/formation/"
   kind: page
   new_tab: false
   children:
   - title: Offre de formation
-    target: "/fr/formations/offre-de-formation/"
+    target: "/fr/formation/offre-de-formation/"
     kind: page
     new_tab: false
     children: []
     path: "/programs"
     file: content/fr/programs/_index.html
   - title: Pédagogie
-    target: "/fr/formations/pedagogie/"
+    target: "/fr/formation/pedagogie/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formations/pedagogie"
-    file: content/fr/pages/formations/pedagogie/_index.html
+    path: "/pages/formation/pedagogie"
+    file: content/fr/pages/formation/pedagogie/_index.html
   - title: Conseil académique
-    target: "/fr/formations/conseil-academique/"
+    target: "/fr/formation/conseil-academique/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formations/conseil-academique"
-    file: content/fr/pages/formations/conseil-academique/_index.html
-  path: "/pages/formations"
-  file: content/fr/pages/formations/_index.html
+    path: "/pages/formation/conseil-academique"
+    file: content/fr/pages/formation/conseil-academique/_index.html
+  path: "/pages/formation"
+  file: content/fr/pages/formation/_index.html
 - title: Éco-lieu
   target: "/fr/eco-lieu/"
   kind: page

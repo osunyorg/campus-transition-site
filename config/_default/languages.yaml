@@ -41,16 +41,16 @@ en:
     posts: /posts/:year-:month-:day-:slug/
     posts_categories: /posts/:slug/
     diplomas: /diplomas/:slug/
-    programs_categories: /formations/programs/categories/:slug/
-    programs: /formations/programs/:slug/
+    programs_categories: /formation/programs/categories/:slug/
+    programs: /formation/programs/:slug/
     publications: /recherche/publications/:year-:slug/
     organizations: /organizations/:slug/
     organizations_categories: /organizations/categories/:slug/
-    persons: /projet-global/team/:slug/
-    persons_categories: /projet-global/team/categories/:slug/
-    administrators: /projet-global/team/:slug/roles/
-    researchers: /projet-global/team/:slug/publications/
-    teachers: /projet-global/team/:slug/programs/
+    persons: /a-propos/team/:slug/
+    persons_categories: /a-propos/team/categories/:slug/
+    administrators: /a-propos/team/:slug/roles/
+    researchers: /a-propos/team/:slug/publications/
+    teachers: /a-propos/team/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
@@ -107,16 +107,16 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
-    programs_categories: /formations/offre-de-formation/categories/:slug/
-    programs: /formations/offre-de-formation/:slug/
+    programs_categories: /formation/offre-de-formation/categories/:slug/
+    programs: /formation/offre-de-formation/:slug/
     publications: /recherche/publications-hal/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
-    persons: /projet-global/equipe/:slug/
-    persons_categories: /projet-global/equipe/categories/:slug/
-    administrators: /projet-global/equipe/:slug/roles/
-    researchers: /projet-global/equipe/:slug/publications/
-    teachers: /projet-global/equipe/:slug/programs/
+    persons: /a-propos/equipe/:slug/
+    persons_categories: /a-propos/equipe/categories/:slug/
+    administrators: /a-propos/equipe/:slug/roles/
+    researchers: /a-propos/equipe/:slug/publications/
+    teachers: /a-propos/equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
