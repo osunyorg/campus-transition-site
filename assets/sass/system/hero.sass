@@ -36,6 +36,10 @@
                 body:not(.persons__page) &
                     margin-right: var(--grid-gutter-negative)
                     width: calc(#{columns(4)} + var(--column-width))
+    .breadcrumb-nav
+        .breadcrumb-item
+            &.active
+                color: var(--color-text-alt)
     // colors in hero and breadcrumb
     .ancestor-research &,
     .projects_categories__term &,
