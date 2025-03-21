@@ -34,7 +34,8 @@
         .taxonomies-single
             display: flex
             flex-direction: column
-            .taxonomy-type
+            .taxonomy-type,
+            .taxonomy-etat
                 border-bottom: 1px solid var(--color-border)
                 border-top: 0 !important
                 margin-bottom: $spacing-2 !important
@@ -42,7 +43,10 @@
                 padding-top: 0 !important
     .taxonomies-single
         .taxonomy-type
+            order: -2
+        .taxonomy-etat 
             order: -1
+        .taxonomy-type
             a
                 background-color: $color-border
         @include media-breakpoint-down(desktop)
