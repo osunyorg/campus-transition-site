@@ -46,11 +46,11 @@ en:
     publications: /recherche/publications/:year-:slug/
     organizations: /organizations/:slug/
     organizations_categories: /organizations/categories/:slug/
-    persons: /team/:slug/
-    persons_categories: /team/categories/:slug/
-    administrators: /team/:slug/roles/
-    researchers: /team/:slug/publications/
-    teachers: /team/:slug/programs/
+    persons: /projet-global/team/:slug/
+    persons_categories: /projet-global/team/categories/:slug/
+    administrators: /projet-global/team/:slug/roles/
+    researchers: /projet-global/team/:slug/publications/
+    teachers: /projet-global/team/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
@@ -112,11 +112,11 @@ fr:
     publications: /recherche/publications-hal/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
-    persons: /equipe/:slug/
-    persons_categories: /equipe/categories/:slug/
-    administrators: /equipe/:slug/roles/
-    researchers: /equipe/:slug/publications/
-    teachers: /equipe/:slug/programs/
+    persons: /projet-global/equipe/:slug/
+    persons_categories: /projet-global/equipe/categories/:slug/
+    administrators: /projet-global/equipe/:slug/roles/
+    researchers: /projet-global/equipe/:slug/publications/
+    teachers: /projet-global/equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors

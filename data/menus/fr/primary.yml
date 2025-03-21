@@ -2,40 +2,40 @@
 title: Menu principal
 items:
 - title: À propos
-  target: "/fr/projet-global/"
+  target: "/fr/a-propos/"
   kind: page
   new_tab: false
   children:
   - title: Projet
-    target: "/fr/projet-global/qui-sommes-nous/"
+    target: "/fr/a-propos/projet/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet-global/qui-sommes-nous"
-    file: content/fr/pages/projet-global/qui-sommes-nous/_index.html
+    path: "/pages/a-propos/projet"
+    file: content/fr/pages/a-propos/projet/_index.html
   - title: Équipe
-    target: "/fr/projet-global/equipe-1/"
+    target: "/fr/a-propos/equipe/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet-global/equipe-1"
-    file: content/fr/pages/projet-global/equipe-1/_index.html
+    path: "/persons"
+    file: content/fr/persons/_index.html
   - title: Partenaires
-    target: "/fr/projet-global/partenaires/"
+    target: "/fr/a-propos/partenaires/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet-global/partenaires"
-    file: content/fr/pages/projet-global/partenaires/_index.html
+    path: "/pages/a-propos/partenaires"
+    file: content/fr/pages/a-propos/partenaires/_index.html
   - title: Nous rejoindre
-    target: "/fr/projet-global/nous-rejoindre/"
+    target: "/fr/a-propos/nous-rejoindre/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet-global/nous-rejoindre"
-    file: content/fr/pages/projet-global/nous-rejoindre/_index.html
-  path: "/pages/projet-global"
-  file: content/fr/pages/projet-global/_index.html
+    path: "/pages/a-propos/nous-rejoindre"
+    file: content/fr/pages/a-propos/nous-rejoindre/_index.html
+  path: "/pages/a-propos"
+  file: content/fr/pages/a-propos/_index.html
 - title: Formations
   target: "/fr/formations/"
   kind: page
@@ -64,41 +64,6 @@ items:
     file: content/fr/pages/formations/conseil-academique/_index.html
   path: "/pages/formations"
   file: content/fr/pages/formations/_index.html
-- title: Recherche
-  target: "/fr/recherche/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Publications éditées
-    target: "/fr/recherche/publications-editees/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/publications-editees"
-    file: content/fr/pages/recherche/publications-editees/_index.html
-  - title: Recherche-action
-    target: "/fr/recherche/recherche-action/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/recherche-action"
-    file: content/fr/pages/recherche/recherche-action/_index.html
-  - title: Expérimentations
-    target: "/fr/recherche/recherche-action/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/recherche-action"
-    file: content/fr/pages/recherche/recherche-action/_index.html
-  - title: Réseau
-    target: "/fr/recherche/collectif-fortes/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/collectif-fortes"
-    file: content/fr/pages/recherche/collectif-fortes/_index.html
-  path: "/pages/recherche"
-  file: content/fr/pages/recherche/_index.html
 - title: Éco-lieu
   target: "/fr/eco-lieu/"
   kind: page
@@ -118,6 +83,13 @@ items:
     children: []
     path: "/pages/eco-lieu/experience"
     file: content/fr/pages/eco-lieu/experience/_index.html
+  - title: Séminaire immersif
+    target: "/fr/eco-lieu/seminaire-immersif/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/eco-lieu/seminaire-immersif"
+    file: content/fr/pages/eco-lieu/seminaire-immersif/_index.html
   - title: Devenir bénévole
     target: "/fr/eco-lieu/devenir-benevole/"
     kind: page
@@ -127,6 +99,34 @@ items:
     file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
+- title: Recherche
+  target: "/fr/recherche/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Publications éditées
+    target: "/fr/recherche/publications-editees/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/publications-editees"
+    file: content/fr/pages/recherche/publications-editees/_index.html
+  - title: Recherche-action
+    target: "/fr/recherche/recherche-action/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/recherche-action"
+    file: content/fr/pages/recherche/recherche-action/_index.html
+  - title: Réseau
+    target: "/fr/recherche/collectif-fortes/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/collectif-fortes"
+    file: content/fr/pages/recherche/collectif-fortes/_index.html
+  path: "/pages/recherche"
+  file: content/fr/pages/recherche/_index.html
 - title: Contact
   target: "/fr/contact/"
   kind: page
