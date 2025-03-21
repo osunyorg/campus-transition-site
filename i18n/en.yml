@@ -14,4 +14,4 @@ productions:
   see_all: See all production
   see_all_in_program: See all program's productions
   see_all_in_category: See all productions in “{{ .Title }}”
-  title: productions
+  title: Productions
