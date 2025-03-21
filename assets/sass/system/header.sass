@@ -26,7 +26,8 @@ header#document-header
                 @include icon(arrow-right-line, after, true)
                 @include hover-translate-icon
                 &, &:hover
-                    text-decoration: none
+                    text-decoration: none !important
+                    text-decoration-color: transparent
     @include media-breakpoint-down(desktop)
         border-bottom: $header-border-bottom-width solid var(--color-border)
         .menu.is-opened
