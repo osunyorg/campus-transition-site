@@ -78,6 +78,12 @@ footer#document-footer
     .taxonomy-public
         a
             background-color: $color-border
+// categories (blocks and index)
+.project-categories,
+.post-categories,
+.event-categories
+    a
+        @include category-button
 
 // external links with icons
 a[target="_blank"]:not(.icon)::after, 

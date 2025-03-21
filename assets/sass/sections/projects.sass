@@ -10,20 +10,36 @@
                         margin-top: $spacing-1
                         width: columns(6)
             .dropdown-share
-                --btn-min-width: unset
-                position: relative
-                bottom: unset
-                right: unset
-                margin-top: 0
-                button
-                    background-color: $color-border-alt
-                    color: $color-text
-                    border-color: $color-border-alt
-                    &:hover
-                        background-color: $color-border
-                        border-color: $color-border
-                        color: $color-text
-                    @include media-breakpoint-up(desktop)
-                        width: unset
-                    &::after
-                        margin-left: space()
+                // --btn-min-width: unset
+                // position: relative
+                // bottom: unset
+                // right: unset
+                // margin-top: 0
+                @extend .sr-only
+                // button
+                //     background-color: $color-border-alt
+                //     color: $color-text
+                //     border-color: $color-border-alt
+                //     &:hover
+                //         background-color: $color-border
+                //         border-color: $color-border
+                //         color: $color-text
+                //     @include media-breakpoint-up(desktop)
+                //         width: unset
+                //     &::after
+                //         margin-left: space()
+    .project-sidebar
+        .project-infos > li:first-child
+            padding-bottom: 0 !important
+        .taxonomies-single
+            display: flex
+            flex-direction: column
+            .taxonomy-type
+                order: -1
+                border-bottom: 1px solid var(--color-border)
+                border-top: 0 !important
+                margin-bottom: $spacing-2 !important
+                padding-bottom: $spacing-2 !important
+                padding-top: 0 !important
+                a
+                    background-color: $color-border
