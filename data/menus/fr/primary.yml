@@ -48,7 +48,7 @@ items:
     children: []
     path: "/programs"
     file: content/fr/programs/_index.html
-  - title: Pédagogie
+  - title: Notre pédagogie
     target: "/fr/formations/pedagogie/"
     kind: page
     new_tab: false
