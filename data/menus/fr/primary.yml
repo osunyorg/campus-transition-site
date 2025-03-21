@@ -2,40 +2,40 @@
 title: Menu principal
 items:
 - title: À propos
-  target: "/fr/projet-global/"
+  target: "/fr/a-propos/"
   kind: page
   new_tab: false
   children:
   - title: Projet
-    target: "/fr/projet-global/projet/"
+    target: "/fr/a-propos/projet/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet-global/projet"
-    file: content/fr/pages/projet-global/projet/_index.html
+    path: "/pages/a-propos/projet"
+    file: content/fr/pages/a-propos/projet/_index.html
   - title: Équipe
-    target: "/fr/projet-global/equipe/"
+    target: "/fr/a-propos/equipe/"
     kind: page
     new_tab: false
     children: []
     path: "/persons"
     file: content/fr/persons/_index.html
   - title: Partenaires
-    target: "/fr/projet-global/partenaires/"
+    target: "/fr/a-propos/partenaires/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet-global/partenaires"
-    file: content/fr/pages/projet-global/partenaires/_index.html
+    path: "/pages/a-propos/partenaires"
+    file: content/fr/pages/a-propos/partenaires/_index.html
   - title: Nous rejoindre
-    target: "/fr/projet-global/nous-rejoindre/"
+    target: "/fr/a-propos/nous-rejoindre/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet-global/nous-rejoindre"
-    file: content/fr/pages/projet-global/nous-rejoindre/_index.html
-  path: "/pages/projet-global"
-  file: content/fr/pages/projet-global/_index.html
+    path: "/pages/a-propos/nous-rejoindre"
+    file: content/fr/pages/a-propos/nous-rejoindre/_index.html
+  path: "/pages/a-propos"
+  file: content/fr/pages/a-propos/_index.html
 - title: Formations
   target: "/fr/formations/"
   kind: page
