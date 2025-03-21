@@ -8,6 +8,13 @@ items:
   children: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
+- title: Foire aux questions
+  target: "/fr/foire-aux-questions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/foire-aux-questions"
+  file: content/fr/pages/foire-aux-questions/_index.html
 - title: Plan du site
   target: "/fr/plan-du-site/"
   kind: page
@@ -36,11 +43,4 @@ items:
   children: []
   path: "/pages/mentions-legales"
   file: content/fr/pages/mentions-legales/_index.html
-- title: Foire aux questions
-  target: "/fr/foire-aux-questions/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/foire-aux-questions"
-  file: content/fr/pages/foire-aux-questions/_index.html
 
