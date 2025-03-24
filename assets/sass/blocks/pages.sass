@@ -51,6 +51,12 @@
             .top
                 .description p
                     @include lead-hero
+        .list.title-only
+            a
+                &::before
+                    display: none !important
+                @include icon(arrow-right-line, after, true)
+                @include hover-translate-icon
     &--grid
         .grid 
             @include in-page-without-sidebar
