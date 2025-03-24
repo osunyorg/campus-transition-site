@@ -67,11 +67,13 @@ header#document-header
                     padding-right: var(--grid-gutter)
                 .dropdown-menu
                     padding-top: $spacing-2
+                    .dropdown-menu-title
+                        @include h3
                 > li
-                    > a, button, span
+                    > a, button, > span
                         @include signature
-                    ul a
-                        @include h4
+                    // ul a
+                    //     @include h4
                     // simple links with borders
                     &:nth-last-child(4),
                     &:nth-last-child(2)
@@ -118,7 +120,10 @@ header#document-header
                     .dropdown-menu-heading::after,
                     > a
                         background: $site-green
-                    
+            .nav-level-2
+                > li
+                    > a, > span
+                        @include meta
     .dropdown-menu:not(.dropdown-languages)
         @include media-breakpoint-up(desktop)
             border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
