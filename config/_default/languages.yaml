@@ -102,13 +102,13 @@ fr:
     exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
+    projects: /productions/:year-:slug/
+    projects_categories: /productions/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
-    programs_categories: /formation/offre-de-formation/categories/:slug/
-    programs: /formation/offre-de-formation/:slug/
+    programs_categories: /formation/offre-formation/categories/:slug/
+    programs: /formation/offre-formation/:slug/
     publications: /recherche/publications-hal/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
