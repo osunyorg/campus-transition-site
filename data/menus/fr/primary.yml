@@ -36,7 +36,7 @@ items:
     file: content/fr/pages/a-propos/nous-rejoindre/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
-- title: Formations
+- title: Formation
   target: "/fr/formation/"
   kind: page
   new_tab: false
