@@ -3,8 +3,13 @@
     &.full-width
         .programs
             .program
+                padding-top: space(8)
+                padding-bottom: space(8)
                 .program-title
                     @include h3
+                @include media-breakpoint-up(desktop)
+                    .program-content
+                        row-gap: $spacing-3
     .hero
         .buttons
             button

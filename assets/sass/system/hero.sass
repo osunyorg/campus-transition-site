@@ -40,6 +40,9 @@
         .breadcrumb-item
             &.active
                 color: var(--color-text-alt)
+            &:not(.active)
+                &::before
+                    color: var(--color-text)
     // colors in hero and breadcrumb
     .ancestor-research &,
     .projects_categories__term &,
