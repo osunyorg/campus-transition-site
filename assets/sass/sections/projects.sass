@@ -36,11 +36,14 @@
             flex-direction: column
             .taxonomy-type,
             .taxonomy-etat
-                border-bottom: 1px solid var(--color-border)
                 border-top: 0 !important
-                margin-bottom: $spacing-2 !important
                 padding-bottom: $spacing-2 !important
                 padding-top: 0 !important
+                &:not(:last-child)
+                    border-bottom: 1px solid var(--color-border)
+                    margin-bottom: $spacing-2 !important
+
+
     .taxonomies-single
         .taxonomy-type
             order: -2
