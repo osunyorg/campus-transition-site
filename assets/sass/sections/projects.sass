@@ -50,7 +50,10 @@
             order: -1
         .taxonomy-type
             a
-                background-color: $color-border
+                border: 0
+                background-color: rgba(0,0,0,0.1)
+                &:hover
+                    background-color: rgba(0,0,0,0.2)
         @include media-breakpoint-down(desktop)
             display: flex
             flex-direction: column
