@@ -28,3 +28,13 @@
                     time
                         position: absolute
                         bottom: -0
+    &--alternate
+        .project-content
+            display: block
+        .project-description
+            display: flex
+            flex-direction: column
+            + .project-meta
+                margin-top: $spacing-2
+            .project-summary
+                order: 2
