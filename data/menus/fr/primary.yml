@@ -36,7 +36,7 @@ items:
     file: content/fr/pages/a-propos/nous-rejoindre/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
-- title: Formations
+- title: Formation
   target: "/fr/formation/"
   kind: page
   new_tab: false
@@ -118,13 +118,13 @@ items:
     children: []
     path: "/pages/recherche/recherche-action"
     file: content/fr/pages/recherche/recherche-action/_index.html
-  - title: Réseau
-    target: "/fr/recherche/collectif-fortes/"
+  - title: Laboratoire
+    target: "/fr/recherche/laboratoire/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/recherche/collectif-fortes"
-    file: content/fr/pages/recherche/collectif-fortes/_index.html
+    path: "/pages/recherche/laboratoire"
+    file: content/fr/pages/recherche/laboratoire/_index.html
   path: "/pages/recherche"
   file: content/fr/pages/recherche/_index.html
 - title: Contact
