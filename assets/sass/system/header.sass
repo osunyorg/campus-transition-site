@@ -25,7 +25,9 @@ header#document-header
                     transition: all 0.3s ease
                     &:hover
                         text-decoration-color: rgba($color-accent, 0.4)
-        .nav-level-2 
+        .nav-level-2
+            > li + li
+                margin-top: $spacing-3
             > li > a
                 @include icon(arrow-right-line, after, true)
                 @include hover-translate-icon
