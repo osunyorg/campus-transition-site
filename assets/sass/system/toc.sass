@@ -1,0 +1,14 @@
+
+// Table of content
+.toc-container
+    .toc-pages
+        ol li
+            a
+                @include icon(arrow-right-line, after, true)
+                @include hover-translate-icon(after, 4, true)
+                text-decoration: none
+                &[aria-current="true"],
+                &:hover
+                    text-decoration: none
+                    &::after
+                        opacity: 1

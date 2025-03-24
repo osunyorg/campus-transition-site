@@ -1,0 +1,27 @@
+// arrows in block titles h3/h4
+.programs_category-title,
+.project-title
+    a
+        @include icon(arrow-right-line, after, true)
+        @include hover-translate-icon
+
+// categories (blocks and index)
+.project-categories,
+.post-categories,
+.event-categories
+    a
+        @include category-button
+
+// external links with icons
+a[target="_blank"]:not(.icon)::after, 
+.link[target="_blank"]:not(.icon)::after
+    @include icon-site("icon-external")
+    margin-left: space(2)
+
+// arrow icon on buttons
+.hero-actions a.btn,
+.call_to_action .actions a
+    // --btn-background-color: rgba($color-accent, 0.3)
+    @include icon(arrow-right-line, after, true)
+    &:not([target="_blank"])
+        @include hover-translate-icon
