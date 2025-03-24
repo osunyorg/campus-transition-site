@@ -148,6 +148,7 @@ header#document-header
         &[aria-labelledby="dropdown-recherche"]
             border-color: $site-blue
 
-html.has-menu-opened
-    body::after
-        background-color: var(--color-background)
+@include media-breakpoint-down(md)
+    html.has-menu-opened
+        body::after
+            background-color: var(--color-background)
