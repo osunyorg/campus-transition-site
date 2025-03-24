@@ -31,3 +31,9 @@ footer#document-footer
             @include icon-site("icon-youtube")
             @include media-breakpoint-up(desktop)
                 font-size: 80%
+    @include media-breakpoint-down(desktop)
+        .footer-social
+            li
+                &::after
+                    text-align: center
+                    font-size: 1rem
