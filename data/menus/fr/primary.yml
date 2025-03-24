@@ -118,7 +118,7 @@ items:
     children: []
     path: "/pages/recherche/recherche-action"
     file: content/fr/pages/recherche/recherche-action/_index.html
-  - title: Réseau
+  - title: Laboratoire
     target: "/fr/recherche/laboratoire/"
     kind: page
     new_tab: false
