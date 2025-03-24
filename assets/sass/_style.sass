@@ -1,4 +1,10 @@
 // MIXIN
+@mixin icon-site($icon)
+    @include icon
+    font-family: 'icon-site' !important
+    content: map-get($icons-site, $icon) !important
+    margin-left: space()
+
 @mixin background-without-margin
     @include media-breakpoint-up(desktop)
         margin-left: var(--grid-gutter-negative)
@@ -121,3 +127,10 @@ a[target="_blank"]:not(.icon)::after,
         @include icon-site("icon-share")
         font-size: 80%
         margin-left: space(2) !important
+
+// arrows in block titles h3/h4
+.programs_category-title,
+.project-title
+    a
+        @include icon(arrow-right-line, after, true)
+        @include hover-translate-icon
