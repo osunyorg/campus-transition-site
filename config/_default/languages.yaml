@@ -98,9 +98,9 @@ fr:
             https://www.youtube.com/@channelUCjhDWqTfEIzBTpWmpK1Tgmg
 
   permalinks:
-    events: /agenda/:year/:slug/
+    events: /evenements/:year/:slug/
     exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
+    events_categories: /evenements/:slug/
     pages_categories: /:slug/
     projects: /productions/:year-:slug/
     projects_categories: /productions/:slug/
