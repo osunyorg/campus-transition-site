@@ -2,6 +2,17 @@ header#document-header
     .header-button 
         span:first-of-type
             text-transform: none !important
+    .search-button, .primary-i18n span
+        --btn-min-width: 0
+        // --btn-padding-desktop:
+        // --btn-padding: 0.44rem 0.6rem
+        --btn-padding: #{space(2)} #{space(3)}
+        --btn-border: 0
+        --btn-hover-border: 0
+        @extend .btn
+        background: transparent
+        &:hover
+            background: rgba($color-accent, 0.1)
     // menu
     .nav-level-1 
         > li:nth-last-child(3)
