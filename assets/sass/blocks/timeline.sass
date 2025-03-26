@@ -4,3 +4,9 @@
             @include h4
         &::before
             border-radius: 0
+    &--vertical 
+        .timeline-event
+            &::after
+                background: var(--color-border)
+            &::before
+                z-index: 2

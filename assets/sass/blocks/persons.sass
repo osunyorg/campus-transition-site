@@ -1,5 +1,12 @@
 .block-persons
+    .person-role
+        @include body-text
     &--grid
+        @include in-page-with-sidebar
+            .person
+                align-items: center
+                .description
+                    margin-top: 0
         &.block-with-long-text:not(.block-persons--large)
             .persons
                 @include in-page-without-sidebar
