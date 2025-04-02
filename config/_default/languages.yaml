@@ -44,8 +44,6 @@ en:
     programs_categories: /formation/programs/categories/:slug/
     programs: /formation/programs/:slug/
     publications: /recherche/publications/:year-:slug/
-    organizations: /organizations/:slug/
-    organizations_categories: /organizations/categories/:slug/
     persons: /a-propos/team/:slug/
     persons_categories: /a-propos/team/categories/:slug/
     administrators: /a-propos/team/:slug/roles/
@@ -110,8 +108,6 @@ fr:
     programs_categories: /formation/offre-formation/categories/:slug/
     programs: /formation/offre-formation/:slug/
     publications: /recherche/publications-hal/:year-:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
     persons: /a-propos/equipe/:slug/
     persons_categories: /a-propos/equipe/categories/:slug/
     administrators: /a-propos/equipe/:slug/roles/
