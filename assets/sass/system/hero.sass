@@ -1,7 +1,6 @@
 .hero
     .content
         .hero-text
-            margin-top: 0
             @include media-breakpoint-up(desktop)
                 width: calc(#{columns(7)} + var(--column-width))
             @include media-breakpoint-between(desktop, xl)
@@ -29,12 +28,15 @@
                     h1 + p
                         margin-top: $spacing-6
                         max-width: 42ch
-        figure
-            img
-                aspect-ratio: 1
-                object-fit: cover
-            @include media-breakpoint-up(desktop)
-                body:not(.persons__page) &
+    body:not(.events__page, .persons__page) &
+        .hero-text
+            margin-top: 0
+        .content
+            figure
+                img
+                    aspect-ratio: 1
+                    object-fit: cover
+                @include media-breakpoint-up(desktop)
                     margin-right: var(--grid-gutter-negative)
                     width: calc(#{columns(4)} + var(--column-width))
     .breadcrumb-nav
