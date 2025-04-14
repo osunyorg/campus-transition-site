@@ -15,17 +15,20 @@
                     right: unset
                     bottom: unset
                     top: unset
-    .post-categories
-        li
-            &.page-eco-place a
-                background: $site-green
-                border-color: $site-green
-            &.page-research a
-                background: $site-blue
-                border-color: $site-blue
-            &.page-program a
-                background: $site-red
-                border-color: $site-red
     article 
         .post-meta > * + .post-reading-time::before
             content: " ⬝ "
+
+.post-categories,
+.posts-taxonomies
+    li
+        &.page-eco-place a
+            background: $site-green
+            border-color: $site-green
+        &.page-research a
+            background: $site-blue
+            border-color: $site-blue
+        &.page-program a,
+        &.page-schooling a
+            background: $site-red
+            border-color: $site-red
