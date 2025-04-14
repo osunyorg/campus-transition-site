@@ -49,6 +49,7 @@ en:
     persons: /a-propos/team/:slug/
     persons_categories: /a-propos/team/categories/:slug/
     administrators: /a-propos/team/:slug/roles/
+    authors: /a-propos/team/:slug/posts/
     researchers: /a-propos/team/:slug/publications/
     teachers: /a-propos/team/:slug/programs/
   taxonomies:
@@ -115,6 +116,7 @@ fr:
     persons: /a-propos/equipe/:slug/
     persons_categories: /a-propos/equipe/categories/:slug/
     administrators: /a-propos/equipe/:slug/roles/
+    authors: /a-propos/equipe/:slug/actualites/
     researchers: /a-propos/equipe/:slug/publications/
     teachers: /a-propos/equipe/:slug/programs/
   taxonomies:
