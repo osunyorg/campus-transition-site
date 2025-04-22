@@ -1,0 +1,11 @@
+{{- $title := or .Params.header_text .Title -}}
+{{- $image := .Params.image -}}
+
+{{ partial "header/hero.html"
+      (dict
+        "title" $title
+        "image" $image
+        "context" .
+        "hero_content_complement" "programs/single/hero/logos.html"
+        "hero_complement" "programs/single/hero/essential.html"
+      )}}
