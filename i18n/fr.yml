@@ -14,3 +14,5 @@ projects:
   see_all_in_program: Voir toutes les productions de la formation
   see_all_in_category: Voir toutes les productions “{{ .Title }}”
   title: Productions
+programs:
+  teachers: Formateurs et formatrices
