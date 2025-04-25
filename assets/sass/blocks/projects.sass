@@ -28,6 +28,9 @@
                     time
                         position: absolute
                         bottom: -0
+            @include media-breakpoint-down(desktop)
+                .project-meta
+                    display: block
     &--alternate, &--grid
         .project-content
             display: block
@@ -42,3 +45,9 @@
                 margin-top: space(4)
             .project-summary
                 order: 2
+
+// global
+.project
+    @include media-breakpoint-down(desktop)
+        .project-categories
+            row-gap: $spacing-2

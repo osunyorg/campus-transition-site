@@ -58,6 +58,8 @@
     .programs__section &
         border-bottom-width: 2px
         border-bottom-style: solid
+        &.hero--with-image
+            padding-bottom: space(9)
         .breadcrumb-nav
             @include background-without-margin
     .ancestor-research &,
@@ -130,6 +132,15 @@
                 padding-left: var(--grid-gutter)
                 padding-right: var(--grid-gutter)
             .breadcrumb-nav
+                margin-bottom: 0
+        .programs__section &
+            figure
+                margin-left: var(--grid-gutter-negative)
+                margin-right: var(--grid-gutter-negative)
+        .programs_categories__term &
+            &.hero--with-image
+                margin-bottom: $spacing-4
+            figure
                 margin-bottom: 0
         // empêcher les images de se décaler hors du hero
         &--image-portrait,

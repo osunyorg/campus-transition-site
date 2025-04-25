@@ -11,6 +11,7 @@ header#document-header
         background: transparent
         &:hover, &:focus
             background: rgba($color-accent, 0.1)
+            color: var(--color-text)
     // menu
     .nav-level-1 
         > li:nth-last-child(3)
@@ -47,22 +48,27 @@ header#document-header
                     text-decoration: none !important
                     text-decoration-color: transparent
     @include media-breakpoint-down(desktop)
-        border-bottom: $header-border-bottom-width solid var(--color-border)
         .menu.is-opened
             margin-left: var(--grid-gutter-negative)
             margin-right: var(--grid-gutter-negative)
-            .nav-search span
-                // remove sr-only style
-                border: initial !important
-                clip: auto !important
-                clip-path: none !important
-                height: auto !important
-                overflow: visible !important
-                padding: initial !important
-                margin: initial !important
-                position: static !important
-                width: auto !important
-                white-space: normal !important
+            .nav-search
+                span
+                    @include signature
+                    // remove sr-only style
+                    border: initial !important
+                    clip: auto !important
+                    clip-path: none !important
+                    height: auto !important
+                    overflow: visible !important
+                    padding: initial !important
+                    margin: initial !important
+                    position: static !important
+                    width: auto !important
+                    white-space: normal !important
+            .nav-search,
+            .primary-i18n
+                button, [role="button"]
+                    display: flex
             .nav-level-1
                 display: flex
                 flex-direction: column
@@ -86,7 +92,7 @@ header#document-header
                     // simple links with borders
                     &:nth-last-child(4),
                     &:nth-last-child(2)
-                        border-bottom: 1.5px solid $color-border
+                        border-bottom: 1px solid $color-border
                     &:nth-last-child(3)
                         order: 2
                     // dropdowns titles with colored border
