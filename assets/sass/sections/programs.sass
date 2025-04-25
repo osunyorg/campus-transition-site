@@ -22,13 +22,27 @@
             a[download]
                 --btn-background: #{$color-accent}
                 --btn-border: transparent
-                --btn-color: #{$color-background}
+                // --btn-color: #{$color-background}
                 --btn-hover-background: #{rgba($color-accent, 0.8)}
                 --btn-hover-border: transparent
                 --btn-hover-color: #{$color-background}
                 &::after
                     @include icon-site("icon-download")
                     font-size: 80%
+        @include media-breakpoint-down(desktop)
+            .essential-container
+                margin-top: $spacing-2
+                margin-bottom: $spacing-2
+            .buttons
+                flex-direction: column
+                .dropdown-share button
+                    display: flex
+                    justify-content: space-between
+                button, a
+                    display: block
+                    width: 100%
+            .image-portrait
+                margin-bottom: 0 !important
     .program-admission-registration
         .registration
             @extend .button
