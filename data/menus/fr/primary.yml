@@ -118,13 +118,6 @@ items:
     children: []
     path: "/pages/recherche/recherche-action"
     file: content/fr/pages/recherche/recherche-action/_index.html
-  - title: Séminaire de recherche
-    target: "/fr/recherche/seminaire-de-recherche/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/seminaire-de-recherche"
-    file: content/fr/pages/recherche/seminaire-de-recherche/_index.html
   - title: Laboratoire
     target: "/fr/recherche/laboratoire/"
     kind: page
