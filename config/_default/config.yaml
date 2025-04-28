@@ -1,6 +1,7 @@
 theme: osuny
 _merge: deep
 params:
+  plausible: campus-transition.org
   summary:
     position: hero
   search:
