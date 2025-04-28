@@ -34,6 +34,13 @@ items:
     children: []
     path: "/pages/a-propos/nous-rejoindre"
     file: content/fr/pages/a-propos/nous-rejoindre/_index.html
+  - title: Actualités
+    target: "/fr/actualites/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/posts"
+    file: content/fr/posts/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Formation
