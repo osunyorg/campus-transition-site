@@ -146,6 +146,11 @@ items:
     children: []
     path: "/pages/recherche/seminaire-recherche"
     file: content/fr/pages/recherche/seminaire-recherche/_index.html
+  - title: Conseil scientifique
+    target: https://www.campus-transition.org/fr/recherche/conseil-scientifique/
+    kind: url
+    new_tab: false
+    children: []
   path: "/pages/recherche"
   file: content/fr/pages/recherche/_index.html
 - title: Contact
