@@ -122,19 +122,23 @@ header#document-header
                 // todo: mixin?
                 > li:nth-child(2)
                     border: none
-                    .dropdown-menu-heading::after,
-                    > a
-                        background: $site-red
                 > li:nth-child(3)
                     border: none
-                    .dropdown-menu-heading::after,
-                    > a
-                        background: $site-blue
                 > li:nth-child(4)
                     border: none
-                    .dropdown-menu-heading::after,
-                    > a
-                        background: $site-green
+                a[id="dropdown-formation"]
+                    background: $site-red
+                    + .dropdown-menu
+                        --color-border: #{$site-red}
+                a[id="dropdown-éco-lieu"]
+                    background: $site-green
+                    + .dropdown-menu
+                        --color-border: #{$site-green}
+                a[id="dropdown-recherche"]
+                    background: $site-blue
+                    + .dropdown-menu
+                        --color-border: #{$site-blue}
+
             .nav-level-2
                 > li
                     > a, > span
