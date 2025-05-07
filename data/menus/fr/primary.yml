@@ -63,12 +63,12 @@ items:
     path: "/pages/formation/pedagogie"
     file: content/fr/pages/formation/pedagogie/_index.html
   - title: Conseil académique
-    target: "/fr/formation/conseil-academique/"
+    target: "/fr/formation/seminaire-academique/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formation/conseil-academique"
-    file: content/fr/pages/formation/conseil-academique/_index.html
+    path: "/pages/formation/seminaire-academique"
+    file: content/fr/pages/formation/seminaire-academique/_index.html
   path: "/pages/formation"
   file: content/fr/pages/formation/_index.html
 - title: Éco-lieu
