@@ -32,3 +32,6 @@ params:
   home:
     head:
       title: site
+  seo:
+    title:
+      separator: "•"
