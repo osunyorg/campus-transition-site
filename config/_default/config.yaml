@@ -29,3 +29,6 @@ params:
       options:
         diploma_certification: false
         logo: false
+  home:
+    head:
+      title: site
