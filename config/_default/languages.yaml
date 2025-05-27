@@ -46,12 +46,12 @@ en:
     publications: /recherche/publications/:year-:slug/
     organizations: /organizations/:slug/
     organizations_categories: /organizations/categories/:slug/
-    persons: /a-propos/team/:slug/
-    persons_categories: /a-propos/team/categories/:slug/
-    administrators: /a-propos/team/:slug/roles/
-    authors: /a-propos/team/:slug/posts/
-    researchers: /a-propos/team/:slug/publications/
-    teachers: /a-propos/team/:slug/programs/
+    persons: /team/:slug/
+    persons_categories: /team/categories/:slug/
+    administrators: /team/:slug/roles/
+    authors: /team/:slug/posts/
+    researchers: /team/:slug/publications/
+    teachers: /team/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
@@ -113,12 +113,12 @@ fr:
     publications: /recherche/publications-hal/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
-    persons: /a-propos/equipe/:slug/
-    persons_categories: /a-propos/equipe/categories/:slug/
-    administrators: /a-propos/equipe/:slug/roles/
-    authors: /a-propos/equipe/:slug/actualites/
-    researchers: /a-propos/equipe/:slug/publications/
-    teachers: /a-propos/equipe/:slug/programs/
+    persons: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
+    administrators: /equipe/:slug/roles/
+    authors: /equipe/:slug/actualites/
+    researchers: /equipe/:slug/publications/
+    teachers: /equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
