@@ -18,6 +18,7 @@
                 &:hover
                     background-color: $btn-hover-background !important
                     border-color: transparent
+        
         .page__home &
             padding-top: space(9)
             @include media-breakpoint-up(desktop)
@@ -39,6 +40,13 @@
                 @include media-breakpoint-up(desktop)
                     margin-right: var(--grid-gutter-negative)
                     width: calc(#{columns(4)} + var(--column-width))
+                @include media-breakpoint-down(desktop)
+                    &.image-landscape,
+                    &.image-portrait,
+                    &.image-square
+                        margin-left: var(--grid-gutter-negative)
+                        margin-right: var(--grid-gutter-negative)
+                        margin-bottom: space(23)
     .breadcrumb-nav
         mask-image: none !important
         .breadcrumb-item
@@ -123,6 +131,8 @@
             margin-bottom: 0
             .hero-text
                 padding-top: $spacing-4
+        .persons__page &.hero--with-image figure
+            margin-left: unset
         .page-research &,
         .page-eco-place &,
         .page-schooling &
