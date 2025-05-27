@@ -1,6 +1,20 @@
 ---
 title: Main menu
 items:
+- title: Recherche
+  target: "/en/recherche/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Publications
+    target: "/en/publications/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/publications"
+    file: content/en/publications/_index.html
+  path: "/pages/recherche"
+  file: content/en/pages/recherche/_index.html
 - title: Nous soutenir
   target: "/en/nous-soutenir/"
   kind: page
