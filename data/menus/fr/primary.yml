@@ -56,12 +56,12 @@ items:
     path: "/programs"
     file: content/fr/programs/_index.html
   - title: Pédagogie
-    target: "/fr/formation/pedagogie/"
+    target: "/fr/pedagogie/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formation/pedagogie"
-    file: content/fr/pages/formation/pedagogie/_index.html
+    path: "/pages/pedagogie"
+    file: content/fr/pages/pedagogie/_index.html
   - title: Conseil académique
     target: "/fr/formation/seminaire-academique/"
     kind: page
