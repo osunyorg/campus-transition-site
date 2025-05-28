@@ -55,14 +55,14 @@ roles:
   - title: >-
       Présidente
     persons:
-      - permalink: "/fr/a-propos/equipe/cecile-renouard/"
+      - permalink: "/fr/equipe/cecile-renouard/"
         path: "/persons/cecile-renouard"
         slug: "cecile-renouard"
         file: "content/fr/persons/cecile-renouard.html"
   - title: >-
       Secrétaire général
     persons:
-      - permalink: "/fr/a-propos/equipe/emmanuel-delcourt/"
+      - permalink: "/fr/equipe/emmanuel-delcourt/"
         path: "/persons/emmanuel-delcourt"
         slug: "emmanuel-delcourt"
         file: "content/fr/persons/emmanuel-delcourt.html"
