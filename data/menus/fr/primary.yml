@@ -7,14 +7,14 @@ items:
   new_tab: false
   children:
   - title: Projet
-    target: "/fr/projet/"
+    target: "/fr/a-propos/projet/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/projet"
-    file: content/fr/pages/projet/_index.html
+    path: "/pages/a-propos/projet"
+    file: content/fr/pages/a-propos/projet/_index.html
   - title: Équipe
-    target: "/fr/equipe/"
+    target: "/fr/a-propos/equipe/"
     kind: page
     new_tab: false
     children: []
@@ -56,12 +56,12 @@ items:
     path: "/programs"
     file: content/fr/programs/_index.html
   - title: Pédagogie
-    target: "/fr/pedagogie/"
+    target: "/fr/formation/pedagogie/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/pedagogie"
-    file: content/fr/pages/pedagogie/_index.html
+    path: "/pages/formation/pedagogie"
+    file: content/fr/pages/formation/pedagogie/_index.html
   - title: Conseil académique
     target: "/fr/formation/seminaire-academique/"
     kind: page
