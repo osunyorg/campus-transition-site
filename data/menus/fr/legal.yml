@@ -8,6 +8,11 @@ items:
   children: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
+- title: S'inscrire à la newsletter
+  target: https://airtable.com/appBUW5hVhDMbT4zB/pagn44wuGgxCfniVO/form
+  kind: url
+  new_tab: true
+  children: []
 - title: Plan du site
   target: "/fr/plan-du-site/"
   kind: page
