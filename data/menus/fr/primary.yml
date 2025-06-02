@@ -118,7 +118,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Laboratoire
+  - title: Le living-lab
     target: "/fr/recherche/living-lab/"
     kind: page
     new_tab: false
