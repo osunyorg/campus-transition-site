@@ -62,7 +62,7 @@ items:
     children: []
     path: "/pages/formation/pedagogie"
     file: content/fr/pages/formation/pedagogie/_index.html
-  - title: Conseil académique
+  - title: Séminaire académique
     target: "/fr/formation/seminaire-academique/"
     kind: page
     new_tab: false
