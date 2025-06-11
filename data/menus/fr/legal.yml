@@ -20,7 +20,7 @@ items:
   children: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
-- title: Accessibilité
+- title: Politique de sobriété
   target: "/fr/politique-de-sobriete/"
   kind: page
   new_tab: false
