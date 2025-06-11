@@ -31,27 +31,6 @@ en:
           value: >-
             https://www.youtube.com/@channelUCjhDWqTfEIzBTpWmpK1Tgmg
 
-  permalinks:
-    events: /agenda/:year/:slug/
-    exhibitions: /exhibitions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    pages_categories: /:slug/
-    projects: /projects/:year-:slug/
-    projects_categories: /projects/:slug/
-    posts: /posts/:year-:month-:day-:slug/
-    posts_categories: /posts/:slug/
-    diplomas: /diplomas/:slug/
-    programs_categories: /formation/programs/categories/:slug/
-    programs: /formation/programs/:slug/
-    publications: /publications/:year-:slug/
-    organizations: /organizations/:slug/
-    organizations_categories: /organizations/categories/:slug/
-    persons: /a-propos/team/:slug/
-    persons_categories: /a-propos/team/categories/:slug/
-    administrators: /a-propos/team/:slug/roles/
-    authors: /a-propos/team/:slug/posts/
-    researchers: /a-propos/team/:slug/publications/
-    teachers: /a-propos/team/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
@@ -98,27 +77,6 @@ fr:
           value: >-
             https://www.youtube.com/@channelUCjhDWqTfEIzBTpWmpK1Tgmg
 
-  permalinks:
-    events: /evenements/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /evenements/:slug/
-    pages_categories: /:slug/
-    projects: /productions/:year-:slug/
-    projects_categories: /productions/:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
-    diplomas: /diplomes/:slug/
-    programs_categories: /formation/offre-formation/categories/:slug/
-    programs: /formation/offre-formation/:slug/
-    publications: /publications-hal/:year-:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
-    persons: /a-propos/equipe/:slug/
-    persons_categories: /a-propos/equipe/categories/:slug/
-    administrators: /a-propos/equipe/:slug/roles/
-    authors: /a-propos/equipe/:slug/actualites/
-    researchers: /a-propos/equipe/:slug/publications/
-    teachers: /a-propos/equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
