@@ -6,14 +6,14 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Projet
+  - title: Qui sommes-nous ?
     target: "/fr/a-propos/projet/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/a-propos/projet"
     file: content/fr/pages/a-propos/projet/_index.html
-  - title: Équipe
+  - title: Organisation
     target: "/fr/a-propos/equipe/"
     kind: page
     new_tab: false
