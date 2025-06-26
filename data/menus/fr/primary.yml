@@ -160,7 +160,7 @@ items:
     children: []
     path: "/pages/recherche/recherche-action"
     file: content/fr/pages/recherche/recherche-action/_index.html
-  - title: Séminaire de recherche
+  - title: Organiser un séminaire
     target: "/fr/recherche/seminaire-recherche/"
     kind: page
     new_tab: false
