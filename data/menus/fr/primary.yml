@@ -83,6 +83,13 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Découvrir
+    target: "/fr/eco-lieu/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/eco-lieu"
+    file: content/fr/pages/eco-lieu/_index.html
   - title: Domaine de Forges
     target: "/fr/eco-lieu/domaine/"
     kind: page
