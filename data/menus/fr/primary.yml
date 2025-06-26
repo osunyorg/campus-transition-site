@@ -14,7 +14,7 @@ items:
     path: "/pages/a-propos/projet"
     file: content/fr/pages/a-propos/projet/_index.html
   - title: Organisation
-    target: "/fr/a-propos/equipe/"
+    target: "/fr/a-propos/organisation-et-gouvernance/"
     kind: page
     new_tab: false
     children: []
@@ -69,6 +69,13 @@ items:
     children: []
     path: "/pages/formation/ressources"
     file: content/fr/pages/formation/ressources/_index.html
+  - title: Découvrir
+    target: "/fr/formation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/formation"
+    file: content/fr/pages/formation/_index.html
   path: "/pages/formation"
   file: content/fr/pages/formation/_index.html
 - title: Éco-lieu
