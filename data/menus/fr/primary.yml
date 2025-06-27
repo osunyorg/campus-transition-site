@@ -13,7 +13,7 @@ items:
     children: []
     path: "/pages/a-propos/qui-sommes-nous"
     file: content/fr/pages/a-propos/qui-sommes-nous/_index.html
-  - title: Organisation
+  - title: Organisation et gouvernance
     target: "/fr/a-propos/organisation-et-gouvernance/"
     kind: page
     new_tab: false
