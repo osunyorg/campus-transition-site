@@ -62,13 +62,13 @@ items:
     children: []
     path: "/pages/formation/pedagogie"
     file: content/fr/pages/formation/pedagogie/_index.html
-  - title: Séminaire académique
-    target: "/fr/formation/seminaire-academique/"
+  - title: Venir en séminaire
+    target: "/fr/eco-lieu/venir-en-seminaire/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formation/seminaire-academique"
-    file: content/fr/pages/formation/seminaire-academique/_index.html
+    path: "/pages/eco-lieu/venir-en-seminaire"
+    file: content/fr/pages/eco-lieu/venir-en-seminaire/_index.html
   - title: Ressources
     target: "/fr/formation/ressources/"
     kind: page
@@ -105,12 +105,12 @@ items:
     path: "/pages/eco-lieu/experience"
     file: content/fr/pages/eco-lieu/experience/_index.html
   - title: Séminaire immersif
-    target: "/fr/eco-lieu/seminaire-immersif/"
+    target: "/fr/eco-lieu/venir-en-seminaire/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/eco-lieu/seminaire-immersif"
-    file: content/fr/pages/eco-lieu/seminaire-immersif/_index.html
+    path: "/pages/eco-lieu/venir-en-seminaire"
+    file: content/fr/pages/eco-lieu/venir-en-seminaire/_index.html
   - title: Devenir bénévole
     target: "/fr/eco-lieu/devenir-benevole/"
     kind: page
