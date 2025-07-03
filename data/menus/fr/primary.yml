@@ -111,7 +111,7 @@ items:
     children: []
     path: "/pages/eco-lieu/experience"
     file: content/fr/pages/eco-lieu/experience/_index.html
-  - title: Séminaire immersif
+  - title: Venir en séminaire
     target: "/fr/eco-lieu/venir-en-seminaire/"
     kind: page
     new_tab: false
