@@ -69,7 +69,10 @@
         &.hero--with-image
             padding-bottom: space(9)
         .breadcrumb-nav
-            @include background-without-margin
+            margin-left: var(--grid-gutter-negative)
+            margin-right: var(--grid-gutter-negative)
+            padding-left: var(--grid-gutter)
+            padding-right: var(--grid-gutter)
     .ancestor-research &,
     .projects_categories__term &,
     .projects__page &,
@@ -89,7 +92,6 @@
     .page-schooling &
         border: none !important
         .content
-            @include background-without-margin
             figure
                 margin-right: 0
             @include media-breakpoint-up(desktop)
@@ -110,17 +112,12 @@
                     picture
                         width: 200%
                         transform: translateX(-40%)
-    .ancestor-research &,
-    .ancestor-eco-place &,
-    .ancestor-schooling &
-        border-image: none
-    .content
-        .page-research & 
-            background: $site-blue
-        .page-schooling & 
-            background: $site-red
-        .page-eco-place & 
-            background: $site-green
+    .page-research & 
+        background: $site-blue
+    .page-schooling & 
+        background: $site-red
+    .page-eco-place & 
+        background: $site-green
     @include media-breakpoint-up(desktop)
         .breadcrumb-nav + .content
             padding-top: space(20)

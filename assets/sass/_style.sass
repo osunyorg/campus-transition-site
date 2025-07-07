@@ -5,13 +5,6 @@
     content: map-get($icons-site, $icon) !important
     margin-left: space()
 
-@mixin background-without-margin
-    @include media-breakpoint-up(desktop)
-        margin-left: var(--grid-gutter-negative)
-        margin-right: var(--grid-gutter-negative)
-        padding-left: var(--grid-gutter)
-        padding-right: var(--grid-gutter)
-
 @mixin category-button
     @include meta
     text-decoration: none !important

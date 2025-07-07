@@ -113,12 +113,10 @@ header#document-header
 
                 > li:first-child
                     // todo : mixin
-                    border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
-                    border-top-width: 2px
-                    border-top-style: solid
+                    border-top: 2px solid $site-main
                     border-bottom: none
                     .dropdown-menu-heading::after
-                        background-image: linear-gradient(90deg, $site-red 33.33%, $site-green 33.33%, $site-green 66.66%, $site-blue 66.66%)
+                        background-color: $site-main
                 // todo: mixin?
                 > li:nth-child(2)
                     border: none
@@ -145,9 +143,7 @@ header#document-header
                         @include meta
     .dropdown-menu:not(.dropdown-languages)
         @include media-breakpoint-up(desktop)
-            border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
-            border-top-width: 2px
-            border-top-style: solid
+            border-top: 2px solid $site-main
             padding-top: $spacing-4
             .dropdown-menu-heading a
                 @include icon(arrow-right-line, after, true)
@@ -156,11 +152,6 @@ header#document-header
                 &, &:hover
                     text-decoration: none
         // dropdowns border
-        &[aria-labelledby="dropdown-formation"],
-        &[aria-labelledby="dropdown-schooling"],
-        &[aria-labelledby="dropdown-éco-lieu"],
-        &[aria-labelledby="dropdown-recherche"]
-            border-image: none
         &[aria-labelledby="dropdown-formation"],
         &[aria-labelledby="dropdown-schooling"]
             border-color: $site-red

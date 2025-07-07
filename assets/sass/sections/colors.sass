@@ -2,30 +2,26 @@
     header#document-header,
     footer#document-footer
         border-color: $color
-        border-image: none
     .toc-container
         .toc-title
             --color-border: #{$color}
     .hero
         border-bottom-width: 2px
         border-color: $color
-        border-image: none !important
 
 .pages__section,
 .posts__section,
 .events__section,
 .events__page
     .hero
-        border-bottom-width: 2px
-        border-bottom-style: solid
-        border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
+        border-bottom: 2px solid $site-main
 
 
 // footer and header colors
 header#document-header,
 footer#document-footer
     // colors
-    border-image: linear-gradient(to right, $site-red 33%, $site-green 33%, $site-green 66%, $site-blue 66%, $site-blue 100%) 1
+    border-color: $site-main
 
 .page-research,
 .projects_categories__term,
