@@ -24,7 +24,6 @@ params:
     index:
       options:
         summary: true
-      taxonomies: true
     single:
       options:
         diploma_certification: false
