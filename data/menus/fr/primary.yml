@@ -160,20 +160,13 @@ items:
     children: []
     path: "/pages/recherche/recherche-academique"
     file: content/fr/pages/recherche/recherche-academique/_index.html
-  - title: Recherche-action
-    target: "/fr/recherche/recherche-action/"
+  - title: Séminaires organisés par le Campus
+    target: "/fr/seminaires-organises-par-le-campus/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/recherche/recherche-action"
-    file: content/fr/pages/recherche/recherche-action/_index.html
-  - title: Organiser un séminaire
-    target: "/fr/recherche/seminaire-recherche/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/seminaire-recherche"
-    file: content/fr/pages/recherche/seminaire-recherche/_index.html
+    path: "/pages/seminaires-organises-par-le-campus"
+    file: content/fr/pages/seminaires-organises-par-le-campus/_index.html
   path: "/pages/recherche"
   file: content/fr/pages/recherche/_index.html
 - title: Contact
