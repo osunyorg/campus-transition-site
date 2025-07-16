@@ -146,14 +146,14 @@ items:
     children: []
     path: "/pages/recherche"
     file: content/fr/pages/recherche/_index.html
-  - title: Le living-lab
+  - title: Living-lab recherche-action
     target: "/fr/recherche/living-lab/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/recherche/living-lab"
     file: content/fr/pages/recherche/living-lab/_index.html
-  - title: Publications éditées
+  - title: Recherche académique
     target: "/fr/recherche/recherche-academique/"
     kind: page
     new_tab: false
