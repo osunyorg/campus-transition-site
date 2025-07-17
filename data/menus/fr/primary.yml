@@ -20,13 +20,13 @@ items:
     children: []
     path: "/persons"
     file: content/fr/persons/_index.html
-  - title: Conseils scientifiques
-    target: "/fr/a-propos/nos-conseils-scientifiques/"
+  - title: Communauté scientifique
+    target: "/fr/a-propos/communaute-scientifique/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/a-propos/nos-conseils-scientifiques"
-    file: content/fr/pages/a-propos/nos-conseils-scientifiques/_index.html
+    path: "/pages/a-propos/communaute-scientifique"
+    file: content/fr/pages/a-propos/communaute-scientifique/_index.html
   - title: Partenaires
     target: "/fr/a-propos/partenaires/"
     kind: page
