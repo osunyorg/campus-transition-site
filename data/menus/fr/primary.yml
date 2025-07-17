@@ -167,6 +167,13 @@ items:
     children: []
     path: "/pages/seminaires-organises-par-le-campus"
     file: content/fr/pages/seminaires-organises-par-le-campus/_index.html
+  - title: Venir en séjour de recherche
+    target: "/fr/sejour-recherche/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/sejour-recherche"
+    file: content/fr/pages/sejour-recherche/_index.html
   path: "/pages/recherche"
   file: content/fr/pages/recherche/_index.html
 - title: Contact
