@@ -13,6 +13,13 @@ items:
     children: []
     path: "/pages/recherche/publications-editees"
     file: content/en/pages/recherche/publications-editees/_index.html
+  - title: Publications
+    target: "/en/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/publications"
+    file: content/en/publications/_index.html
   path: "/pages/recherche"
   file: content/en/pages/recherche/_index.html
 - title: Nous soutenir

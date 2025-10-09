@@ -41,6 +41,13 @@ items:
     children: []
     path: "/posts"
     file: content/fr/posts/_index.html
+  - title: Événements
+    target: "/fr/evenements/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/events"
+    file: content/fr/events/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Formation
@@ -125,13 +132,6 @@ items:
     children: []
     path: "/pages/eco-lieu/devenir-benevole"
     file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
-  - title: Événements
-    target: "/fr/evenements/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/events"
-    file: content/fr/events/_index.html
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
 - title: Recherche
