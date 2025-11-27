@@ -15,12 +15,12 @@
             .top
                 .description
                     @include lead-hero
-        article.card
+        .page
             .page-title
                 @include h4
         // colored blocks for home
     &.block-class-colored-pages
-        article
+        .pages > li
             &:first-child
                 .media
                     background-color: $site-red
@@ -38,7 +38,6 @@
                 img
                     aspect-ratio: 16/6
 
-
     &--list
         &.block-class-block-background-red
             background: $site-red
@@ -51,7 +50,7 @@
             .top
                 .description p
                     @include lead-hero
-        .list.title-only
+        .pages.title-only
             a
                 &::before
                     display: none !important
@@ -59,7 +58,7 @@
                 @include hover-translate-icon
                 text-decoration: none !important
     &--grid
-        .grid 
+        .pages 
             @include in-page-without-sidebar
                 > :nth-child(2):nth-last-child(1),
                 > :nth-child(1):nth-last-child(2)
@@ -78,26 +77,26 @@
                 padding: 10%
         // ex: page "le projet"
         .pages__section &
-            .page:first-child .media
+            .pages > li:first-child .media
                 background: $site-red
-            .page:nth-child(2) .media
+            .pages > li:nth-child(2) .media
                 background: $site-green
-            .page:last-child .media
+            .pages > li:last-child .media
                 background: $site-blue
         .page-research &
-            .page:first-child .media
+            .pages > li:first-child .media
                 background: $site-red
-            .page:last-child .media
+            .pages > li:last-child .media
                 background: $site-green
         .page-schooling &
-            .page:first-child .media
+            .pages > li:first-child .media
                 background: $site-green
-            .page:last-child .media
+            .pages > li:last-child .media
                 background: $site-blue
         .page-research &
-            .page:first-child .media
+            .pages > li:first-child .media
                 background: $site-red
-            .page:last-child .media
+            .pages > li:last-child .media
                 background: $site-green
     &--list
         .page
