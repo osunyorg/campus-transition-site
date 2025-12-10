@@ -48,6 +48,13 @@ items:
     children: []
     path: "/events"
     file: content/fr/events/_index.html
+  - title: 'Articles Journalistiques '
+    target: "/fr/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/"
+    file: content/fr/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Formation
@@ -211,11 +218,4 @@ items:
   children: []
   path: "/pages/nous-soutenir"
   file: content/fr/pages/nous-soutenir/_index.html
-- title: 'Articles Journalistiques '
-  target: "/fr/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/"
-  file: content/fr/_index.html
 
