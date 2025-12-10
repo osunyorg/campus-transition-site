@@ -211,4 +211,11 @@ items:
   children: []
   path: "/pages/nous-soutenir"
   file: content/fr/pages/nous-soutenir/_index.html
+- title: 'Articles Journalistiques '
+  target: "/fr/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/"
+  file: content/fr/_index.html
 
