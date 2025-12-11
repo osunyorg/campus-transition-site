@@ -202,13 +202,6 @@ items:
     children: []
     path: "/pages/a-propos/nous-rejoindre"
     file: content/fr/pages/a-propos/nous-rejoindre/_index.html
-  - title: Venir au Campus
-    target: "/fr/venir-au-campus/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/venir-au-campus"
-    file: content/fr/pages/venir-au-campus/_index.html
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 - title: Nous soutenir

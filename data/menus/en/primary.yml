@@ -104,6 +104,20 @@ items:
     children: []
     path: "/pages/eco-place/experience-of-the-eco-place"
     file: content/en/pages/eco-place/experience-of-the-eco-place/_index.html
+  - title: Immersive Seminar
+    target: "/en/eco-place/attend-a-seminar/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/eco-place/attend-a-seminar"
+    file: content/en/pages/eco-place/attend-a-seminar/_index.html
+  - title: Become Volunteer
+    target: "/en/eco-place/become-a-volunteer/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/eco-place/become-a-volunteer"
+    file: content/en/pages/eco-place/become-a-volunteer/_index.html
   path: "/pages/eco-place"
   file: content/en/pages/eco-place/_index.html
 - title: Research
@@ -119,7 +133,7 @@ items:
     path: "/pages/recherche/publications-editees"
     file: content/en/pages/recherche/publications-editees/_index.html
   - title: Publications
-    target: "/en/"
+    target: "/en/publications/"
     kind: page
     new_tab: false
     children: []
