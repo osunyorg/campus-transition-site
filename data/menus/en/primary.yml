@@ -36,12 +36,12 @@ items:
     file: content/en/pages/more-informations/the-team/_index.html
   path: "/pages/more-informations"
   file: content/en/pages/more-informations/_index.html
-- title: Recherche
+- title: Research
   target: "/en/recherche/"
   kind: page
   new_tab: false
   children:
-  - title: Publications éditées
+  - title: Edited publications
     target: "/en/recherche/publications-editees/"
     kind: page
     new_tab: false
@@ -55,35 +55,35 @@ items:
     children: []
     path: "/publications"
     file: content/en/publications/_index.html
-  - title: Séminaire de recherche
-    target: "/en/recherche/seminar-research/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/seminar-research"
-    file: content/en/pages/recherche/seminar-research/_index.html
-  - title: Recherche-action
+  - title: Action-Research
     target: "/en/recherche/action-research/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/recherche/action-research"
     file: content/en/pages/recherche/action-research/_index.html
-  - title: Laboratoire
+  - title: Research Seminar
+    target: "/en/recherche/seminar-research/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/seminar-research"
+    file: content/en/pages/recherche/seminar-research/_index.html
+  - title: Laboratory
     target: "/en/recherche/living-lab/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/recherche/living-lab"
     file: content/en/pages/recherche/living-lab/_index.html
-  - title: Conseil scientifique
+  - title: Scientific Council
     target: "/en/recherche/scientific-council/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/recherche/scientific-council"
     file: content/en/pages/recherche/scientific-council/_index.html
-  - title: Collectif Fortes
+  - title: Fortes Collective
     target: "/en/recherche/collective-fortes/"
     kind: page
     new_tab: false
