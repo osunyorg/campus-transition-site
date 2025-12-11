@@ -1,6 +1,41 @@
 ---
 title: Main menu
 items:
+- title: À propos
+  target: "/en/more-informations/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Le projet
+    target: "/en/more-informations/projet/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/more-informations/projet"
+    file: content/en/pages/more-informations/projet/_index.html
+  - title: Team
+    target: "/en/more-informations/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/persons"
+    file: content/en/persons/_index.html
+  - title: Nous rejoindre
+    target: "/en/more-informations/join-us/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/more-informations/join-us"
+    file: content/en/pages/more-informations/join-us/_index.html
+  - title: L'équipe
+    target: "/en/more-informations/the-team/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/more-informations/the-team"
+    file: content/en/pages/more-informations/the-team/_index.html
+  path: "/pages/more-informations"
+  file: content/en/pages/more-informations/_index.html
 - title: Recherche
   target: "/en/recherche/"
   kind: page
@@ -20,6 +55,13 @@ items:
     children: []
     path: "/publications"
     file: content/en/publications/_index.html
+  - title: Laboratoire
+    target: "/en/recherche/living-lab/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/living-lab"
+    file: content/en/pages/recherche/living-lab/_index.html
   path: "/pages/recherche"
   file: content/en/pages/recherche/_index.html
 - title: Nous soutenir
