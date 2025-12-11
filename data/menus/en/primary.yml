@@ -20,6 +20,13 @@ items:
     children: []
     path: "/persons"
     file: content/en/persons/_index.html
+  - title: The partners
+    target: "/en/more-informations/partners/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/more-informations/partners"
+    file: content/en/pages/more-informations/partners/_index.html
   - title: Join Us
     target: "/en/more-informations/join-us/"
     kind: page
@@ -36,6 +43,62 @@ items:
     file: content/en/pages/more-informations/the-team/_index.html
   path: "/pages/more-informations"
   file: content/en/pages/more-informations/_index.html
+- title: Formation
+  target: "/en/formation/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Programs
+    target: "/en/formation/programs/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/programs"
+    file: content/en/programs/_index.html
+  - title: Learning Travels
+    target: "/en/formation/learning-travels/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/formation/learning-travels"
+    file: content/en/pages/formation/learning-travels/_index.html
+  - title: Our Pedagogy
+    target: "/en/formation/pedagogie/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/formation/pedagogie"
+    file: content/en/pages/formation/pedagogie/_index.html
+  - title: Academic Council
+    target: "/en/recherche/academic-seminar/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/academic-seminar"
+    file: content/en/pages/recherche/academic-seminar/_index.html
+  path: "/pages/formation"
+  file: content/en/pages/formation/_index.html
+- title: Eco-Place
+  target: "/en/eco-place/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Forges Domain
+    target: "/en/eco-place/forges-domain/"
+    kind: page
+    new_tab: false
+    children:
+    - title: History
+      target: "/en/eco-place/forges-domain/history/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/eco-place/forges-domain/history"
+      file: content/en/pages/eco-place/forges-domain/history/_index.html
+    path: "/pages/eco-place/forges-domain"
+    file: content/en/pages/eco-place/forges-domain/_index.html
+  path: "/pages/eco-place"
+  file: content/en/pages/eco-place/_index.html
 - title: Research
   target: "/en/recherche/"
   kind: page
