@@ -1,12 +1,12 @@
 ---
 title: Main menu
 items:
-- title: À propos
+- title: More Informations
   target: "/en/more-informations/"
   kind: page
   new_tab: false
   children:
-  - title: Le projet
+  - title: The project
     target: "/en/more-informations/projet/"
     kind: page
     new_tab: false
@@ -76,6 +76,20 @@ items:
     children: []
     path: "/pages/recherche/living-lab"
     file: content/en/pages/recherche/living-lab/_index.html
+  - title: Conseil scientifique
+    target: "/en/recherche/scientific-council/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/scientific-council"
+    file: content/en/pages/recherche/scientific-council/_index.html
+  - title: Collectif Fortes
+    target: "/en/recherche/collective-fortes/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/collective-fortes"
+    file: content/en/pages/recherche/collective-fortes/_index.html
   path: "/pages/recherche"
   file: content/en/pages/recherche/_index.html
 - title: Nous soutenir
