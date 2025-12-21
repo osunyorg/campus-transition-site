@@ -139,13 +139,6 @@ items:
     children: []
     path: "/publications"
     file: content/en/publications/_index.html
-  - title: Research Seminar
-    target: "/en/recherche/seminar-research/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/recherche/seminar-research"
-    file: content/en/pages/recherche/seminar-research/_index.html
   - title: Action-Research
     target: "/en/recherche/action-research/"
     kind: page
@@ -153,6 +146,13 @@ items:
     children: []
     path: "/pages/recherche/action-research"
     file: content/en/pages/recherche/action-research/_index.html
+  - title: Research Seminar
+    target: "/en/recherche/seminar-research/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/recherche/seminar-research"
+    file: content/en/pages/recherche/seminar-research/_index.html
   - title: Scientific Council
     target: "/en/recherche/scientific-council/"
     kind: page
