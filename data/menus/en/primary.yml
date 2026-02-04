@@ -28,12 +28,12 @@ items:
     path: "/pages/more-informations/partners"
     file: content/en/pages/more-informations/partners/_index.html
   - title: Join Us
-    target: "/en/more-informations/join-us/"
+    target: "/en/join-us/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/more-informations/join-us"
-    file: content/en/pages/more-informations/join-us/_index.html
+    path: "/pages/join-us"
+    file: content/en/pages/join-us/_index.html
   - title: The Team
     target: "/en/more-informations/the-team/"
     kind: page

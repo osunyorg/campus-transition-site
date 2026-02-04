@@ -48,6 +48,13 @@ items:
     children: []
     path: "/events"
     file: content/fr/events/_index.html
+  - title: Nous rejoindre
+    target: "/fr/nous-rejoindre/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/nous-rejoindre"
+    file: content/fr/pages/nous-rejoindre/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Formation
@@ -189,12 +196,12 @@ items:
     path: "/pages/contact"
     file: content/fr/pages/contact/_index.html
   - title: Nous rejoindre
-    target: "/fr/a-propos/nous-rejoindre/"
+    target: "/fr/nous-rejoindre/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/a-propos/nous-rejoindre"
-    file: content/fr/pages/a-propos/nous-rejoindre/_index.html
+    path: "/pages/nous-rejoindre"
+    file: content/fr/pages/nous-rejoindre/_index.html
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 - title: Nous soutenir
