@@ -1,7 +1,9 @@
 ---
 name: 1024-1536.jpg
 size: 183457
-ratio: 1
+width: 1024
+height: 1024
+ratio: 1.0
 format: square
 url: https://campus-transition.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjAzZTU0ZmJlLTU2YTYtNDU2Zi1iNjViLTViMzY4MmMzZDVmNiIsInB1ciI6ImJsb2JfaWQifX0=--3d23d6cff1ea8a17146bbff985a7503629314fbd/1024-1536.jpg
 direct_url: https://osuny.s3.fr-par.scw.cloud/g3hjcybqewrrpc4dmxueapsplj31
