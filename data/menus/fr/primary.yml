@@ -72,11 +72,13 @@ items:
   file: content/fr/pages/a-propos/_index.html
 - title: Actualités
   slug: actualites
-  target: ''
-  kind: blank
+  target: "/fr/actualites/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 - title: Formation
   slug: formation
   target: "/fr/formation/"
