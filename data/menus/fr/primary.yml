@@ -290,14 +290,17 @@ items:
     descendants_targets: []
   - title: Venir au Campus
     slug: venir-au-campus
-    target: ''
-    kind: blank
+    target: "/fr/contact/venir-au-campus/"
+    kind: page
     new_tab: false
     children: []
     descendants_targets: []
+    path: "/pages/contact/venir-au-campus"
+    file: content/fr/pages/contact/venir-au-campus/_index.html
   descendants_targets:
   - ''
   - "/fr/contact/"
+  - "/fr/contact/venir-au-campus/"
   - "/fr/nous-rejoindre/"
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
