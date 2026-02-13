@@ -2,43 +2,55 @@
 title: Informations
 items:
 - title: Contact
+  slug: contact
   target: "/fr/contact/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 - title: S'inscrire à la newsletter
+  slug: s-inscrire-a-la-newsletter
   target: https://airtable.com/appBUW5hVhDMbT4zB/pagn44wuGgxCfniVO/form
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Plan du site
+  slug: plan-du-site
   target: "/fr/plan-du-site/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
 - title: Politique de sobriété
+  slug: politique-de-sobriete
   target: "/fr/politique-de-sobriete/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/politique-de-sobriete"
   file: content/fr/pages/politique-de-sobriete/_index.html
 - title: Politique de confidentialité
+  slug: politique-de-confidentialite
   target: "/fr/politique-de-confidentialite/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/politique-de-confidentialite"
   file: content/fr/pages/politique-de-confidentialite/_index.html
 - title: Mentions légales
+  slug: mentions-legales
   target: "/fr/mentions-legales/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mentions-legales"
   file: content/fr/pages/mentions-legales/_index.html
 

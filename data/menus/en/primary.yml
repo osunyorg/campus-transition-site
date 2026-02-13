@@ -2,185 +2,259 @@
 title: Main menu
 items:
 - title: More Informations
+  slug: more-informations
   target: "/en/more-informations/"
   kind: page
   new_tab: false
   children:
   - title: The project
+    slug: the-project
     target: "/en/more-informations/projet/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/more-informations/projet"
     file: content/en/pages/more-informations/projet/_index.html
   - title: Team
+    slug: team
     target: "/en/more-informations/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/persons"
     file: content/en/persons/_index.html
   - title: The partners
+    slug: the-partners
     target: "/en/more-informations/partners/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/more-informations/partners"
     file: content/en/pages/more-informations/partners/_index.html
   - title: Join Us
+    slug: join-us
     target: "/en/join-us/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/join-us"
     file: content/en/pages/join-us/_index.html
   - title: The Team
+    slug: the-team
     target: "/en/more-informations/the-team/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/more-informations/the-team"
     file: content/en/pages/more-informations/the-team/_index.html
+  descendants_targets:
+  - "/en/join-us/"
+  - "/en/more-informations/"
+  - "/en/more-informations/partners/"
+  - "/en/more-informations/projet/"
+  - "/en/more-informations/the-team/"
   path: "/pages/more-informations"
   file: content/en/pages/more-informations/_index.html
 - title: Formation
+  slug: formation
   target: "/en/formation/"
   kind: page
   new_tab: false
   children:
   - title: Programs
+    slug: programs
     target: "/en/formation/programs/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/programs"
     file: content/en/programs/_index.html
   - title: Learning Travels
+    slug: learning-travels
     target: "/en/formation/learning-travels/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/learning-travels"
     file: content/en/pages/formation/learning-travels/_index.html
   - title: Our Pedagogy
+    slug: our-pedagogy
     target: "/en/formation/pedagogie/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/pedagogie"
     file: content/en/pages/formation/pedagogie/_index.html
   - title: Academic Council
+    slug: academic-council
     target: "/en/recherche/academic-seminar/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/academic-seminar"
     file: content/en/pages/recherche/academic-seminar/_index.html
+  descendants_targets:
+  - "/en/formation/learning-travels/"
+  - "/en/formation/pedagogie/"
+  - "/en/formation/programs/"
+  - "/en/recherche/academic-seminar/"
   path: "/pages/formation"
   file: content/en/pages/formation/_index.html
 - title: Eco-Place
+  slug: eco-place
   target: "/en/eco-place/"
   kind: page
   new_tab: false
   children:
   - title: Forges Domain
+    slug: forges-domain
     target: "/en/eco-place/forges-domain/"
     kind: page
     new_tab: false
     children:
     - title: History
+      slug: history
       target: "/en/eco-place/forges-domain/history/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/eco-place/forges-domain/history"
       file: content/en/pages/eco-place/forges-domain/history/_index.html
+    descendants_targets:
+    - "/en/eco-place/forges-domain/history/"
     path: "/pages/eco-place/forges-domain"
     file: content/en/pages/eco-place/forges-domain/_index.html
   - title: Experience of the eco-place
+    slug: experience-of-the-eco-place
     target: "/en/eco-place/experience-of-the-eco-place/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-place/experience-of-the-eco-place"
     file: content/en/pages/eco-place/experience-of-the-eco-place/_index.html
   - title: Immersive Seminar
+    slug: immersive-seminar
     target: "/en/eco-place/attend-a-seminar/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-place/attend-a-seminar"
     file: content/en/pages/eco-place/attend-a-seminar/_index.html
   - title: Become Volunteer
+    slug: become-volunteer
     target: "/en/eco-place/become-a-volunteer/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-place/become-a-volunteer"
     file: content/en/pages/eco-place/become-a-volunteer/_index.html
+  descendants_targets:
+  - "/en/eco-place/attend-a-seminar/"
+  - "/en/eco-place/become-a-volunteer/"
+  - "/en/eco-place/experience-of-the-eco-place/"
+  - "/en/eco-place/forges-domain/"
+  - "/en/eco-place/forges-domain/history/"
   path: "/pages/eco-place"
   file: content/en/pages/eco-place/_index.html
 - title: Research
+  slug: research
   target: "/en/recherche/"
   kind: page
   new_tab: false
   children:
   - title: Edited publications
+    slug: edited-publications
     target: "/en/recherche/publications-editees/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/publications-editees"
     file: content/en/pages/recherche/publications-editees/_index.html
   - title: Publications
+    slug: publications
     target: "/en/publications/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/publications"
     file: content/en/publications/_index.html
   - title: Action-Research
+    slug: action-research
     target: "/en/recherche/action-research/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/action-research"
     file: content/en/pages/recherche/action-research/_index.html
   - title: Research Seminar
+    slug: research-seminar
     target: "/en/recherche/seminar-research/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/seminar-research"
     file: content/en/pages/recherche/seminar-research/_index.html
   - title: Laboratory
+    slug: laboratory
     target: "/en/recherche/living-lab/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/living-lab"
     file: content/en/pages/recherche/living-lab/_index.html
   - title: Scientific Council
+    slug: scientific-council
     target: "/en/recherche/scientific-council/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/scientific-council"
     file: content/en/pages/recherche/scientific-council/_index.html
   - title: Fortes Collective
+    slug: fortes-collective
     target: "/en/recherche/collective-fortes/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/collective-fortes"
     file: content/en/pages/recherche/collective-fortes/_index.html
+  descendants_targets:
+  - "/en/publications/"
+  - "/en/recherche/action-research/"
+  - "/en/recherche/collective-fortes/"
+  - "/en/recherche/living-lab/"
+  - "/en/recherche/publications-editees/"
+  - "/en/recherche/scientific-council/"
+  - "/en/recherche/seminar-research/"
   path: "/pages/recherche"
   file: content/en/pages/recherche/_index.html
 - title: 'Support Us '
+  slug: support-us
   target: "/en/nous-soutenir/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/nous-soutenir"
   file: content/en/pages/nous-soutenir/_index.html
 

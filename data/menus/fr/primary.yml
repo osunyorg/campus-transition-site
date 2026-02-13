@@ -2,218 +2,305 @@
 title: Menu principal
 items:
 - title: Menu
+  slug: menu
   target: "/fr/a-propos/"
   kind: page
   new_tab: false
   children:
   - title: Qui sommes-nous ?
+    slug: qui-sommes-nous
     target: "/fr/a-propos/qui-sommes-nous/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos/qui-sommes-nous"
     file: content/fr/pages/a-propos/qui-sommes-nous/_index.html
   - title: Organisation et gouvernance
+    slug: organisation-et-gouvernance
     target: "/fr/a-propos/organisation-et-gouvernance/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/persons"
     file: content/fr/persons/_index.html
   - title: Communauté scientifique
+    slug: communaute-scientifique
     target: "/fr/a-propos/communaute-scientifique/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos/communaute-scientifique"
     file: content/fr/pages/a-propos/communaute-scientifique/_index.html
   - title: Partenaires
+    slug: partenaires
     target: "/fr/a-propos/partenaires/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos/partenaires"
     file: content/fr/pages/a-propos/partenaires/_index.html
   - title: Actualités
+    slug: actualites
     target: "/fr/actualites/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
   - title: Événements
+    slug: evenements
     target: "/fr/evenements/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/events"
     file: content/fr/events/_index.html
   - title: Nous rejoindre
+    slug: nous-rejoindre
     target: "/fr/nous-rejoindre/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/nous-rejoindre"
     file: content/fr/pages/nous-rejoindre/_index.html
+  descendants_targets:
+  - "/fr/a-propos/communaute-scientifique/"
+  - "/fr/a-propos/organisation-et-gouvernance/"
+  - "/fr/a-propos/partenaires/"
+  - "/fr/a-propos/qui-sommes-nous/"
+  - "/fr/actualites/"
+  - "/fr/evenements/"
+  - "/fr/nous-rejoindre/"
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Formation
+  slug: formation
   target: "/fr/formation/"
   kind: page
   new_tab: false
   children:
   - title: Découvrir
+    slug: decouvrir
     target: "/fr/formation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation"
     file: content/fr/pages/formation/_index.html
   - title: Offre de formation
+    slug: offre-de-formation
     target: "/fr/formation/offre-formation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/programs"
     file: content/fr/programs/_index.html
   - title: Pédagogie
+    slug: pedagogie
     target: "/fr/formation/pedagogie/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/pedagogie"
     file: content/fr/pages/formation/pedagogie/_index.html
   - title: Venir en séminaire
+    slug: venir-en-seminaire
     target: "/fr/eco-lieu/venir-en-seminaire/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-lieu/venir-en-seminaire"
     file: content/fr/pages/eco-lieu/venir-en-seminaire/_index.html
   - title: Ressources
+    slug: ressources
     target: "/fr/formation/ressources/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/ressources"
     file: content/fr/pages/formation/ressources/_index.html
+  descendants_targets:
+  - "/fr/eco-lieu/venir-en-seminaire/"
+  - "/fr/formation/"
+  - "/fr/formation/offre-formation/"
+  - "/fr/formation/pedagogie/"
+  - "/fr/formation/ressources/"
   path: "/pages/formation"
   file: content/fr/pages/formation/_index.html
 - title: Éco-lieu
+  slug: eco-lieu
   target: "/fr/eco-lieu/"
   kind: page
   new_tab: false
   children:
   - title: Découvrir
+    slug: decouvrir
     target: "/fr/eco-lieu/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-lieu"
     file: content/fr/pages/eco-lieu/_index.html
   - title: Domaine de Forges
+    slug: domaine-de-forges
     target: "/fr/eco-lieu/domaine/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-lieu/domaine"
     file: content/fr/pages/eco-lieu/domaine/_index.html
   - title: Expérience de l'éco-lieu
+    slug: experience-de-l-eco-lieu
     target: "/fr/eco-lieu/experience/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-lieu/experience"
     file: content/fr/pages/eco-lieu/experience/_index.html
   - title: Venir en séminaire
+    slug: venir-en-seminaire
     target: "/fr/eco-lieu/venir-en-seminaire/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-lieu/venir-en-seminaire"
     file: content/fr/pages/eco-lieu/venir-en-seminaire/_index.html
   - title: Devenir bénévole
+    slug: devenir-benevole
     target: "/fr/eco-lieu/devenir-benevole/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/eco-lieu/devenir-benevole"
     file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
+  descendants_targets:
+  - "/fr/eco-lieu/"
+  - "/fr/eco-lieu/devenir-benevole/"
+  - "/fr/eco-lieu/domaine/"
+  - "/fr/eco-lieu/experience/"
+  - "/fr/eco-lieu/venir-en-seminaire/"
   path: "/pages/eco-lieu"
   file: content/fr/pages/eco-lieu/_index.html
 - title: Recherche
+  slug: recherche
   target: "/fr/recherche/"
   kind: page
   new_tab: false
   children:
   - title: Découvrir
+    slug: decouvrir
     target: "/fr/recherche/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche"
     file: content/fr/pages/recherche/_index.html
   - title: Living-lab recherche-action
+    slug: living-lab-recherche-action
     target: "/fr/recherche/living-lab/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/living-lab"
     file: content/fr/pages/recherche/living-lab/_index.html
   - title: Recherche académique
+    slug: recherche-academique
     target: "/fr/recherche/recherche-academique/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche/recherche-academique"
     file: content/fr/pages/recherche/recherche-academique/_index.html
   - title: Séminaires organisés par le Campus
+    slug: seminaires-organises-par-le-campus
     target: "/fr/seminaires-organises-par-le-campus/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/seminaires-organises-par-le-campus"
     file: content/fr/pages/seminaires-organises-par-le-campus/_index.html
   - title: Venir en séjour de recherche
+    slug: venir-en-sejour-de-recherche
     target: "/fr/sejour-recherche/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/sejour-recherche"
     file: content/fr/pages/sejour-recherche/_index.html
+  descendants_targets:
+  - "/fr/recherche/"
+  - "/fr/recherche/living-lab/"
+  - "/fr/recherche/recherche-academique/"
+  - "/fr/sejour-recherche/"
+  - "/fr/seminaires-organises-par-le-campus/"
   path: "/pages/recherche"
   file: content/fr/pages/recherche/_index.html
 - title: Contact
+  slug: contact
   target: "/fr/contact/"
   kind: page
   new_tab: false
   children:
   - title: Nous écrire
+    slug: nous-ecrire
     target: "/fr/contact/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/contact"
     file: content/fr/pages/contact/_index.html
   - title: Nous rejoindre
+    slug: nous-rejoindre
     target: "/fr/nous-rejoindre/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/nous-rejoindre"
     file: content/fr/pages/nous-rejoindre/_index.html
   - title: S'abonner à notre Newsletter
+    slug: s-abonner-a-notre-newsletter
     target: ''
     kind: blank
     new_tab: false
     children: []
+    descendants_targets: []
+  descendants_targets:
+  - ''
+  - "/fr/contact/"
+  - "/fr/nous-rejoindre/"
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 - title: Nous soutenir
+  slug: nous-soutenir
   target: "/fr/nous-soutenir/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/nous-soutenir"
   file: content/fr/pages/nous-soutenir/_index.html
 
