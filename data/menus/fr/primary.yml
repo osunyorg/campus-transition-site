@@ -283,11 +283,13 @@ items:
     file: content/fr/pages/nous-rejoindre/_index.html
   - title: S'abonner à notre Newsletter
     slug: s-abonner-a-notre-newsletter
-    target: ''
-    kind: blank
+    target: "/fr/contact/sabonner-a-notre-newsletter/"
+    kind: page
     new_tab: false
     children: []
     descendants_targets: []
+    path: "/pages/contact/sabonner-a-notre-newsletter"
+    file: content/fr/pages/contact/sabonner-a-notre-newsletter/_index.html
   - title: Venir au Campus
     slug: venir-au-campus
     target: "/fr/contact/venir-au-campus/"
@@ -298,8 +300,8 @@ items:
     path: "/pages/contact/venir-au-campus"
     file: content/fr/pages/contact/venir-au-campus/_index.html
   descendants_targets:
-  - ''
   - "/fr/contact/"
+  - "/fr/contact/sabonner-a-notre-newsletter/"
   - "/fr/contact/venir-au-campus/"
   - "/fr/nous-rejoindre/"
   path: "/pages/contact"
