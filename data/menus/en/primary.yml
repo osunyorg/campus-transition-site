@@ -18,7 +18,7 @@ items:
     file: content/en/pages/more-informations/projet/_index.html
   - title: Team
     slug: team
-    target: "/en/more-informations/"
+    target: "/en/more-informations/team/"
     kind: page
     new_tab: false
     children: []
@@ -54,9 +54,9 @@ items:
     file: content/en/pages/more-informations/the-team/_index.html
   descendants_targets:
   - "/en/join-us/"
-  - "/en/more-informations/"
   - "/en/more-informations/partners/"
   - "/en/more-informations/projet/"
+  - "/en/more-informations/team/"
   - "/en/more-informations/the-team/"
   path: "/pages/more-informations"
   file: content/en/pages/more-informations/_index.html
