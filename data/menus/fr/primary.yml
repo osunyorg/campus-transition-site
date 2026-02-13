@@ -9,13 +9,13 @@ items:
   children:
   - title: Qui sommes-nous ?
     slug: qui-sommes-nous
-    target: "/fr/a-propos/qui-sommes-nous/"
+    target: "/fr/a-propos/historique/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/a-propos/qui-sommes-nous"
-    file: content/fr/pages/a-propos/qui-sommes-nous/_index.html
+    path: "/pages/a-propos/historique"
+    file: content/fr/pages/a-propos/historique/_index.html
   - title: Organisation et gouvernance
     slug: organisation-et-gouvernance
     target: "/fr/a-propos/organisation-et-gouvernance/"
@@ -72,9 +72,9 @@ items:
     file: content/fr/pages/nous-rejoindre/_index.html
   descendants_targets:
   - "/fr/a-propos/communaute-scientifique/"
+  - "/fr/a-propos/historique/"
   - "/fr/a-propos/organisation-et-gouvernance/"
   - "/fr/a-propos/partenaires/"
-  - "/fr/a-propos/qui-sommes-nous/"
   - "/fr/actualites/"
   - "/fr/evenements/"
   - "/fr/nous-rejoindre/"
