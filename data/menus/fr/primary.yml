@@ -288,6 +288,13 @@ items:
     new_tab: false
     children: []
     descendants_targets: []
+  - title: Venir au Campus
+    slug: venir-au-campus
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
+    descendants_targets: []
   descendants_targets:
   - ''
   - "/fr/contact/"
