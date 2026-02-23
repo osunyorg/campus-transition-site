@@ -211,15 +211,6 @@ items:
     descendants_targets: []
     path: "/pages/recherche/seminar-research"
     file: content/en/pages/recherche/seminar-research/_index.html
-  - title: Scientific Council
-    slug: scientific-council
-    target: "/en/recherche/scientific-council/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/recherche/scientific-council"
-    file: content/en/pages/recherche/scientific-council/_index.html
   - title: Laboratory
     slug: laboratory
     target: "/en/recherche/living-lab/"
@@ -229,6 +220,15 @@ items:
     descendants_targets: []
     path: "/pages/recherche/living-lab"
     file: content/en/pages/recherche/living-lab/_index.html
+  - title: Scientific Council
+    slug: scientific-council
+    target: "/en/recherche/scientific-council/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/recherche/scientific-council"
+    file: content/en/pages/recherche/scientific-council/_index.html
   - title: Fortes Collective
     slug: fortes-collective
     target: "/en/recherche/collective-fortes/"
