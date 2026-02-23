@@ -7,6 +7,11 @@ osuny:
   website:
     id: 45ac0f99-6dfc-4c8c-951a-2bce7b444a13
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "campus-transition.org"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
