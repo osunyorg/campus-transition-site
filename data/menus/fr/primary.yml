@@ -43,6 +43,15 @@ items:
     descendants_targets: []
     path: "/pages/a-propos/partenaires"
     file: content/fr/pages/a-propos/partenaires/_index.html
+  - title: Actualités
+    slug: actualites
+    target: "/fr/actualites/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/posts"
+    file: content/fr/posts/_index.html
   - title: Événements
     slug: evenements
     target: "/fr/evenements/"
@@ -66,19 +75,11 @@ items:
   - "/fr/a-propos/historique/"
   - "/fr/a-propos/organisation-et-gouvernance/"
   - "/fr/a-propos/partenaires/"
+  - "/fr/actualites/"
   - "/fr/evenements/"
   - "/fr/nous-rejoindre/"
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
-- title: 'À la une '
-  slug: a-la-une
-  target: "/fr/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
 - title: Formation
   slug: formation
   target: "/fr/formation/"
