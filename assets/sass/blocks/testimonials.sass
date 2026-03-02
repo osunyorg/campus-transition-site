@@ -1,7 +1,13 @@
 .block-testimonials
     @include in-page-without-sidebar
-        figure
-            padding-left: 0
+        .slider-controls
+            margin-left: 0 !important
+            width: columns(8)
+            .slider-autoplayer
+                button
+                    border-radius: 0 !important
+        .testimonial
+            padding-left: 0 !important
             padding-right: offset(4)
             figcaption
                 margin-top: $spacing-3 !important
