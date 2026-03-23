@@ -9,11 +9,6 @@ params:
   logo:
     header: '/assets/images/logo.svg'
     footer: '/assets/images/logo.svg'
-  # menu:
-  #   primary:
-  #     level_2:
-  #       title:
-  #         active: true
   persons:
     index:
       layout: list
@@ -28,6 +23,11 @@ params:
       options:
         diploma_certification: false
         logo: false
+  projects:
+    index:
+      options:
+        categories: false
+        summary: false
   home:
     head:
       title: site

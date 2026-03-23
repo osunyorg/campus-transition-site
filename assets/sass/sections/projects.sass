@@ -1,6 +1,26 @@
+.projects__section
+    .projects--grid
+        @include media-breakpoint-up(desktop)
+            grid-template-columns: repeat(3, 1fr)
+            .project
+                .project-title
+                    @include body-text
+                .media
+                    img
+                        border: $color-border 1px solid
+        @include media-breakpoint-up(xxl)
+            grid-template-columns: repeat(4, 1fr)
 .projects__page 
     .hero 
         .content
+            .hero-text
+                width: columns(9)
+            figure
+                width: columns(3) !important
+                margin-right: 0 !important
+                img
+                    aspect-ratio: auto !important
+                    border: $color-border 1px solid
             .hero-actions
                 display: flex
                 gap: var(--grid-gutter)
