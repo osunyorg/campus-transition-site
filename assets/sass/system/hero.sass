@@ -32,6 +32,8 @@
     body:not(.events__page, .persons__page) &
         .hero-text
             margin-top: 0
+            @include media-breakpoint-up(desktop)
+                width: columns(7)
         .content
             figure
                 img
@@ -39,7 +41,7 @@
                     object-fit: cover
                 @include media-breakpoint-up(desktop)
                     margin-right: var(--grid-gutter-negative)
-                    width: calc(#{columns(4)} + var(--column-width))
+                    width: calc(#{columns(4)} - var(--grid-gutter-negative))
                 @include media-breakpoint-down(desktop)
                     &.image-landscape,
                     &.image-portrait,
