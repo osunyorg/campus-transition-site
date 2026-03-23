@@ -24,13 +24,13 @@ items:
       file: content/fr/pages/a-propos/historique/_index.html
     - title: Organisation et gouvernance
       slug: organisation-et-gouvernance
-      target: "/fr/personnes/"
+      target: "/fr/a-propos/organisation-et-gouvernance/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/persons"
-      file: content/fr/persons/_index.html
+      path: "/pages/a-propos/organisation-et-gouvernance"
+      file: content/fr/pages/a-propos/organisation-et-gouvernance/_index.html
     - title: Communauté scientifique
       slug: communaute-scientifique
       target: "/fr/a-propos/communaute-scientifique/"
@@ -52,8 +52,8 @@ items:
     descendants_targets:
     - "/fr/a-propos/communaute-scientifique/"
     - "/fr/a-propos/historique/"
+    - "/fr/a-propos/organisation-et-gouvernance/"
     - "/fr/a-propos/partenaires/"
-    - "/fr/personnes/"
     path: "/pages/a-propos"
     file: content/fr/pages/a-propos/_index.html
   - title: Contact
@@ -109,12 +109,12 @@ items:
   - "/fr/a-propos/"
   - "/fr/a-propos/communaute-scientifique/"
   - "/fr/a-propos/historique/"
+  - "/fr/a-propos/organisation-et-gouvernance/"
   - "/fr/a-propos/partenaires/"
   - "/fr/contact/"
   - "/fr/contact/sabonner-a-notre-newsletter/"
   - "/fr/contact/venir-au-campus/"
   - "/fr/nous-rejoindre/"
-  - "/fr/personnes/"
 - title: Nos trois piliers
   slug: nos-trois-piliers
   target: ''
