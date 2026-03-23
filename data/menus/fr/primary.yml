@@ -263,8 +263,8 @@ items:
       descendants_targets: []
       path: "/pages/recherche/programmes-de-recherche/living-lab"
       file: content/fr/pages/recherche/programmes-de-recherche/living-lab/_index.html
-    - title: Recherche académique
-      slug: recherche-academique
+    - title: Recherche & publications
+      slug: recherche-publications
       target: "/fr/recherche/recherche-publications/"
       kind: page
       new_tab: false
