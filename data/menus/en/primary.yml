@@ -18,7 +18,7 @@ items:
     file: content/en/pages/more-informations/projet/_index.html
   - title: Team
     slug: team
-    target: "/en/more-informations/team/"
+    target: "/en/team/"
     kind: page
     new_tab: false
     children: []
@@ -56,8 +56,8 @@ items:
   - "/en/join-us/"
   - "/en/more-informations/partners/"
   - "/en/more-informations/projet/"
-  - "/en/more-informations/team/"
   - "/en/more-informations/the-team/"
+  - "/en/team/"
   path: "/pages/more-informations"
   file: content/en/pages/more-informations/_index.html
 - title: Formation
