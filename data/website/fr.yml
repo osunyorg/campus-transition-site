@@ -2,8 +2,38 @@ about:
   label: Campus de la Transition
 default:
 contents_reading_time:
-  seconds: 0
+  seconds: 8
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: call_to_action
+    title: >-
+      S'inscrire à la newsletter
+    slug: >-
+      s-inscrire-a-la-newsletter
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          S'inscrire à la newsletter
+        heading: 2
+      description: >-
+        <p>Pour rester au courant de nos contenus de formation, la vie de l'éco-lieu et nos activités de recherche, inscrivez-vous à notre newsletter saisonnière !</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Pour rester au courant de nos contenus de formation, la vie de l'éco-lieu et nos activités de recherche, inscrivez-vous à notre newsletter saisonnière !</p>
+
+      buttons:
+        - 
+          title: >-
+            S’inscrire à la newsletter
+
+          target_blank: false
+
+
 
