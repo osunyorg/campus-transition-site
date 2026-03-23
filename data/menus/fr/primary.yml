@@ -265,13 +265,13 @@ items:
       file: content/fr/pages/recherche/programmes-de-recherche/living-lab/_index.html
     - title: Recherche académique
       slug: recherche-academique
-      target: "/fr/recherche/recherche-academique/"
+      target: "/fr/recherche/recherche-publications/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/pages/recherche/recherche-academique"
-      file: content/fr/pages/recherche/recherche-academique/_index.html
+      path: "/pages/recherche/recherche-publications"
+      file: content/fr/pages/recherche/recherche-publications/_index.html
     - title: Séminaires organisés par le Campus
       slug: seminaires-organises-par-le-campus
       target: "/fr/seminaires-organises-par-le-campus/"
@@ -283,18 +283,18 @@ items:
       file: content/fr/pages/seminaires-organises-par-le-campus/_index.html
     - title: Venir en séjour de recherche
       slug: venir-en-sejour-de-recherche
-      target: "/fr/sejour-recherche/"
+      target: "/fr/recherche/sejour-recherche/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/pages/sejour-recherche"
-      file: content/fr/pages/sejour-recherche/_index.html
+      path: "/pages/recherche/sejour-recherche"
+      file: content/fr/pages/recherche/sejour-recherche/_index.html
     descendants_targets:
     - "/fr/recherche/"
     - "/fr/recherche/programmes-de-recherche/living-lab/"
-    - "/fr/recherche/recherche-academique/"
-    - "/fr/sejour-recherche/"
+    - "/fr/recherche/recherche-publications/"
+    - "/fr/recherche/sejour-recherche/"
     - "/fr/seminaires-organises-par-le-campus/"
     path: "/pages/recherche"
     file: content/fr/pages/recherche/_index.html
@@ -310,8 +310,8 @@ items:
   - "/fr/formation/ressources/"
   - "/fr/recherche/"
   - "/fr/recherche/programmes-de-recherche/living-lab/"
-  - "/fr/recherche/recherche-academique/"
-  - "/fr/sejour-recherche/"
+  - "/fr/recherche/recherche-publications/"
+  - "/fr/recherche/sejour-recherche/"
   - "/fr/seminaires-organises-par-le-campus/"
 - title: Actualités
   slug: actualites
