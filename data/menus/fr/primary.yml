@@ -1,85 +1,130 @@
 ---
 title: Menu principal
 items:
-- title: Qui sommes-nous ?
-  slug: qui-sommes-nous
-  target: "/fr/a-propos/"
-  kind: page
+- title: Le Campus
+  slug: le-campus
+  target: ''
+  kind: blank
   new_tab: false
   children:
   - title: Qui sommes-nous ?
     slug: qui-sommes-nous
-    target: "/fr/a-propos/historique/"
+    target: "/fr/a-propos/"
     kind: page
     new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/a-propos/historique"
-    file: content/fr/pages/a-propos/historique/_index.html
-  - title: Organisation et gouvernance
-    slug: organisation-et-gouvernance
-    target: "/fr/a-propos/organisation-et-gouvernance/"
+    children:
+    - title: Qui sommes-nous ?
+      slug: qui-sommes-nous
+      target: "/fr/a-propos/historique/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/a-propos/historique"
+      file: content/fr/pages/a-propos/historique/_index.html
+    - title: Organisation et gouvernance
+      slug: organisation-et-gouvernance
+      target: "/fr/a-propos/organisation-et-gouvernance/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/persons"
+      file: content/fr/persons/_index.html
+    - title: Communauté scientifique
+      slug: communaute-scientifique
+      target: "/fr/a-propos/communaute-scientifique/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/a-propos/communaute-scientifique"
+      file: content/fr/pages/a-propos/communaute-scientifique/_index.html
+    - title: Partenaires
+      slug: partenaires
+      target: "/fr/a-propos/partenaires/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/a-propos/partenaires"
+      file: content/fr/pages/a-propos/partenaires/_index.html
+    - title: Nous rejoindre
+      slug: nous-rejoindre
+      target: "/fr/nous-rejoindre/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/nous-rejoindre"
+      file: content/fr/pages/nous-rejoindre/_index.html
+    descendants_targets:
+    - "/fr/a-propos/communaute-scientifique/"
+    - "/fr/a-propos/historique/"
+    - "/fr/a-propos/organisation-et-gouvernance/"
+    - "/fr/a-propos/partenaires/"
+    - "/fr/nous-rejoindre/"
+    path: "/pages/a-propos"
+    file: content/fr/pages/a-propos/_index.html
+  - title: Contact
+    slug: contact
+    target: "/fr/contact/"
     kind: page
     new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/persons"
-    file: content/fr/persons/_index.html
-  - title: Communauté scientifique
-    slug: communaute-scientifique
-    target: "/fr/a-propos/communaute-scientifique/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/a-propos/communaute-scientifique"
-    file: content/fr/pages/a-propos/communaute-scientifique/_index.html
-  - title: Partenaires
-    slug: partenaires
-    target: "/fr/a-propos/partenaires/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/a-propos/partenaires"
-    file: content/fr/pages/a-propos/partenaires/_index.html
-  - title: Actualités
-    slug: actualites
-    target: "/fr/actualites/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/posts"
-    file: content/fr/posts/_index.html
-  - title: Événements
-    slug: evenements
-    target: "/fr/evenements/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/events"
-    file: content/fr/events/_index.html
-  - title: Nous rejoindre
-    slug: nous-rejoindre
-    target: "/fr/nous-rejoindre/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/nous-rejoindre"
-    file: content/fr/pages/nous-rejoindre/_index.html
+    children:
+    - title: Nous écrire
+      slug: nous-ecrire
+      target: "/fr/contact/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/contact"
+      file: content/fr/pages/contact/_index.html
+    - title: Nous rejoindre
+      slug: nous-rejoindre
+      target: "/fr/nous-rejoindre/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/nous-rejoindre"
+      file: content/fr/pages/nous-rejoindre/_index.html
+    - title: S'abonner à notre Newsletter
+      slug: s-abonner-a-notre-newsletter
+      target: "/fr/contact/sabonner-a-notre-newsletter/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/contact/sabonner-a-notre-newsletter"
+      file: content/fr/pages/contact/sabonner-a-notre-newsletter/_index.html
+    - title: Venir au Campus
+      slug: venir-au-campus
+      target: "/fr/contact/venir-au-campus/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/contact/venir-au-campus"
+      file: content/fr/pages/contact/venir-au-campus/_index.html
+    descendants_targets:
+    - "/fr/contact/"
+    - "/fr/contact/sabonner-a-notre-newsletter/"
+    - "/fr/contact/venir-au-campus/"
+    - "/fr/nous-rejoindre/"
+    path: "/pages/contact"
+    file: content/fr/pages/contact/_index.html
   descendants_targets:
+  - "/fr/a-propos/"
   - "/fr/a-propos/communaute-scientifique/"
   - "/fr/a-propos/historique/"
   - "/fr/a-propos/organisation-et-gouvernance/"
   - "/fr/a-propos/partenaires/"
-  - "/fr/actualites/"
-  - "/fr/evenements/"
+  - "/fr/contact/"
+  - "/fr/contact/sabonner-a-notre-newsletter/"
+  - "/fr/contact/venir-au-campus/"
   - "/fr/nous-rejoindre/"
-  path: "/pages/a-propos"
-  file: content/fr/pages/a-propos/_index.html
 - title: Nos trois piliers
   slug: nos-trois-piliers
   target: ''
@@ -296,55 +341,6 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Contact
-  slug: contact
-  target: "/fr/contact/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Nous écrire
-    slug: nous-ecrire
-    target: "/fr/contact/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/contact"
-    file: content/fr/pages/contact/_index.html
-  - title: Nous rejoindre
-    slug: nous-rejoindre
-    target: "/fr/nous-rejoindre/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/nous-rejoindre"
-    file: content/fr/pages/nous-rejoindre/_index.html
-  - title: S'abonner à notre Newsletter
-    slug: s-abonner-a-notre-newsletter
-    target: "/fr/contact/sabonner-a-notre-newsletter/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/contact/sabonner-a-notre-newsletter"
-    file: content/fr/pages/contact/sabonner-a-notre-newsletter/_index.html
-  - title: Venir au Campus
-    slug: venir-au-campus
-    target: "/fr/contact/venir-au-campus/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/contact/venir-au-campus"
-    file: content/fr/pages/contact/venir-au-campus/_index.html
-  descendants_targets:
-  - "/fr/contact/"
-  - "/fr/contact/sabonner-a-notre-newsletter/"
-  - "/fr/contact/venir-au-campus/"
-  - "/fr/nous-rejoindre/"
-  path: "/pages/contact"
-  file: content/fr/pages/contact/_index.html
 - title: Nous soutenir
   slug: nous-soutenir
   target: "/fr/nous-soutenir/"
