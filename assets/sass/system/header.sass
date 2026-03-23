@@ -39,14 +39,7 @@ header#document-header
                     &:hover
                         text-decoration-color: rgba(0,0,0, 0.8)
         .nav-level-2
-            > li + li
-                margin-top: $spacing-3
-            > li > a
-                @include icon(arrow-right-line, after, true)
-                @include hover-translate-icon
-                &, &:hover
-                    text-decoration: none !important
-                    text-decoration-color: transparent
+            grid-template-columns: repeat(3, 1fr)
     @include media-breakpoint-down(desktop)
         .menu.is-opened
             margin-left: var(--grid-gutter-negative)
