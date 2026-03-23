@@ -13,8 +13,8 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Qui sommes-nous ?
-      slug: qui-sommes-nous
+    - title: Historique
+      slug: historique
       target: "/fr/a-propos/historique/"
       kind: page
       new_tab: false
