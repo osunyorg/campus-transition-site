@@ -125,12 +125,23 @@ items:
       new_tab: false
       children: []
       descendants_targets: []
+    - title: Les Manuels de la Grande Transition
+      slug: les-manuels-de-la-grande-transition
+      target: "/fr/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/"
+      file: content/fr/_index.html
     descendants_targets:
+    - "/fr/"
     - "/fr/publications/2024-manuel-de-la-grande-transition/"
     - "/fr/publications/petits-manuels-de-la-grande-transition/"
     path: "/projects"
     file: content/fr/projects/_index.html
   descendants_targets:
+  - "/fr/"
   - "/fr/a-propos/"
   - "/fr/a-propos/communaute-scientifique/"
   - "/fr/a-propos/historique/"
