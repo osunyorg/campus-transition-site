@@ -195,13 +195,13 @@ items:
       file: content/fr/pages/formation/pedagogie/_index.html
     - title: Venir en séminaire
       slug: venir-en-seminaire
-      target: "/fr/eco-lieu/venir-en-seminaire/"
+      target: "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/pages/eco-lieu/venir-en-seminaire"
-      file: content/fr/pages/eco-lieu/venir-en-seminaire/_index.html
+      path: "/pages/eco-lieu/venir-en-seminaire-avec-votre-organisation"
+      file: content/fr/pages/eco-lieu/venir-en-seminaire-avec-votre-organisation/_index.html
     - title: Ressources
       slug: ressources
       target: "/fr/formation/ressources/"
@@ -212,7 +212,7 @@ items:
       path: "/pages/formation/ressources"
       file: content/fr/pages/formation/ressources/_index.html
     descendants_targets:
-    - "/fr/eco-lieu/venir-en-seminaire/"
+    - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
     - "/fr/formation/"
     - "/fr/formation/offre-formation/"
     - "/fr/formation/pedagogie/"
@@ -254,13 +254,13 @@ items:
       file: content/fr/pages/eco-lieu/experience/_index.html
     - title: Venir en séminaire
       slug: venir-en-seminaire
-      target: "/fr/eco-lieu/venir-en-seminaire/"
+      target: "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/pages/eco-lieu/venir-en-seminaire"
-      file: content/fr/pages/eco-lieu/venir-en-seminaire/_index.html
+      path: "/pages/eco-lieu/venir-en-seminaire-avec-votre-organisation"
+      file: content/fr/pages/eco-lieu/venir-en-seminaire-avec-votre-organisation/_index.html
     - title: Devenir bénévole
       slug: devenir-benevole
       target: "/fr/eco-lieu/devenir-benevole/"
@@ -275,7 +275,7 @@ items:
     - "/fr/eco-lieu/devenir-benevole/"
     - "/fr/eco-lieu/domaine/"
     - "/fr/eco-lieu/experience/"
-    - "/fr/eco-lieu/venir-en-seminaire/"
+    - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
     path: "/pages/eco-lieu"
     file: content/fr/pages/eco-lieu/_index.html
   - title: Recherche
@@ -342,7 +342,7 @@ items:
   - "/fr/eco-lieu/devenir-benevole/"
   - "/fr/eco-lieu/domaine/"
   - "/fr/eco-lieu/experience/"
-  - "/fr/eco-lieu/venir-en-seminaire/"
+  - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
   - "/fr/formation/"
   - "/fr/formation/offre-formation/"
   - "/fr/formation/pedagogie/"
