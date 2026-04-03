@@ -252,8 +252,8 @@ items:
       descendants_targets: []
       path: "/pages/eco-lieu/experience"
       file: content/fr/pages/eco-lieu/experience/_index.html
-    - title: Venir en séminaire
-      slug: venir-en-seminaire
+    - title: Venir en séminaire avec votre organisme
+      slug: venir-en-seminaire-avec-votre-organisme
       target: "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
       kind: page
       new_tab: false
