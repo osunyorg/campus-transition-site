@@ -2127,6 +2127,10 @@ from = "/fr/publications/2008-makinda-samuel-m-okumu-f-wafula-the-african-union-
 to = "/fr/recherche/publications-hal/2008-makinda-samuel-m-okumu-f-wafula-the-african-union-challenges-of-globalization-security-and-governanc/"
 
 [[redirects]]
+from = "/fr/recherche/publications/index.html"
+to = "/fr/publications-old/"
+
+[[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2009-20-propositions-pour-reformer-le-capitalisme/index.html"
 to = "/fr/publications-hal/2009-20-propositions-pour-reformer-le-capitalisme/"
 
