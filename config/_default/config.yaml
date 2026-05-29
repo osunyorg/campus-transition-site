@@ -28,6 +28,13 @@ params:
       options:
         categories: false
         summary: false
+    single:
+      meta:
+        position: hero
+        options:
+          with_labels: false
+          share: false
+          reading_time: false
   home:
     head:
       title: site
