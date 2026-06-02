@@ -991,6 +991,10 @@ from = "/fr/recherche/publications/publications-scientifiques/2023-who-cares-for
 to = "/fr/recherche/publications-hal/2023-who-cares-for-younger-generations-an-analysis-of-young-people-s-parliamentary-representation-in-fran/"
 
 [[redirects]]
+from = "/fr/evenements/2026/journees-decouverte-2-1-1-1-1/index.html"
+to = "/fr/evenements/2026/journee-decouverte-de-juin/"
+
+[[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2023-regards-indisciplines-des-shs/index.html"
 to = "/fr/publications-hal/2023-regards-indisciplines-des-shs/"
 
