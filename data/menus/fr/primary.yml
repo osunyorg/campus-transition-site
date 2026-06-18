@@ -80,8 +80,8 @@ items:
       descendants_targets: []
       path: "/pages/nous-rejoindre"
       file: content/fr/pages/nous-rejoindre/_index.html
-    - title: S'abonner à notre Newsletter
-      slug: s-abonner-a-notre-newsletter
+    - title: S'inscrire à notre Newsletter
+      slug: s-inscrire-a-notre-newsletter
       target: "/fr/contact/sabonner-a-notre-newsletter/"
       kind: page
       new_tab: false
