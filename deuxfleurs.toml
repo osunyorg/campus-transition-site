@@ -1336,7 +1336,7 @@ to = "/fr/actualites/2025-09-18-cet-hiver-venez-en-residence-au-campus/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/clemence-pichon/programs/index.html"
-to = "/fr/a-propos/organisation-et-gouvernance/clemence-pichon/programs/"
+to = "/fr/personnes/clemence-pichon/programs/"
 
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2008-the-pan-african-parliament-a-benchmark-for-regional-integration-in-africa/index.html"
@@ -3141,6 +3141,10 @@ to = "/fr/personnes/yves-perret/actualites/"
 [[redirects]]
 from = "/en/programs/thema/communs-et-transition/index.html"
 to = "/en/programs/communs-et-transition/"
+
+[[redirects]]
+from = "/fr/a-propos/organisation-et-gouvernance/clemence-pichon/programs/index.html"
+to = "/fr/personnes/clemence-pichon/programs/"
 
 [[redirects]]
 from = "/fr/publications/les-manuels-de-la-grande-transition/index.html"
@@ -5020,7 +5024,7 @@ to = "/fr/publications-hal/2011-in-search-of-an-alternative-to-shareholder-value
 
 [[redirects]]
 from = "/fr/equipe/clemence-pichon/programs/index.html"
-to = "/fr/a-propos/organisation-et-gouvernance/clemence-pichon/programs/"
+to = "/fr/personnes/clemence-pichon/programs/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2019-la-representation-politique-de-j-p-daloz-paris-armand-colin-2017/index.html"
