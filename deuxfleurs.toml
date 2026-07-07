@@ -5231,6 +5231,10 @@ from = "/en/agenda/programs/thema/numerique-et-transition/index.html"
 to = "/en/agenda/programs/numerique-et-transition/"
 
 [[redirects]]
+from = "/fr/evenements/2026/nos-prochaines-formations-ouvertes-a-tous/index.html"
+to = "/fr/evenements/2026/derniers-jours-pour-sinscrire/"
+
+[[redirects]]
 from = "/fr/equipe/clement-martel/programs/index.html"
 to = "/fr/personnes/clement-martel/programs/"
 
