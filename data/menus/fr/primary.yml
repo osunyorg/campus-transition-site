@@ -143,8 +143,8 @@ items:
   - "/fr/publications/"
   - "/fr/publications/2024-manuel-de-la-grande-transition/"
   - "/fr/publications/petits-manuels-de-la-grande-transition/"
-- title: Nos trois piliers
-  slug: nos-trois-piliers
+- title: Trois piliers
+  slug: trois-piliers
   target: ''
   kind: blank
   new_tab: false
@@ -204,15 +204,6 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Découvrir
-      slug: decouvrir
-      target: "/fr/eco-lieu/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/eco-lieu"
-      file: content/fr/pages/eco-lieu/_index.html
     - title: Domaine de Forges
       slug: domaine-de-forges
       target: "/fr/eco-lieu/domaine/"
@@ -250,7 +241,6 @@ items:
       path: "/pages/eco-lieu/devenir-benevole"
       file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
     descendants_targets:
-    - "/fr/eco-lieu/"
     - "/fr/eco-lieu/devenir-benevole/"
     - "/fr/eco-lieu/domaine/"
     - "/fr/eco-lieu/experience/"
@@ -263,15 +253,6 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Découvrir
-      slug: decouvrir
-      target: "/fr/recherche/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/recherche"
-      file: content/fr/pages/recherche/_index.html
     - title: Living-lab recherche-action
       slug: living-lab-recherche-action
       target: "/fr/recherche/living-lab/"
@@ -309,7 +290,6 @@ items:
       path: "/pages/recherche/sejour-recherche"
       file: content/fr/pages/recherche/sejour-recherche/_index.html
     descendants_targets:
-    - "/fr/recherche/"
     - "/fr/recherche/living-lab/"
     - "/fr/recherche/recherche-publications/"
     - "/fr/recherche/sejour-recherche/"
