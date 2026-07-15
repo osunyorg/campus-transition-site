@@ -155,15 +155,6 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Découvrir
-      slug: decouvrir
-      target: "/fr/formation/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/formation"
-      file: content/fr/pages/formation/_index.html
     - title: Offre de formation
       slug: offre-de-formation
       target: "/fr/formation/offre-formation/"
@@ -202,7 +193,6 @@ items:
       file: content/fr/pages/formation/ressources/_index.html
     descendants_targets:
     - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
-    - "/fr/formation/"
     - "/fr/formation/offre-formation/"
     - "/fr/formation/pedagogie/"
     - "/fr/formation/ressources/"
