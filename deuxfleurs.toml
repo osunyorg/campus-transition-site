@@ -5179,6 +5179,10 @@ from = "/fr/recherche/publications-scientifiques/2023-la-societe-ecologique-norm
 to = "/fr/publications-hal/2023-la-societe-ecologique-normes-et-relations/"
 
 [[redirects]]
+from = "/fr/a-propos/equipe/cecile-renouard/actualites/index.html"
+to = "/fr/personnes/cecile-renouard/actualites/"
+
+[[redirects]]
 from = "/fr/agenda/offre-de-formation/thema/index.html"
 to = "/fr/evenements/offre-de-formation/thema/"
 
