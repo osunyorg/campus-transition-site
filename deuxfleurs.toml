@@ -148,7 +148,7 @@ to = "/fr/publications-hal/2023-educate-for-the-transition-by-connecting-head-he
 
 [[redirects]]
 from = "/fr/a-propos/equipe/benoit-halgan/programs/index.html"
-to = "/fr/personnes/benoit-halgan/programs/"
+to = ""
 
 [[redirects]]
 from = "/fr/a-propos/equipe/categories/pole/domaine/index.html"
@@ -368,7 +368,7 @@ to = "/fr/publications/offre-de-formation/seminaire-immersif/"
 
 [[redirects]]
 from = "/fr/equipe/benoit-halgan/programs/index.html"
-to = "/fr/personnes/benoit-halgan/programs/"
+to = ""
 
 [[redirects]]
 from = "/fr/projets/2020-maitrise-carbone-campus/index.html"
@@ -779,10 +779,6 @@ from = "/fr/equipe/index.html"
 to = "/fr/personnes/"
 
 [[redirects]]
-from = "/fr/a-propos/equipe/benoit-halgan/index.html"
-to = "/fr/personnes/benoit-halgan/"
-
-[[redirects]]
 from = "/fr/recherche/publications-hal/2014-on-equity-in-india-s-water-supply-public-private-partnerships/index.html"
 to = "/fr/publications-hal/2014-on-equity-in-india-s-water-supply-public-private-partnerships/"
 
@@ -1181,10 +1177,6 @@ to = "/fr/personnes/categories/recherche/"
 [[redirects]]
 from = "/fr/projet-global/equipe/categories/association/lequipe-operationnelle/pole-recherche/index.html"
 to = "/fr/personnes/categories/pole/recherche-1/"
-
-[[redirects]]
-from = "/fr/equipe/benoit-halgan/index.html"
-to = "/fr/personnes/benoit-halgan/"
 
 [[redirects]]
 from = "/en/programs/categories/inscription-individuelle/index.html"
@@ -3904,7 +3896,7 @@ to = "/fr/personnes/categories/collectif-fortes/"
 
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/benoit-halgan/programs/index.html"
-to = "/fr/personnes/benoit-halgan/programs/"
+to = ""
 
 [[redirects]]
 from = "/fr/recherche/publications-hal/2023-pedagogy-for-a-great-transition-a-novel-approach-of-higher-education/index.html"
@@ -4037,10 +4029,6 @@ to = "/fr/personnes/james-billault/"
 [[redirects]]
 from = "/fr/recherche/publications/publications-grand-public/2020-maitrise-carbone-campus/index.html"
 to = "/fr/publications-1/2025-maitrise-carbone-campus/"
-
-[[redirects]]
-from = "/fr/a-propos/organisation-et-gouvernance/benoit-halgan/index.html"
-to = "/fr/personnes/benoit-halgan/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2006-the-cumul-des-mandats-in-comtemporary-french-politics-an-empirical-study-of-the-xiie-legislature-of/index.html"
