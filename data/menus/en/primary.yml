@@ -193,15 +193,6 @@ items:
     descendants_targets: []
     path: "/publications"
     file: content/en/publications/_index.html
-  - title: Action-Research
-    slug: action-research
-    target: "/en/recherche/action-research/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/recherche/action-research"
-    file: content/en/pages/recherche/action-research/_index.html
   - title: Research Seminar
     slug: research-seminar
     target: "/en/recherche/seminar-research/"
@@ -211,6 +202,15 @@ items:
     descendants_targets: []
     path: "/pages/recherche/seminar-research"
     file: content/en/pages/recherche/seminar-research/_index.html
+  - title: Action-Research
+    slug: action-research
+    target: "/en/recherche/action-research/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/recherche/action-research"
+    file: content/en/pages/recherche/action-research/_index.html
   - title: Scientific Council
     slug: scientific-council
     target: "/en/recherche/scientific-council/"
