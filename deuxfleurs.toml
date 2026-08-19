@@ -495,10 +495,6 @@ from = "/fr/formation/offre-de-formation/thema/index.html"
 to = "/fr/formation/offre-formation/thema/"
 
 [[redirects]]
-from = "/fr/a-propos/organisation-et-gouvernance/aude-lucas/index.html"
-to = "/fr/personnes/aude-lucas/"
-
-[[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2023-a-few-avenues-to-support-the-actors-concerned-in-the-transformation-of-higher-education/index.html"
 to = "/fr/publications-hal/2023-a-few-avenues-to-support-the-actors-concerned-in-the-transformation-of-higher-education/"
 
@@ -1091,10 +1087,6 @@ from = "/fr/projets/2024-manuel-de-la-grande-transition/index.html"
 to = "/fr/publications/2024-manuel-de-la-grande-transition/"
 
 [[redirects]]
-from = "/fr/a-propos/equipe/emmanuelle-tybalan/index.html"
-to = "/fr/a-propos/organisation-et-gouvernance/emmanuelle-tybalan/"
-
-[[redirects]]
 from = "/fr/2023-taking-into-account-cognitive-biases-to-implement-an-adapted-transition-pedagogy-interview-with-thib/index.html"
 to = "/fr/publications-hal/2023-taking-into-account-cognitive-biases-to-implement-an-adapted-transition-pedagogy-interview-with-thib/"
 
@@ -1149,10 +1141,6 @@ to = "/fr/recherche/publications-hal/2012-mesurer-l-efficacite-des-deputes-au-se
 [[redirects]]
 from = "/fr/publications/2020-oikos-habiter-un-monde-commun-chapitre-2-vers-une-planete-inhabitable-et-un-monde-invivable-se-soign/index.html"
 to = "/fr/publications-hal/2020-oikos-habiter-un-monde-commun-chapitre-2-vers-une-planete-inhabitable-et-un-monde-invivable-se-soign/"
-
-[[redirects]]
-from = "/fr/equipe/emmanuelle-tybalan/index.html"
-to = "/fr/a-propos/organisation-et-gouvernance/emmanuelle-tybalan/"
 
 [[redirects]]
 from = "/fr/evenements/offre-de-formation/thema/communs-et-transition/index.html"
@@ -1381,10 +1369,6 @@ to = "/fr/personnes/adrien-burdy/"
 [[redirects]]
 from = "/fr/productions/offre-de-formation/thema/index.html"
 to = "/fr/publications/offre-de-formation/thema/"
-
-[[redirects]]
-from = "/fr/a-propos/equipe/aude-lucas/index.html"
-to = "/fr/personnes/aude-lucas/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2008-parliamentary-roles-and-the-problem-of-rationality-an-interpretative-sociology-of-roles-in-the-europ/index.html"
@@ -2001,10 +1985,6 @@ to = "/fr/recherche/publications-hal/2009-questions-in-the-european-parliament-w
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2020-manuel-de-la-grande-transition-former-pour-transformer/index.html"
 to = "/fr/publications-hal/2020-manuel-de-la-grande-transition-former-pour-transformer/"
-
-[[redirects]]
-from = "/fr/equipe/aude-lucas/index.html"
-to = "/fr/personnes/aude-lucas/"
 
 [[redirects]]
 from = "/en/a-propos/team/teachers/index.html"
