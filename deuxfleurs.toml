@@ -1603,6 +1603,10 @@ from = "/fr/la-recherche/publications-scientifiques/2023-introduction-14/index.h
 to = "/fr/publications-hal/2023-introduction-14/"
 
 [[redirects]]
+from = "/fr/fichiers/2026/index.html"
+to = "/fr/fichiers/2026/2025-rapport-moral-campus-de-la-transition-compressepdf/"
+
+[[redirects]]
 from = "/fr/agenda/offre-de-formation/experiment-action/index.html"
 to = "/fr/evenements/offre-de-formation/experiment-action/"
 
