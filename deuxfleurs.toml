@@ -51,6 +51,10 @@ from = "/fr/equipe/adrien-burdy/programs/index.html"
 to = "/fr/personnes/adrien-burdy/programs/"
 
 [[redirects]]
+from = "/en/2026/chercheur-embarque-2023pdf/index.html"
+to = "/en/files/2026/chercheur-embarque-2023pdf/"
+
+[[redirects]]
 from = "/fr/publications-scientifiques/2014-relational-capability-as-a-measure-of-development/index.html"
 to = "/fr/publications-hal/2014-relational-capability-as-a-measure-of-development/"
 
@@ -615,12 +619,20 @@ from = "/fr/recherche/publications-scientifiques/2011-in-search-of-an-alternativ
 to = "/fr/publications-hal/2011-in-search-of-an-alternative-to-shareholder-value-maximization-1/"
 
 [[redirects]]
+from = "/en/2026/rapport-campus-de-la-transition-cy-20230522pdf/index.html"
+to = "/en/files/2026/rapport-campus-de-la-transition-cy-20230522pdf/"
+
+[[redirects]]
 from = "/fr/les-formations/diplomes/diplome-universitaire/index.html"
 to = "/fr/diplomes/diplome-universitaire/"
 
 [[redirects]]
 from = "/fr/actualites/offre-de-formation/index.html"
 to = "/fr/actualites/formation/"
+
+[[redirects]]
+from = "/en/2026/charge-developpement-seminaires-immersifspdf/index.html"
+to = "/en/files/2026/charge-developpement-seminaires-immersifspdf/"
 
 [[redirects]]
 from = "/fr/eco-lieu/seminaire-immersif/index.html"
@@ -1243,6 +1255,10 @@ from = "/fr/publications/2023-introduction-14/index.html"
 to = "/fr/publications-hal/2023-introduction-14/"
 
 [[redirects]]
+from = "/en/2026/s-immersif1pdf/index.html"
+to = "/en/files/2026/s-immersif1pdf/"
+
+[[redirects]]
 from = "/fr/a-propos/equipe/sandra-waddock/index.html"
 to = "/fr/personnes/sandra-waddock/"
 
@@ -1321,6 +1337,10 @@ to = "/fr/personnes/clemence-pichon/programs/"
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2008-the-pan-african-parliament-a-benchmark-for-regional-integration-in-africa/index.html"
 to = "/fr/recherche/publications-hal/2008-the-pan-african-parliament-a-benchmark-for-regional-integration-in-africa/"
+
+[[redirects]]
+from = "/en/2026/rapport-uspn-campuspdf/index.html"
+to = "/en/files/2026/rapport-uspn-campuspdf/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2021-des-connaissances-aux-competences-la-formation-aux-metiers-de-la-transition/index.html"
@@ -1721,6 +1741,10 @@ to = "/fr/publications-hal/2011-in-search-of-an-alternative-to-shareholder-value
 [[redirects]]
 from = "/fr/a-propos/equipe/clement-martel/actualites/index.html"
 to = "/fr/personnes/clement-martel/actualites/"
+
+[[redirects]]
+from = "/en/2026/synthese-rapport-cy-campus-de-la-transitionpdf/index.html"
+to = "/en/files/2026/synthese-rapport-cy-campus-de-la-transitionpdf/"
 
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/alexis-seng/index.html"
@@ -3015,6 +3039,10 @@ from = "/fr/equipe/yves-gilbert/index.html"
 to = "/fr/personnes/yves-gilbert/"
 
 [[redirects]]
+from = "/en/2026/accorder-les-temps-2023pdf/index.html"
+to = "/en/files/2026/accorder-les-temps-2023pdf/"
+
+[[redirects]]
 from = "/fr/publications-scientifiques/2023-some-practical-tools-and-methods-to-carry-out-transition-pedagogy-in-higher-education-institutions/index.html"
 to = "/fr/publications-hal/2023-some-practical-tools-and-methods-to-carry-out-transition-pedagogy-in-higher-education-institutions/"
 
@@ -3065,6 +3093,10 @@ to = "/fr/recherche/publications-hal/2020-are-hard-working-mps-electorally-rewar
 [[redirects]]
 from = "/fr/formations/pedagogie/index.html"
 to = "/fr/formation/pedagogie/"
+
+[[redirects]]
+from = "/en/2026/moins-chauffer-2023pdf/index.html"
+to = "/en/files/2026/moins-chauffer-2023pdf/"
 
 [[redirects]]
 from = "/fr/publications/2005-comparer-les-roles-de-representation-bilans-et-perspectives-de-recherche/index.html"
@@ -3275,6 +3307,10 @@ from = "/fr/recherche/publications-scientifiques/2009-20-propositions-pour-refor
 to = "/fr/publications-hal/2009-20-propositions-pour-reformer-le-capitalisme/"
 
 [[redirects]]
+from = "/en/2026/rapportmoral-2024pdf/index.html"
+to = "/en/files/2026/rapportmoral-2024pdf/"
+
+[[redirects]]
 from = "/fr/recherche/publications-scientifiques/2008-le-cumul-des-mandats-au-parlement-europeen-causes-nationales-consequences-europeennes/index.html"
 to = "/fr/recherche/publications-hal/2008-le-cumul-des-mandats-au-parlement-europeen-causes-nationales-consequences-europeennes/"
 
@@ -3475,6 +3511,10 @@ from = "/fr/formation/conseil-academique/index.html"
 to = "/fr/recherche/seminaire-academique/"
 
 [[redirects]]
+from = "/en/2026/stagiaire-coordination-travauxpdf/index.html"
+to = "/en/files/2026/stagiaire-coordination-travauxpdf/"
+
+[[redirects]]
 from = "/recherche/le-manuel-de-la-grande-transition/index.html"
 to = "/fr/publications/2024-manuel-de-la-grande-transition/"
 
@@ -3633,6 +3673,10 @@ to = "/fr/publications-hal/2021-l-enseignement-et-la-formation-dans-la-transitio
 [[redirects]]
 from = "/fr/formation/offre-de-formation/thema/biodiversite-et-transition/index.html"
 to = "/fr/formation/offre-formation/biodiversite-et-transition/"
+
+[[redirects]]
+from = "/en/2026/plaquette-seminaire-immersifpdf/index.html"
+to = "/en/files/2026/plaquette-seminaire-immersifpdf/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/jean-philippe-pierron/index.html"
@@ -4255,6 +4299,10 @@ from = "/fr/publications/2009-les-roles-au-parlement-europeen-une-typologie-des-
 to = "/fr/recherche/publications-hal/2009-les-roles-au-parlement-europeen-une-typologie-des-pratiques-de-representation/"
 
 [[redirects]]
+from = "/en/2026/diag-decarbonaction-synthese-communicante-campus-de-la-transition-1-4pdf/index.html"
+to = "/en/files/2026/diag-decarbonaction-synthese-communicante-campus-de-la-transition-1-4pdf/"
+
+[[redirects]]
 from = "/fr/publications-scientifiques/2009-les-deputes-europeens-et-leur-role-sociologie-des-pratiques-parlementaires/index.html"
 to = "/fr/recherche/publications-hal/2009-les-deputes-europeens-et-leur-role-sociologie-des-pratiques-parlementaires/"
 
@@ -4497,6 +4545,10 @@ to = "/fr/personnes/categories/formation/"
 [[redirects]]
 from = "/fr/publications/2023-great-minds-think-alike-a-new-measure-of-meps-voters-congruence-following-the-2019-european-parliame/index.html"
 to = "/fr/recherche/publications-hal/2023-great-minds-think-alike-a-new-measure-of-meps-voters-congruence-following-the-2019-european-parliame/"
+
+[[redirects]]
+from = "/en/2026/atelier-velo-2023pdf/index.html"
+to = "/en/files/2026/atelier-velo-2023pdf/"
 
 [[redirects]]
 from = "/fr/publications/2021-des-connaissances-aux-competences-la-formation-aux-metiers-de-la-transition/index.html"
@@ -4853,6 +4905,10 @@ to = "/fr/evenements/offre-de-formation/"
 [[redirects]]
 from = "/fr/formations/offre-de-formation/categories/etablissements-denseignement-superieur/index.html"
 to = "/fr/formation/offre-formation/categories/etablissements-denseignement-superieur/"
+
+[[redirects]]
+from = "/en/2026/rapport-uspn-campuspdf-1/index.html"
+to = "/en/files/2026/rapport-uspn-campuspdf-1/"
 
 [[redirects]]
 from = "/fr/publications/2021-special-issue-access-or-excess-redefining-the-boundaries-of-transparency-in-the-eu-s-decision-making/index.html"
