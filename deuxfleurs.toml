@@ -603,10 +603,6 @@ from = "/fr/a-propos/organisation-et-gouvernance/gisou-van-der-goot/index.html"
 to = "/fr/personnes/gisou-van-der-goot/"
 
 [[redirects]]
-from = "/fr/a-propos/equipe/arthur-croizier/index.html"
-to = "/fr/personnes/arthur-croizier/"
-
-[[redirects]]
 from = "/en/posts/programs/thema/entreprise-et-transition/index.html"
 to = "/en/posts/programs/entreprise-et-transition/"
 
@@ -749,10 +745,6 @@ to = "/fr/recherche/publications-hal/2005-comparer-les-roles-de-representation-b
 [[redirects]]
 from = "/fr/publications/2023-educational-contextualization-how-does-higher-education-face-the-ecological-challenge/index.html"
 to = "/fr/publications-hal/2023-educational-contextualization-how-does-higher-education-face-the-ecological-challenge/"
-
-[[redirects]]
-from = "/fr/projet-global/equipe/arthur-croizier/index.html"
-to = "/fr/personnes/arthur-croizier/"
 
 [[redirects]]
 from = "/fr/evenements/formation/index.html"
@@ -945,10 +937,6 @@ to = "/fr/evenements/piliers/eco-lieu/"
 [[redirects]]
 from = "/fr/publications/2018-the-spitzenkandidaten-system-democratic-innovation-or-window-dressing/index.html"
 to = "/fr/recherche/publications-hal/2018-the-spitzenkandidaten-system-democratic-innovation-or-window-dressing/"
-
-[[redirects]]
-from = "/fr/equipe/arthur-croizier/index.html"
-to = "/fr/personnes/arthur-croizier/"
 
 [[redirects]]
 from = "/fr/actualites/offre-de-formation/accompagnement-des-etablissement-d-esr/index.html"
@@ -1789,10 +1777,6 @@ to = "/fr/personnes/eric-gressier/"
 [[redirects]]
 from = "/fr/publications-scientifiques/2022-pedagogie-de-la-transition/index.html"
 to = "/fr/publications-hal/2022-pedagogie-de-la-transition/"
-
-[[redirects]]
-from = "/fr/a-propos/organisation-et-gouvernance/arthur-croizier/index.html"
-to = "/fr/personnes/arthur-croizier/"
 
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2017-democratiser-la-selection-des-candidats-dans-les-partis-politiques-un-effet-de-trompe-l-oeil/index.html"
@@ -2916,7 +2900,7 @@ to = "/fr/publications-hal/2023-educate-for-the-transition-by-connecting-head-he
 
 [[redirects]]
 from = "/fr/equipe/arthur-croizier/programs/index.html"
-to = "/fr/personnes/arthur-croizier/programs/"
+to = ""
 
 [[redirects]]
 from = "/fr/a-propos/qui-sommes-nous/index.html"
@@ -3316,7 +3300,7 @@ to = "/fr/recherche/publications-hal/2008-le-cumul-des-mandats-au-parlement-euro
 
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/arthur-croizier/programs/index.html"
-to = "/fr/personnes/arthur-croizier/programs/"
+to = ""
 
 [[redirects]]
 from = "/fr/offre-de-formation/thema/communs-et-transition/index.html"
@@ -3648,7 +3632,7 @@ to = "/fr/publications-hal/2021-les-enseignants-chercheurs-face-a-des-discipline
 
 [[redirects]]
 from = "/fr/a-propos/equipe/arthur-croizier/programs/index.html"
-to = "/fr/personnes/arthur-croizier/programs/"
+to = ""
 
 [[redirects]]
 from = "/fr/formations/offres-de-formation/index.html"
