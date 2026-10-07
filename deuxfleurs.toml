@@ -235,10 +235,6 @@ from = "/fr/formation/offre-de-formation/categories/organisations/index.html"
 to = "/fr/formation/offre-formation/categories/organisations/"
 
 [[redirects]]
-from = "/le-projet/ils-parlent-de-nous/index.html"
-to = "/fr/le-campus-dans-les-medias/"
-
-[[redirects]]
 from = "/fr/publications-scientifiques/2008-i-see-lettre-d-information-de-la-section-d-etudes-europeennes-1/index.html"
 to = "/fr/recherche/publications-hal/2008-i-see-lettre-d-information-de-la-section-d-etudes-europeennes-1/"
 
@@ -285,6 +281,10 @@ to = "/fr/personnes/arthur-mechin-1/"
 [[redirects]]
 from = "/fr/productions/format/petit-manuel-de-la-grand-transition/index.html"
 to = "/fr/publications/petits-manuels-de-la-grande-transition/"
+
+[[redirects]]
+from = "/en/train-teachers-to-teach-teds-issues/index.html"
+to = "/en/formation/train-teachers-to-teach-teds-issues/"
 
 [[redirects]]
 from = "/fr/equipe/julien-navarro/programs/index.html"
@@ -1708,7 +1708,7 @@ to = "/fr/publications-scientifiques/2021-l-enseignement-et-la-formation-dans-la
 
 [[redirects]]
 from = "/accompagnement-de-cy-cergy-paris-universite/index.html"
-to = "/fr/accompagnement-de-cy-cergy-paris-universite/"
+to = "/fr/formation/conseil-en-formation/accompagnement-de-cy-cergy-paris-universite/"
 
 [[redirects]]
 from = "/fr/2009-20-propositions-pour-reformer-le-capitalisme/index.html"
@@ -2165,10 +2165,6 @@ to = "/fr/personnes/categories/pole/support/"
 [[redirects]]
 from = "/fr/publications/2008-makinda-samuel-m-okumu-f-wafula-the-african-union-challenges-of-globalization-security-and-governanc/index.html"
 to = "/fr/recherche/publications-hal/2008-makinda-samuel-m-okumu-f-wafula-the-african-union-challenges-of-globalization-security-and-governanc/"
-
-[[redirects]]
-from = "/fr/recherche/publications/index.html"
-to = "/fr/publications-old/"
 
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2009-20-propositions-pour-reformer-le-capitalisme/index.html"
@@ -3391,6 +3387,10 @@ from = "/fr/publications-grand-public/offre-de-formation/index.html"
 to = "/fr/publications/offre-de-formation/"
 
 [[redirects]]
+from = "/fr/accompagnement-de-cy-cergy-paris-universite/index.html"
+to = "/fr/formation/conseil-en-formation/accompagnement-de-cy-cergy-paris-universite/"
+
+[[redirects]]
 from = "/fr/recherche/recherche-academique/index.html"
 to = "/fr/recherche/projets-de-recherche/recherche-publications/"
 
@@ -4021,6 +4021,10 @@ to = "/fr/publications-scientifiques/2023-from-paralysis-to-action-sharing-exper
 [[redirects]]
 from = "/fr/formation/offre-de-formation/categories/etablissements-denseignement-superieur/index.html"
 to = "/fr/formation/offre-formation/categories/etablissements-denseignement-superieur/"
+
+[[redirects]]
+from = "/en/campus/the-medias/index.html"
+to = "/en/the-medias/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2024-from-knowledge-to-skills-training-for-transition-jobs-interview-with-alain-grandjean/index.html"
@@ -5493,6 +5497,10 @@ to = "/fr/recherche/publications-hal/2023-making-a-wor-l-d-of-difference-the-nat
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2010-is-the-veil-of-ignorance-transparent/index.html"
 to = "/fr/publications-scientifiques/2010-is-the-veil-of-ignorance-transparent/"
+
+[[redirects]]
+from = "/en/cy-cergy-paris-university/index.html"
+to = "/en/formation/cy-cergy-paris-university/"
 
 [[redirects]]
 from = "/fr/publications-scientifiques/2008-parliamentary-roles-and-the-problem-of-rationality-an-interpretative-sociology-of-roles-in-the-europ/index.html"
