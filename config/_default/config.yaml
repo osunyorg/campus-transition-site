@@ -15,6 +15,11 @@ params:
   posts:
     index:
       layout: grid
+    single:
+      meta:
+        options:
+          reading_time: false
+          updated_at: false
   programs:
     index:
       options:
