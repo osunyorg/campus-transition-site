@@ -250,7 +250,17 @@ items:
       descendants_targets: []
       path: "/pages/eco-lieu/devenir-benevole"
       file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
+    - title: Actualités de l'éco-lieu
+      slug: actualites-de-l-eco-lieu
+      target: "/fr/actualites/eco-lieu/"
+      kind: category
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/posts_categories/eco-lieu"
+      file: content/fr/posts_categories/eco-lieu/_index.html
     descendants_targets:
+    - "/fr/actualites/eco-lieu/"
     - "/fr/eco-lieu/devenir-benevole/"
     - "/fr/eco-lieu/domaine/"
     - "/fr/eco-lieu/experience/"
@@ -281,6 +291,15 @@ items:
       descendants_targets: []
       path: "/pages/recherche/notre-offre-pour-les-chercheurs"
       file: content/fr/pages/recherche/notre-offre-pour-les-chercheurs/_index.html
+    - title: Projets de recherche
+      slug: projets-de-recherche
+      target: "/fr/recherche/projets-de-recherche/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/recherche/projets-de-recherche"
+      file: content/fr/pages/recherche/projets-de-recherche/_index.html
     - title: Publications scientifiques
       slug: publications-scientifiques
       target: "/fr/publications-scientifiques/"
@@ -299,15 +318,6 @@ items:
       descendants_targets: []
       path: "/posts_categories/recherche"
       file: content/fr/posts_categories/recherche/_index.html
-    - title: Projets de recherche
-      slug: projets-de-recherche
-      target: "/fr/recherche/projets-de-recherche/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/recherche/projets-de-recherche"
-      file: content/fr/pages/recherche/projets-de-recherche/_index.html
     descendants_targets:
     - "/fr/actualites/recherche/"
     - "/fr/publications-scientifiques/"
@@ -317,6 +327,7 @@ items:
     path: "/pages/recherche"
     file: content/fr/pages/recherche/_index.html
   descendants_targets:
+  - "/fr/actualites/eco-lieu/"
   - "/fr/actualites/formation-2/"
   - "/fr/actualites/recherche/"
   - "/fr/eco-lieu/"
