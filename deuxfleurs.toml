@@ -91,6 +91,10 @@ from = "/fr/recherche/publications/publications-scientifiques/2012-mesurer-l-eff
 to = "/fr/recherche/publications-hal/2012-mesurer-l-efficacite-des-deputes-au-sein-du-parlement-francais/"
 
 [[redirects]]
+from = "/fr/evenements/2026/08/index.html"
+to = "/fr/agenda/2026/08/"
+
+[[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2009-multiple-office-holders-in-france-and-in-germany-an-elite-within-the-elite/index.html"
 to = "/fr/recherche/publications-hal/2009-multiple-office-holders-in-france-and-in-germany-an-elite-within-the-elite/"
 
@@ -107,8 +111,16 @@ from = "/fr/recherche/publications-scientifiques/2009-multiple-office-holders-in
 to = "/fr/recherche/publications-hal/2009-multiple-office-holders-in-france-and-germany-dreaded-challengers-or-creatures-of-their-party/"
 
 [[redirects]]
+from = "/fr/evenements/type-devenement/prive/index.html"
+to = "/fr/agenda/type-devenement/prive/"
+
+[[redirects]]
 from = "/fr/publications-1/2022-regards-shs/index.html"
 to = "/fr/publications/2022-regards-shs/"
+
+[[redirects]]
+from = "/fr/evenements/2026/convention-des-entreprises-pour-le-climat-monde-academique/index.html"
+to = "/fr/agenda/2026/convention-des-entreprises-pour-le-climat-monde-academique/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/eric-gressier/index.html"
@@ -231,6 +243,10 @@ from = "/en/projects/programs/thema/communs-et-transition/index.html"
 to = "/en/projects/programs/communs-et-transition/"
 
 [[redirects]]
+from = "/fr/evenements/2026/04/index.html"
+to = "/fr/agenda/2026/04/"
+
+[[redirects]]
 from = "/fr/formation/offre-de-formation/categories/organisations/index.html"
 to = "/fr/formation/offre-formation/categories/organisations/"
 
@@ -287,8 +303,16 @@ from = "/en/train-teachers-to-teach-teds-issues/index.html"
 to = "/en/formation/train-teachers-to-teach-teds-issues/"
 
 [[redirects]]
+from = "/fr/evenements/2026/03/index.html"
+to = "/fr/agenda/2026/03/"
+
+[[redirects]]
 from = "/fr/equipe/julien-navarro/programs/index.html"
 to = "/fr/personnes/julien-navarro/programs/"
+
+[[redirects]]
+from = "/fr/evenements/2026/fresque-de-la-finance-au-campus-de-la-transition-1/index.html"
+to = "/fr/agenda/2026/fresque-de-la-finance-au-campus-de-la-transition-1/"
 
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2023-la-societe-ecologique-normes-et-relations/index.html"
@@ -488,7 +512,7 @@ to = "/fr/personnes/categories/recherche/chercheur-chercheuse/"
 
 [[redirects]]
 from = "/vivre-lexperience-du-campus/les-rencontres-de-forges/index.html"
-to = "/fr/evenements/"
+to = "/fr/agenda/"
 
 [[redirects]]
 from = "/fr/sejour-recherche/index.html"
@@ -655,6 +679,10 @@ from = "/fr/recherche/publications-scientifiques/2011-in-search-of-an-alternativ
 to = "/fr/publications-scientifiques/2011-in-search-of-an-alternative-to-shareholder-value-maximization-1/"
 
 [[redirects]]
+from = "/fr/evenements/2026/07/index.html"
+to = "/fr/agenda/2026/07/"
+
+[[redirects]]
 from = "/en/2026/rapport-campus-de-la-transition-cy-20230522pdf/index.html"
 to = "/en/files/2026/rapport-campus-de-la-transition-cy-20230522pdf/"
 
@@ -735,6 +763,10 @@ from = "/fr/la-recherche/publications-scientifiques/2024-not-so-weak-after-all-i
 to = "/fr/recherche/publications-hal/2024-not-so-weak-after-all-institutional-and-partisan-sources-of-parliamentary-resilience-in-france-and-f/"
 
 [[redirects]]
+from = "/fr/evenements/2025/index.html"
+to = "/fr/agenda/2025/"
+
+[[redirects]]
 from = "/fr/publications/2023-pedagogy-of-the-anthropocene-epoch-for-a-great-transition/index.html"
 to = "/fr/publications-scientifiques/2023-pedagogy-of-the-anthropocene-epoch-for-a-great-transition/"
 
@@ -804,7 +836,7 @@ to = "/fr/publications-scientifiques/2023-educational-contextualization-how-does
 
 [[redirects]]
 from = "/fr/evenements/formation/index.html"
-to = "/fr/evenements/piliers/formation/"
+to = "/fr/agenda/piliers/formation/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2019-the-europeanization-of-parliamentary-attention-in-and-out-of-the-european-union-france-spain-the-net/index.html"
@@ -884,7 +916,7 @@ to = "/fr/recherche/projets-de-recherche/rci-eco-lieu/"
 
 [[redirects]]
 from = "/fr/agenda/recherche/index.html"
-to = "/fr/evenements/piliers/recherche/"
+to = "/fr/agenda/piliers/recherche/"
 
 [[redirects]]
 from = "/fr/projets/eco-lieu/atelier-des-6-portes/index.html"
@@ -893,6 +925,10 @@ to = "/fr/publications/offre-de-formation/atelier-des-6-portes/"
 [[redirects]]
 from = "/fr/recherche/publications-hal/2011-is-the-veil-of-ignorance-transparent-1/index.html"
 to = "/fr/publications-scientifiques/2011-is-the-veil-of-ignorance-transparent-1/"
+
+[[redirects]]
+from = "/fr/evenements/2026/05/index.html"
+to = "/fr/agenda/2026/05/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2009-parlement-europeen-deficit-mediatique-deficit-democratique/index.html"
@@ -917,10 +953,6 @@ to = "/fr/publications-scientifiques/2023-introduction-14/"
 [[redirects]]
 from = "/fr/formations/offre-de-formation/atelier-des-6-portes/index.html"
 to = "/fr/formation/offre-formation/atelier-des-6-portes/"
-
-[[redirects]]
-from = "/fr/agenda/archives/index.html"
-to = "/fr/evenements/archives/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2023-levers-to-operate-in-order-to-practice-a-transition-pedagogy/index.html"
@@ -976,7 +1008,7 @@ to = "/fr/publications/offre-de-formation/habitat-et-immobilier/"
 
 [[redirects]]
 from = "/fr/evenements/2025/journees-decouverte-2-2-1/index.html"
-to = "/fr/evenements/2025/quest-ce-que-la-transition-juste/"
+to = "/fr/agenda/2025/quest-ce-que-la-transition-juste/"
 
 [[redirects]]
 from = "/fr/2020-introduction-au-dossier-entreprise-et-commun/index.html"
@@ -988,7 +1020,7 @@ to = "/fr/recherche/publications-hal/2022-who-cares-for-young-people-an-analysis
 
 [[redirects]]
 from = "/fr/evenements/eco-lieu/index.html"
-to = "/fr/evenements/piliers/eco-lieu/"
+to = "/fr/agenda/piliers/eco-lieu/"
 
 [[redirects]]
 from = "/fr/publications/2018-the-spitzenkandidaten-system-democratic-innovation-or-window-dressing/index.html"
@@ -1216,7 +1248,7 @@ to = "/fr/personnes/categories/recherche/"
 
 [[redirects]]
 from = "/fr/evenements/2025/journee-decouverte-de-juin/index.html"
-to = "/fr/evenements/2025/journee-decouverte-de-juin-2025/"
+to = "/fr/agenda/2025/journee-decouverte-de-juin-2025/"
 
 [[redirects]]
 from = "/fr/projet-global/equipe/categories/association/lequipe-operationnelle/pole-recherche/index.html"
@@ -1479,6 +1511,14 @@ from = "/fr/projets/offre-de-formation/thema/biodiversite-et-transition/index.ht
 to = "/fr/publications/offre-de-formation/biodiversite-et-transition/"
 
 [[redirects]]
+from = "/fr/evenements/2026/06/index.html"
+to = "/fr/agenda/2026/06/"
+
+[[redirects]]
+from = "/fr/evenements/2025/10/index.html"
+to = "/fr/agenda/2025/10/"
+
+[[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2010-como-reformar-el-capitalismo/index.html"
 to = "/fr/publications-scientifiques/2010-como-reformar-el-capitalismo/"
 
@@ -1515,6 +1555,10 @@ from = "/fr/publications-scientifiques/2021-good-news-after-all-reactions-to-bre
 to = "/fr/recherche/publications-hal/2021-good-news-after-all-reactions-to-brexit-in-national-parliaments/"
 
 [[redirects]]
+from = "/fr/evenements/2025/08/index.html"
+to = "/fr/agenda/2025/08/"
+
+[[redirects]]
 from = "/fr/2023-a-few-avenues-to-support-the-actors-concerned-in-the-transformation-of-higher-education/index.html"
 to = "/fr/publications-scientifiques/2023-a-few-avenues-to-support-the-actors-concerned-in-the-transformation-of-higher-education/"
 
@@ -1537,6 +1581,10 @@ to = "/fr/recherche/publications-hal/2018-elections-et-parlementaires/"
 [[redirects]]
 from = "/fr/publications-hal/2012-relational-capability-a-multidimensional-approach-1/index.html"
 to = "/fr/publications-scientifiques/2012-relational-capability-a-multidimensional-approach-1/"
+
+[[redirects]]
+from = "/fr/evenements/2026/inet/index.html"
+to = "/fr/agenda/2026/inet/"
 
 [[redirects]]
 from = "/fr/publications-hal/2021-quelle-transition-enseigner/index.html"
@@ -1711,6 +1759,10 @@ from = "/accompagnement-de-cy-cergy-paris-universite/index.html"
 to = "/fr/formation/conseil-en-formation/accompagnement-de-cy-cergy-paris-universite/"
 
 [[redirects]]
+from = "/fr/evenements/2025/05/index.html"
+to = "/fr/agenda/2025/05/"
+
+[[redirects]]
 from = "/fr/2009-20-propositions-pour-reformer-le-capitalisme/index.html"
 to = "/fr/publications-scientifiques/2009-20-propositions-pour-reformer-le-capitalisme/"
 
@@ -1721,6 +1773,14 @@ to = "/fr/personnes/florence-drouet/"
 [[redirects]]
 from = "/fr/productions/offre-de-formation/atelier-des-4-horizons/index.html"
 to = "/fr/publications/offre-de-formation/atelier-des-4-horizons/"
+
+[[redirects]]
+from = "/fr/evenements/2025/09/index.html"
+to = "/fr/agenda/2025/09/"
+
+[[redirects]]
+from = "/fr/evenements/2026/formation-humanisme-et-politique-les-26-27-28-mars/index.html"
+to = "/fr/agenda/2026/formation-humanisme-et-politique-les-26-27-28-mars/"
 
 [[redirects]]
 from = "/fr/2013-relational-capability-a-multidimensional-approach/index.html"
@@ -2019,12 +2079,20 @@ from = "/fr/la-recherche/publications-scientifiques/2008-parliaments-and-parliam
 to = "/fr/recherche/publications-hal/2008-parliaments-and-parliamentarians-in-regional-integrations/"
 
 [[redirects]]
+from = "/fr/evenements/2026/09/index.html"
+to = "/fr/agenda/2026/09/"
+
+[[redirects]]
 from = "/fr/publications/2017-democratiser-la-selection-des-candidats-dans-les-partis-politiques-un-effet-de-trompe-l-oeil/index.html"
 to = "/fr/recherche/publications-hal/2017-democratiser-la-selection-des-candidats-dans-les-partis-politiques-un-effet-de-trompe-l-oeil/"
 
 [[redirects]]
 from = "/fr/productions/type/publication-1/petit-manuel-de-la-grand-transition/index.html"
 to = "/fr/publications/petits-manuels-de-la-grande-transition/"
+
+[[redirects]]
+from = "/fr/evenements/index.html"
+to = "/fr/agenda/"
 
 [[redirects]]
 from = "/en/programs/thema/numerique-et-transition/index.html"
@@ -2037,6 +2105,10 @@ to = "/en/more-informations/projet/"
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2007-comment-le-parlement-europeen-socialise-t-il-les-deputes-europeens/index.html"
 to = "/fr/recherche/publications-hal/2007-comment-le-parlement-europeen-socialise-t-il-les-deputes-europeens/"
+
+[[redirects]]
+from = "/fr/evenements/piliers/index.html"
+to = "/fr/agenda/piliers/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2009-questions-in-the-european-parliament-what-for/index.html"
@@ -2199,6 +2271,10 @@ from = "/fr/publications/2019-la-representation-politique-de-j-p-daloz-paris-arm
 to = "/fr/recherche/publications-hal/2019-la-representation-politique-de-j-p-daloz-paris-armand-colin-2017/"
 
 [[redirects]]
+from = "/fr/evenements/2025/06/index.html"
+to = "/fr/agenda/2025/06/"
+
+[[redirects]]
 from = "/fr/2023-levers-to-operate-in-order-to-practice-a-transition-pedagogy/index.html"
 to = "/fr/publications-scientifiques/2023-levers-to-operate-in-order-to-practice-a-transition-pedagogy/"
 
@@ -2233,6 +2309,10 @@ to = "/fr/formation/offre-formation/animer-latelier-des-6-portes-1/"
 [[redirects]]
 from = "/fr/equipe/categories/pole/domaine/index.html"
 to = "/fr/personnes/categories/pole/domaine/"
+
+[[redirects]]
+from = "/fr/evenements/2026/journee-decouverte-de-septembre/index.html"
+to = "/fr/agenda/2026/journee-decouverte-de-septembre/"
 
 [[redirects]]
 from = "/fr/equipe/timothee-vernier/actualites/index.html"
@@ -2291,6 +2371,10 @@ from = "/en/programs/thema/biodiversite-et-transition/index.html"
 to = "/en/programs/biodiversite-et-transition/"
 
 [[redirects]]
+from = "/fr/evenements/2026/fresque-de-la-finance-au-campus-de-la-transition/index.html"
+to = "/fr/agenda/2026/fresque-de-la-finance-au-campus-de-la-transition/"
+
+[[redirects]]
 from = "/fr/equipe/matthieu-vergnol/index.html"
 to = "/fr/personnes/matthieu-vergnol/"
 
@@ -2305,6 +2389,10 @@ to = "/fr/publications/2025-manuel-ingenieur/"
 [[redirects]]
 from = "/en/les-formations/diplomas/index.html"
 to = "/en/diplomas/"
+
+[[redirects]]
+from = "/fr/evenements/2026/02/index.html"
+to = "/fr/agenda/2026/02/"
 
 [[redirects]]
 from = "/fr/recherche/publications-hal/2020-manuel-de-la-grande-transition-former-pour-transformer/index.html"
@@ -2339,6 +2427,10 @@ from = "/fr/publications-scientifiques/2020-voters-knowledge-of-their-representa
 to = "/fr/recherche/publications-hal/2020-voters-knowledge-of-their-representatives-the-direct-and-conditioned-effects-of-parliamentary-work/"
 
 [[redirects]]
+from = "/fr/evenements/2025/01/index.html"
+to = "/fr/agenda/2025/01/"
+
+[[redirects]]
 from = "/fr/equipe/veronique-male/index.html"
 to = "/fr/personnes/veronique-male/"
 
@@ -2360,7 +2452,7 @@ to = "/fr/publications-scientifiques/2010-como-reformar-el-capitalismo/"
 
 [[redirects]]
 from = "/fr/agenda/eco-lieu/index.html"
-to = "/fr/evenements/offre-de-formation/"
+to = "/fr/agenda/offre-de-formation/"
 
 [[redirects]]
 from = "/fr/equipe/bruno-boyer/index.html"
@@ -2528,7 +2620,7 @@ to = "/fr/publications-scientifiques/2023-educational-contextualization-how-does
 
 [[redirects]]
 from = "/fr/agenda/eco-lieu-1/index.html"
-to = "/fr/evenements/piliers/eco-lieu/"
+to = "/fr/agenda/piliers/eco-lieu/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2021-crise-ecologique-l-education-permet-de-changer-le-monde/index.html"
@@ -2595,6 +2687,14 @@ from = "/fr/publications-scientifiques/2008-the-pan-african-parliament-a-benchma
 to = "/fr/recherche/publications-hal/2008-the-pan-african-parliament-a-benchmark-for-regional-integration-in-africa/"
 
 [[redirects]]
+from = "/fr/evenements/type-devenement/index.html"
+to = "/fr/agenda/type-devenement/"
+
+[[redirects]]
+from = "/fr/evenements/2025/07/index.html"
+to = "/fr/agenda/2025/07/"
+
+[[redirects]]
 from = "/fr/formations/humanisme-et-politique/index.html"
 to = "/fr/formation/offre-formation/humanisme-et-politique/"
 
@@ -2647,6 +2747,10 @@ from = "/fr/recherche/publications/publications-scientifiques/2019-the-europeani
 to = "/fr/recherche/publications-hal/2019-the-europeanization-of-parliamentary-attention-in-and-out-of-the-european-union-france-spain-the-net/"
 
 [[redirects]]
+from = "/fr/evenements/2025/02/index.html"
+to = "/fr/agenda/2025/02/"
+
+[[redirects]]
 from = "/fr/formations/diplomes/diplome-universitaire/index.html"
 to = "/fr/diplomes/diplome-universitaire/"
 
@@ -2665,6 +2769,10 @@ to = "/fr/personnes/catherine-fevrier/"
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2020-voters-knowledge-of-their-representatives-the-direct-and-conditioned-effects-of-parliamentary-work/index.html"
 to = "/fr/recherche/publications-hal/2020-voters-knowledge-of-their-representatives-the-direct-and-conditioned-effects-of-parliamentary-work/"
+
+[[redirects]]
+from = "/fr/evenements/2025/12/index.html"
+to = "/fr/agenda/2025/12/"
 
 [[redirects]]
 from = "/fr/a-propos/pedagogie/index.html"
@@ -2705,6 +2813,10 @@ to = "/fr/recherche/publications-hal/2010-the-europeanisation-of-french-politics
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2018-elections-et-parlementaires/index.html"
 to = "/fr/recherche/publications-hal/2018-elections-et-parlementaires/"
+
+[[redirects]]
+from = "/fr/evenements/2026/deep-time-walk/index.html"
+to = "/fr/agenda/2026/deep-time-walk/"
 
 [[redirects]]
 from = "/fr/2023-educate-for-the-transition-by-connecting-head-heart-body-an-educational-vision-for-the-anthropocene/index.html"
@@ -2757,6 +2869,10 @@ to = "/fr/recherche/publications-hal/2008-the-pan-african-parliament-a-benchmark
 [[redirects]]
 from = "/fr/2011-measuring-the-contribution-of-extractive-industries-to-local-development-the-case-of-oil-companies-i-1/index.html"
 to = "/fr/publications-scientifiques/2011-measuring-the-contribution-of-extractive-industries-to-local-development-the-case-of-oil-companies-i-1/"
+
+[[redirects]]
+from = "/fr/evenements/offre-de-formation/humanisme-et-politique/index.html"
+to = "/fr/agenda/offre-de-formation/humanisme-et-politique/"
 
 [[redirects]]
 from = "/fr/publications-1/2022-transformation-campus/index.html"
@@ -2839,6 +2955,10 @@ from = "/fr/recherche/publications/publications-scientifiques/2024-from-knowledg
 to = "/fr/publications-scientifiques/2024-from-knowledge-to-skills-training-for-transition-jobs-interview-with-alain-grandjean/"
 
 [[redirects]]
+from = "/fr/evenements/archives/index.html"
+to = "/fr/agenda/archives/"
+
+[[redirects]]
 from = "/fr/a-propos/equipe/lea-eynaud/programs/index.html"
 to = ""
 
@@ -2871,8 +2991,16 @@ from = "/le-conseil-academique/conseil-academique-du-5-6-juillet-2019/index.html
 to = "/fr/recherche/seminaire-academique/"
 
 [[redirects]]
+from = "/fr/evenements/2026/10/index.html"
+to = "/fr/agenda/2026/10/"
+
+[[redirects]]
 from = "/fr/formations/conseil-academique/index.html"
 to = "/fr/recherche/seminaire-academique/"
+
+[[redirects]]
+from = "/fr/evenements/2025/03/index.html"
+to = "/fr/agenda/2025/03/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2012-mesurer-l-efficacite-des-deputes-au-sein-du-parlement-francais/index.html"
@@ -3091,12 +3219,24 @@ from = "/fr/a-propos/equipe/meven-tourbot/programs/index.html"
 to = ""
 
 [[redirects]]
+from = "/fr/evenements/2026/le-campus-a-lheure-dete/index.html"
+to = "/fr/agenda/2026/le-campus-a-lheure-dete/"
+
+[[redirects]]
 from = "/fr/les-formations/index.html"
 to = "/fr/formation/"
 
 [[redirects]]
+from = "/fr/evenements/2025/lingenieur-du-xxie-siecle-de-la-theorie-a-la-pratique/index.html"
+to = "/fr/agenda/2025/lingenieur-du-xxie-siecle-de-la-theorie-a-la-pratique/"
+
+[[redirects]]
 from = "/fr/2023-some-practical-tools-and-methods-to-carry-out-transition-pedagogy-in-higher-education-institutions/index.html"
 to = "/fr/publications-scientifiques/2023-some-practical-tools-and-methods-to-carry-out-transition-pedagogy-in-higher-education-institutions/"
+
+[[redirects]]
+from = "/fr/evenements/2025/04/index.html"
+to = "/fr/agenda/2025/04/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2010-is-the-veil-of-ignorance-transparent-2/index.html"
@@ -3125,6 +3265,10 @@ to = "/fr/personnes/cecile-renouard/publications/"
 [[redirects]]
 from = "/en/a-propos/strategy/index.html"
 to = "/en/more-informations/strategy/"
+
+[[redirects]]
+from = "/fr/evenements/2026/champus-2026/index.html"
+to = "/fr/agenda/2026/champus-2026/"
 
 [[redirects]]
 from = "/le-projet/lequipe/tom-renault/index.html"
@@ -3359,6 +3503,10 @@ from = "/en/2026/rapportmoral-2024pdf/index.html"
 to = "/en/files/2026/rapportmoral-2024pdf/"
 
 [[redirects]]
+from = "/fr/evenements/type-devenement/ouvert-au-public/index.html"
+to = "/fr/agenda/type-devenement/ouvert-au-public/"
+
+[[redirects]]
 from = "/fr/recherche/publications-scientifiques/2008-le-cumul-des-mandats-au-parlement-europeen-causes-nationales-consequences-europeennes/index.html"
 to = "/fr/recherche/publications-hal/2008-le-cumul-des-mandats-au-parlement-europeen-causes-nationales-consequences-europeennes/"
 
@@ -3373,6 +3521,10 @@ to = "/fr/offre-de-formation/communs-et-transition/"
 [[redirects]]
 from = "/fr/equipe/romain-aubois/index.html"
 to = "/fr/personnes/arthur-mechin-1/"
+
+[[redirects]]
+from = "/fr/evenements/piliers/recherche/index.html"
+to = "/fr/agenda/piliers/recherche/"
 
 [[redirects]]
 from = "/fr/publications/2008-i-see-lettre-d-information-de-la-section-d-etudes-europeennes-1/index.html"
@@ -3527,6 +3679,10 @@ from = "/fr/2009-relational-capability-an-indicator-of-collective-empowerment/in
 to = "/fr/publications-scientifiques/2009-relational-capability-an-indicator-of-collective-empowerment/"
 
 [[redirects]]
+from = "/fr/evenements/rencontres-de-forges/index.html"
+to = "/fr/agenda/rencontres-de-forges/"
+
+[[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/christophe-goupil/index.html"
 to = "/fr/personnes/christophe-goupil/"
 
@@ -3551,6 +3707,10 @@ from = "/fr/publications/2009-politicisation-representation-and-specialisation-a
 to = "/fr/recherche/publications-hal/2009-politicisation-representation-and-specialisation-an-analysis-of-questions-in-the-european-parliament/"
 
 [[redirects]]
+from = "/fr/evenements/2026/01/index.html"
+to = "/fr/agenda/2026/01/"
+
+[[redirects]]
 from = "/fr/actualites/formation/thema/habitat-et-immobilier/index.html"
 to = "/fr/actualites/formation/habitat-et-immobilier/"
 
@@ -3561,6 +3721,10 @@ to = "/fr/publications-scientifiques/2020-manuel-de-la-grande-transition-former-
 [[redirects]]
 from = "/fr/recherche/publications-hal/2014-relational-capability-as-a-measure-of-development/index.html"
 to = "/fr/publications-scientifiques/2014-relational-capability-as-a-measure-of-development/"
+
+[[redirects]]
+from = "/fr/evenements/2026/du-ecologie-integrale-des-falcultes-loyola/index.html"
+to = "/fr/agenda/2026/du-ecologie-integrale-des-falcultes-loyola/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2022-vers-une-autre-gestion/index.html"
@@ -3713,6 +3877,10 @@ to = "/fr/personnes/categories/pole/formation-1/"
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2012-relational-capability-a-multidimensional-approach-1/index.html"
 to = "/fr/publications-scientifiques/2012-relational-capability-a-multidimensional-approach-1/"
+
+[[redirects]]
+from = "/fr/evenements/2026/et-si-vous-suiviez-un-cours-dhumanisme-1/index.html"
+to = "/fr/agenda/2026/et-si-vous-suiviez-un-cours-dhumanisme-1/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/categories/collectif-fortes/coordinateur-coordinatrice/index.html"
@@ -3879,8 +4047,16 @@ from = "/fr/recherche/publications-scientifiques/2022-banking-on-meps-the-strate
 to = "/fr/recherche/publications-hal/2022-banking-on-meps-the-strategic-and-partisan-motivations-for-the-parliamentary-scrutiny-of-the-europea/"
 
 [[redirects]]
+from = "/fr/evenements/2026/11/index.html"
+to = "/fr/agenda/2026/11/"
+
+[[redirects]]
 from = "/fr/publications/2008-parliamentary-roles-and-the-problem-of-rationality-an-interpretative-sociology-of-roles-in-the-europ/index.html"
 to = "/fr/recherche/publications-hal/2008-parliamentary-roles-and-the-problem-of-rationality-an-interpretative-sociology-of-roles-in-the-europ/"
+
+[[redirects]]
+from = "/fr/evenements/2025/quest-ce-que-la-transition-juste/index.html"
+to = "/fr/agenda/2025/quest-ce-que-la-transition-juste/"
 
 [[redirects]]
 from = "/fr/equipe/categories/formation/enseignante/index.html"
@@ -3955,10 +4131,6 @@ from = "/fr/la-recherche/publications-scientifiques/2010-cumul-des-mandats-et-le
 to = "/fr/recherche/publications-hal/2010-cumul-des-mandats-et-leadership-politique-une-comparaison-franco-allemande/"
 
 [[redirects]]
-from = "/fr/agenda/index.html"
-to = "/fr/evenements/"
-
-[[redirects]]
 from = "/fr/equipe/categories/association/lequipe-operationnelle/index.html"
 to = "/fr/personnes/categories/pole/"
 
@@ -4001,6 +4173,10 @@ to = "/fr/publications-scientifiques/2010-is-the-veil-of-ignorance-transparent-2
 [[redirects]]
 from = "/fr/equipe/categories/collectif-fortes/index.html"
 to = "/fr/personnes/categories/collectif-fortes/"
+
+[[redirects]]
+from = "/fr/evenements/2026/journees-decouverte-2-1-1-1/index.html"
+to = "/fr/agenda/2026/journees-decouverte-2-1-1-1/"
 
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/benoit-halgan/programs/index.html"
@@ -4060,7 +4236,7 @@ to = "/fr/publications-1/2020-operation-chalheureuse/"
 
 [[redirects]]
 from = "/fr/agenda/formation/index.html"
-to = "/fr/evenements/piliers/eco-lieu/"
+to = "/fr/agenda/piliers/eco-lieu/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2021-good-news-after-all-reactions-to-brexit-in-national-parliaments/index.html"
@@ -4093,6 +4269,10 @@ to = "/fr/personnes/categories/collectif-fortes/"
 [[redirects]]
 from = "/fr/equipe/cecile-renouard/programs/index.html"
 to = "/fr/personnes/cecile-renouard/programs/"
+
+[[redirects]]
+from = "/fr/evenements/2026/12/index.html"
+to = "/fr/agenda/2026/12/"
 
 [[redirects]]
 from = "/en/research-stay/index.html"
@@ -4388,7 +4568,7 @@ to = "/fr/recherche/publications-hal/2009-les-roles-au-parlement-europeen-une-ty
 
 [[redirects]]
 from = "/fr/evenements/2025/rencontres-forges-1/index.html"
-to = "/fr/evenements/2025/lingenieur-du-xxie-siecle-de-la-theorie-a-la-pratique/"
+to = "/fr/agenda/2025/lingenieur-du-xxie-siecle-de-la-theorie-a-la-pratique/"
 
 [[redirects]]
 from = "/en/2026/diag-decarbonaction-synthese-communicante-campus-de-la-transition-1-4pdf/index.html"
@@ -4417,6 +4597,10 @@ to = "/fr/publications-scientifiques/2015-environnement-et-inegalites-sociales/"
 [[redirects]]
 from = "/fr/productions/offre-de-formation/debuter-son-potager-en-permaculture/index.html"
 to = "/fr/publications/offre-de-formation/debuter-son-potager-en-permaculture/"
+
+[[redirects]]
+from = "/fr/evenements/2025/11/index.html"
+to = "/fr/agenda/2025/11/"
 
 [[redirects]]
 from = "/fr/projets/recherche/publication/petit-manuel-de-la-grand-transition/index.html"
@@ -4489,6 +4673,10 @@ to = "/fr/publications/2023-incarner-lecologie/"
 [[redirects]]
 from = "/fr/recherche/publications-hal/2023-taking-into-account-cognitive-biases-to-implement-an-adapted-transition-pedagogy-interview-with-thib/index.html"
 to = "/fr/publications-scientifiques/2023-taking-into-account-cognitive-biases-to-implement-an-adapted-transition-pedagogy-interview-with-thib/"
+
+[[redirects]]
+from = "/fr/evenements/offre-de-formation/index.html"
+to = "/fr/agenda/offre-de-formation/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/jennie-stephens/index.html"
@@ -4564,7 +4752,7 @@ to = "/fr/personnes/categories/pole/"
 
 [[redirects]]
 from = "/fr/evenements/2025/journees-decouverte/index.html"
-to = "/fr/evenements/2025/journee-decouverte-de-mai-2025/"
+to = "/fr/agenda/2025/journee-decouverte-de-mai-2025/"
 
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/luigi-rossi/index.html"
@@ -4731,6 +4919,10 @@ from = "/fr/la-recherche/publications-scientifiques/2021-les-enseignants-cherche
 to = "/fr/publications-scientifiques/2021-les-enseignants-chercheurs-face-a-des-disciplines-en-transition/"
 
 [[redirects]]
+from = "/fr/evenements/piliers/eco-lieu/index.html"
+to = "/fr/agenda/piliers/eco-lieu/"
+
+[[redirects]]
 from = "/fr/formation/offre-de-formation/humanisme-et-politique/index.html"
 to = "/fr/formation/offre-formation/humanisme-et-politique/"
 
@@ -4749,6 +4941,10 @@ to = "/fr/publications-scientifiques/2010-is-the-veil-of-ignorance-transparent-2
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2022-holding-the-unaccountable-to-account-the-strategic-and-partisan-motivations-for-the-european-parliam/index.html"
 to = "/fr/recherche/publications-hal/2022-holding-the-unaccountable-to-account-the-strategic-and-partisan-motivations-for-the-european-parliam/"
+
+[[redirects]]
+from = "/fr/evenements/2026/journees-decouverte-2-1/index.html"
+to = "/fr/agenda/2026/journees-decouverte-2-1/"
 
 [[redirects]]
 from = "/en/agenda/programs/thema/entreprise-et-transition/index.html"
@@ -4784,7 +4980,7 @@ to = "/fr/publications-scientifiques/2024-what-transition-to-teach-interview-wit
 
 [[redirects]]
 from = "/fr/evenements/2025/journees-decouverte-2/index.html"
-to = "/fr/evenements/2025/journee-decouverte-de-juin-2025/"
+to = "/fr/agenda/2025/journee-decouverte-de-juin-2025/"
 
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/categories/collectif/index.html"
@@ -4812,7 +5008,7 @@ to = "/fr/recherche/publications-hal/2010-the-europeanisation-of-french-politics
 
 [[redirects]]
 from = "/fr/evenements/2026/rencontres-forges-2/index.html"
-to = "/fr/evenements/2026/securite-sociale-de-l-alimentation/"
+to = "/fr/agenda/2026/securite-sociale-de-l-alimentation/"
 
 [[redirects]]
 from = "/fr/2014-relational-capability-as-a-measure-of-development/index.html"
@@ -4959,10 +5155,6 @@ from = "/fr/recherche/publications-scientifiques/2011-measuring-the-contribution
 to = "/fr/publications-scientifiques/2011-measuring-the-contribution-of-extractive-industries-to-local-development-the-case-of-oil-companies-i/"
 
 [[redirects]]
-from = "/fr/agenda/offre-de-formation/humanisme-et-politique/index.html"
-to = "/fr/evenements/offre-de-formation/humanisme-et-politique/"
-
-[[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2011-in-search-of-an-alternative-to-shareholder-value-maximization-1/index.html"
 to = "/fr/publications-scientifiques/2011-in-search-of-an-alternative-to-shareholder-value-maximization-1/"
 
@@ -4987,6 +5179,14 @@ from = "/fr/la-recherche/publications-scientifiques/2022-vers-une-autre-gestion/
 to = "/fr/publications-scientifiques/2022-vers-une-autre-gestion/"
 
 [[redirects]]
+from = "/fr/evenements/2026/index.html"
+to = "/fr/agenda/2026/"
+
+[[redirects]]
+from = "/fr/evenements/2026/journees-decouverte-2-1-1/index.html"
+to = "/fr/agenda/2026/journees-decouverte-2-1-1/"
+
+[[redirects]]
 from = "/fr/productions/offre-de-formation/humanisme-et-politique/index.html"
 to = "/fr/publications/offre-de-formation/humanisme-et-politique/"
 
@@ -5005,10 +5205,6 @@ to = "/fr/contact/"
 [[redirects]]
 from = "/fr/productions/offre-de-formation/t-campus/index.html"
 to = "/fr/publications/offre-de-formation/t-campus/"
-
-[[redirects]]
-from = "/fr/agenda/offre-de-formation/index.html"
-to = "/fr/evenements/offre-de-formation/"
 
 [[redirects]]
 from = "/fr/formations/offre-de-formation/categories/etablissements-denseignement-superieur/index.html"
@@ -5049,6 +5245,10 @@ to = "/fr/personnes/alexis-seng/"
 [[redirects]]
 from = "/fr/publications-scientifiques/2023-preface-7/index.html"
 to = "/fr/recherche/publications-hal/2023-preface-7/"
+
+[[redirects]]
+from = "/fr/evenements/piliers/formation/index.html"
+to = "/fr/agenda/piliers/formation/"
 
 [[redirects]]
 from = "/fr/actualites/2025-04-29-nouveau-site-web/index.html"
@@ -5240,7 +5440,7 @@ to = "/fr/qui-sommes-nous/"
 
 [[redirects]]
 from = "/fr/evenements/2025/rencontres-forges/index.html"
-to = "/fr/evenements/2025/quest-ce-que-la-transition-juste/"
+to = "/fr/agenda/2025/quest-ce-que-la-transition-juste/"
 
 [[redirects]]
 from = "/fr/publications/2009-le-travail-dans-les-assemblees-du-parlement-un-investissement-payant-une-application-de-la-theorie-d/index.html"
@@ -5460,7 +5660,7 @@ to = "/fr/publications/offre-de-formation/numerique-et-transition/"
 
 [[redirects]]
 from = "/fr/evenements/recherche/index.html"
-to = "/fr/evenements/piliers/recherche/"
+to = "/fr/agenda/piliers/recherche/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2023-pedagogy-for-a-great-transition-a-novel-approach-of-higher-education/index.html"
@@ -5481,6 +5681,10 @@ to = "/fr/recherche/publications-hal/2009-que-font-les-deputes-europeens-modes-d
 [[redirects]]
 from = "/fr/publications/2023-beyond-rupture-interstice-and-reform-searching-for-nuance-in-the-portrayal-of-engagement-for-social/index.html"
 to = "/fr/publications-scientifiques/2023-beyond-rupture-interstice-and-reform-searching-for-nuance-in-the-portrayal-of-engagement-for-social/"
+
+[[redirects]]
+from = "/fr/evenements/2025/journees-decouverte-2-2/index.html"
+to = "/fr/agenda/2025/journees-decouverte-2-2/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2013-le-cumul-des-mandats-en-france-causes-et-consequences/index.html"
