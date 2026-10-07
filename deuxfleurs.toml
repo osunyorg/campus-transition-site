@@ -300,7 +300,7 @@ to = "/fr/contact/venir-au-campus/"
 
 [[redirects]]
 from = "/fr/collectif-ecodev/index.html"
-to = "/fr/recherche/programmes-de-recherche/collectif-ecodev/"
+to = "/fr/recherche/collectif-ecodev/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/anaelle-tartera/programs/index.html"
@@ -843,6 +843,10 @@ from = "/fr/formations/offre-de-formation/accompagnement-des-etablissement-desr/
 to = "/fr/formation/offre-formation/accompagnement-des-etablissement-desr/"
 
 [[redirects]]
+from = "/fr/recherche/programmes-de-recherche/rci-eco-lieu/index.html"
+to = "/fr/recherche/projets-de-recherche/rci-eco-lieu/"
+
+[[redirects]]
 from = "/fr/agenda/recherche/index.html"
 to = "/fr/evenements/piliers/recherche/"
 
@@ -924,7 +928,7 @@ to = "/fr/publications/petits-manuels-de-la-grande-transition/"
 
 [[redirects]]
 from = "/fr/recherche/rci-tiers-lieu/index.html"
-to = "/fr/recherche/programmes-de-recherche/rci-tiers-lieu/"
+to = "/fr/recherche/projets-de-recherche/rci-tiers-lieu/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/clement-martel/programs/index.html"
@@ -1221,6 +1225,10 @@ to = "/fr/publications/offre-de-formation/biodiversite-et-transition/"
 [[redirects]]
 from = "/fr/projet-global/equipe/categories/association/lequipe-operationnelle/pole-formation/index.html"
 to = "/fr/personnes/categories/pole/formation-1/"
+
+[[redirects]]
+from = "/fr/recherche/living-lab/mesure-empreinte-carbone-campus/index.html"
+to = "/fr/recherche/projets-de-recherche/mesure-empreinte-carbone-campus/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2009-le-travail-dans-les-assemblees-du-parlement-un-investissement-payant-une-application-de-la-theorie-d/index.html"
@@ -1568,7 +1576,7 @@ to = "/fr/personnes/nathalie-frascaria-lacoste/"
 
 [[redirects]]
 from = "/fr/seminaire-ecodev/index.html"
-to = "/fr/recherche/programmes-de-recherche/collectif-ecodev/"
+to = "/fr/recherche/collectif-ecodev/"
 
 [[redirects]]
 from = "/fr/publications-hal/2023-educational-contextualization-how-does-higher-education-face-the-ecological-challenge/index.html"
@@ -2079,6 +2087,10 @@ from = "/fr/a-propos/organisation-et-gouvernance/categories/pole/recherche-1/ind
 to = "/fr/personnes/categories/pole/recherche-1/"
 
 [[redirects]]
+from = "/en/recherche/living-lab/chalheureusement-votre-2/index.html"
+to = "/en/recherche/chalheureusement-votre-2/"
+
+[[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/romain-aubois/actualites/index.html"
 to = "/fr/personnes/arthur-mechin-1/actualites/"
 
@@ -2184,7 +2196,7 @@ to = ""
 
 [[redirects]]
 from = "/fr/recherche/seminaire-ecodev/index.html"
-to = "/fr/recherche/programmes-de-recherche/collectif-ecodev/"
+to = "/fr/recherche/collectif-ecodev/"
 
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2022-report-addressed-to-the-european-parliament-and-the-commission-on-policy-recommendations-and-on-trea/index.html"
@@ -2285,6 +2297,10 @@ to = "/fr/recherche/publications-hal/2020-voters-knowledge-of-their-representati
 [[redirects]]
 from = "/fr/equipe/veronique-male/index.html"
 to = "/fr/personnes/veronique-male/"
+
+[[redirects]]
+from = "/fr/recherche/programmes-de-recherche/rci-tiers-lieu/index.html"
+to = "/fr/recherche/projets-de-recherche/rci-tiers-lieu/"
 
 [[redirects]]
 from = "/fr/productions/2024-manuel-de-la-grande-transition/index.html"
@@ -2719,6 +2735,10 @@ from = "/fr/la-recherche/publications-scientifiques/2018-elections-et-parlementa
 to = "/fr/recherche/publications-hal/2018-elections-et-parlementaires/"
 
 [[redirects]]
+from = "/fr/recherche/programmes-de-recherche/collectif-ecodev/index.html"
+to = "/fr/recherche/collectif-ecodev/"
+
+[[redirects]]
 from = "/en/recherche/publications/projects/index.html"
 to = "/en/projects/"
 
@@ -2959,6 +2979,10 @@ from = "/fr/recherche/publications-scientifiques/2012-facteur-12-pourquoi-il-fau
 to = "/fr/publications-scientifiques/2012-facteur-12-pourquoi-il-faut-plafonner-les-revenus/"
 
 [[redirects]]
+from = "/fr/recherche/living-lab/chalheureusement-votre-2/index.html"
+to = "/fr/recherche/projets-de-recherche/chalheureusement-votre-2/"
+
+[[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2009-a-quoi-revent-les-eurodeputes/index.html"
 to = "/fr/recherche/publications-hal/2009-a-quoi-revent-les-eurodeputes/"
 
@@ -2988,7 +3012,7 @@ to = "/fr/publications-scientifiques/2023-regards-indisciplines-des-shs/"
 
 [[redirects]]
 from = "/fr/recherche/recherche-action/mesure-empreinte-carbone-campus/index.html"
-to = "/fr/recherche/living-lab/mesure-empreinte-carbone-campus/"
+to = "/fr/recherche/projets-de-recherche/mesure-empreinte-carbone-campus/"
 
 [[redirects]]
 from = "/fr/formation/offre-de-formation/categories/etudiants/index.html"
@@ -3163,10 +3187,6 @@ from = "/fr/publications/2023-levers-to-operate-in-order-to-practice-a-transitio
 to = "/fr/publications-scientifiques/2023-levers-to-operate-in-order-to-practice-a-transition-pedagogy/"
 
 [[redirects]]
-from = "/fr/recherche/collectif-ecodev/index.html"
-to = "/fr/recherche/programmes-de-recherche/collectif-ecodev/"
-
-[[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2009-parlement-europeen-deficit-mediatique-deficit-democratique/index.html"
 to = "/fr/recherche/publications-hal/2009-parlement-europeen-deficit-mediatique-deficit-democratique/"
 
@@ -3272,7 +3292,7 @@ to = "/fr/publications/offre-de-formation/accompagnement-des-etablissement-d-esr
 
 [[redirects]]
 from = "/fr/recherche/rci-eco-lieu/index.html"
-to = "/fr/recherche/programmes-de-recherche/rci-eco-lieu/"
+to = "/fr/recherche/projets-de-recherche/rci-eco-lieu/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2021-les-enseignants-chercheurs-face-a-des-disciplines-en-transition/index.html"
@@ -4264,7 +4284,7 @@ to = "/fr/recherche/publications-hal/2009-i-see-lettre-d-information-de-la-secti
 
 [[redirects]]
 from = "/fr/recherche/recherche-action/chalheureusement-votre-2/index.html"
-to = "/fr/recherche/living-lab/chalheureusement-votre-2/"
+to = "/fr/recherche/projets-de-recherche/chalheureusement-votre-2/"
 
 [[redirects]]
 from = "/fr/publications/2011-in-search-of-an-alternative-to-shareholder-value-maximization/index.html"
@@ -4288,7 +4308,7 @@ to = "/fr/recherche/publications-hal/2021-a-disruptive-moment-parliaments-brexit
 
 [[redirects]]
 from = "/fr/recherche/recherche-action/la-sobriete/index.html"
-to = "/fr/recherche/living-lab/la-sobriete/"
+to = "/fr/recherche/projets-de-recherche/la-sobriete/"
 
 [[redirects]]
 from = "/fr/publications/2009-les-roles-au-parlement-europeen-une-typologie-des-pratiques-de-representation/index.html"
@@ -4641,6 +4661,10 @@ to = "/fr/publications-scientifiques/2021-les-enseignants-chercheurs-face-a-des-
 [[redirects]]
 from = "/fr/formation/offre-de-formation/humanisme-et-politique/index.html"
 to = "/fr/formation/offre-formation/humanisme-et-politique/"
+
+[[redirects]]
+from = "/fr/recherche/living-lab/la-sobriete/index.html"
+to = "/fr/recherche/projets-de-recherche/la-sobriete/"
 
 [[redirects]]
 from = "/en/posts/programs/thema/communs-et-transition/index.html"
@@ -5060,7 +5084,7 @@ to = "/fr/recherche/publications-hal/2024-do-too-many-elections-depress-particip
 
 [[redirects]]
 from = "/fr/formation/seminaire-ecodev/index.html"
-to = "/fr/recherche/programmes-de-recherche/collectif-ecodev/"
+to = "/fr/recherche/collectif-ecodev/"
 
 [[redirects]]
 from = "/fr/equipe/clemence-pichon/programs/index.html"
