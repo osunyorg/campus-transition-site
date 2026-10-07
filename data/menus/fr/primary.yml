@@ -9,53 +9,53 @@ items:
   children:
   - title: Qui sommes-nous ?
     slug: qui-sommes-nous
-    target: "/fr/a-propos/"
+    target: "/fr/qui-sommes-nous/"
     kind: page
     new_tab: false
     children:
     - title: Historique
       slug: historique
-      target: "/fr/a-propos/historique/"
+      target: "/fr/qui-sommes-nous/nos-racines/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/pages/a-propos/historique"
-      file: content/fr/pages/a-propos/historique/_index.html
+      path: "/pages/qui-sommes-nous/nos-racines"
+      file: content/fr/pages/qui-sommes-nous/nos-racines/_index.html
     - title: Organisation et gouvernance
       slug: organisation-et-gouvernance
-      target: "/fr/a-propos/organisation-et-gouvernance/"
+      target: "/fr/qui-sommes-nous/organisation-et-gouvernance/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/pages/a-propos/organisation-et-gouvernance"
-      file: content/fr/pages/a-propos/organisation-et-gouvernance/_index.html
+      path: "/pages/qui-sommes-nous/organisation-et-gouvernance"
+      file: content/fr/pages/qui-sommes-nous/organisation-et-gouvernance/_index.html
     - title: Communauté scientifique
       slug: communaute-scientifique
-      target: "/fr/a-propos/communaute-scientifique/"
+      target: "/fr/qui-sommes-nous/communaute-scientifique/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/pages/a-propos/communaute-scientifique"
-      file: content/fr/pages/a-propos/communaute-scientifique/_index.html
+      path: "/pages/qui-sommes-nous/communaute-scientifique"
+      file: content/fr/pages/qui-sommes-nous/communaute-scientifique/_index.html
     - title: Partenaires
       slug: partenaires
-      target: "/fr/a-propos/partenaires/"
+      target: "/fr/qui-sommes-nous/partenaires/"
       kind: page
       new_tab: false
       children: []
       descendants_targets: []
-      path: "/pages/a-propos/partenaires"
-      file: content/fr/pages/a-propos/partenaires/_index.html
+      path: "/pages/qui-sommes-nous/partenaires"
+      file: content/fr/pages/qui-sommes-nous/partenaires/_index.html
     descendants_targets:
-    - "/fr/a-propos/communaute-scientifique/"
-    - "/fr/a-propos/historique/"
-    - "/fr/a-propos/organisation-et-gouvernance/"
-    - "/fr/a-propos/partenaires/"
-    path: "/pages/a-propos"
-    file: content/fr/pages/a-propos/_index.html
+    - "/fr/qui-sommes-nous/communaute-scientifique/"
+    - "/fr/qui-sommes-nous/nos-racines/"
+    - "/fr/qui-sommes-nous/organisation-et-gouvernance/"
+    - "/fr/qui-sommes-nous/partenaires/"
+    path: "/pages/qui-sommes-nous"
+    file: content/fr/pages/qui-sommes-nous/_index.html
   - title: Contact
     slug: contact
     target: "/fr/contact/"
@@ -131,11 +131,6 @@ items:
     path: "/projects"
     file: content/fr/projects/_index.html
   descendants_targets:
-  - "/fr/a-propos/"
-  - "/fr/a-propos/communaute-scientifique/"
-  - "/fr/a-propos/historique/"
-  - "/fr/a-propos/organisation-et-gouvernance/"
-  - "/fr/a-propos/partenaires/"
   - "/fr/contact/"
   - "/fr/contact/sabonner-a-notre-newsletter/"
   - "/fr/contact/venir-au-campus/"
@@ -143,6 +138,11 @@ items:
   - "/fr/publications/"
   - "/fr/publications/2024-manuel-de-la-grande-transition/"
   - "/fr/publications/petits-manuels-de-la-grande-transition/"
+  - "/fr/qui-sommes-nous/"
+  - "/fr/qui-sommes-nous/communaute-scientifique/"
+  - "/fr/qui-sommes-nous/nos-racines/"
+  - "/fr/qui-sommes-nous/organisation-et-gouvernance/"
+  - "/fr/qui-sommes-nous/partenaires/"
 - title: Trois piliers
   slug: trois-piliers
   target: ''

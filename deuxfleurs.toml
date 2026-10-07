@@ -23,6 +23,10 @@ from = "/fr/la-recherche/publications-scientifiques/2023-pedagogy-for-a-great-tr
 to = "/fr/publications-scientifiques/2023-pedagogy-for-a-great-transition-a-novel-approach-of-higher-education/"
 
 [[redirects]]
+from = "/fr/a-propos/organisation-et-gouvernance/index.html"
+to = "/fr/qui-sommes-nous/organisation-et-gouvernance/"
+
+[[redirects]]
 from = "/fr/publications-1/2022-pedagogie-transition/index.html"
 to = "/fr/publications/2022-pedagogie-transition/"
 
@@ -32,7 +36,7 @@ to = "/fr/recherche/publications-hal/2021-report-on-alternative-institutional-op
 
 [[redirects]]
 from = "/fr/recherche/laboratoire/collectif-fortes/index.html"
-to = "/fr/a-propos/communaute-scientifique/collectif-fortes/"
+to = "/fr/qui-sommes-nous/communaute-scientifique/collectif-fortes/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2008-building-of-a-regional-parliamentary-assembly-in-an-international-context-the-creation-and-launching/index.html"
@@ -144,7 +148,7 @@ to = "/fr/personnes/categories/eco-lieu/habitant-habitante/"
 
 [[redirects]]
 from = "/fr/projet/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/recherche/publications-hal/2023-educate-for-the-transition-by-connecting-head-heart-body-an-educational-vision-for-the-anthropocene/index.html"
@@ -181,6 +185,14 @@ to = "/fr/nous-rejoindre/"
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2023-beyond-rupture-interstice-and-reform-searching-for-nuance-in-the-portrayal-of-engagement-for-social/index.html"
 to = "/fr/publications-scientifiques/2023-beyond-rupture-interstice-and-reform-searching-for-nuance-in-the-portrayal-of-engagement-for-social/"
+
+[[redirects]]
+from = "/fr/a-propos/index.html"
+to = "/fr/qui-sommes-nous/"
+
+[[redirects]]
+from = "/fr/qui-sommes-nous/historique/index.html"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/formation/offre-de-formation/categories/inscription-en-groupe/index.html"
@@ -419,6 +431,10 @@ from = "/fr/equipe/julien-navarro/index.html"
 to = "/fr/personnes/julien-navarro/"
 
 [[redirects]]
+from = "/fr/a-propos/partenaires/index.html"
+to = "/fr/qui-sommes-nous/partenaires/"
+
+[[redirects]]
 from = "/fr/recherche/publications-scientifiques/2009-i-see-lettre-d-information-de-la-section-d-etudes-europeennes-2/index.html"
 to = "/fr/recherche/publications-hal/2009-i-see-lettre-d-information-de-la-section-d-etudes-europeennes-2/"
 
@@ -568,7 +584,7 @@ to = "/fr/recherche/publications-hal/2019-il-n-y-a-pas-de-question-idiote-les-qu
 
 [[redirects]]
 from = "/fr/recherche/collectif-fortes/index.html"
-to = "/fr/a-propos/communaute-scientifique/collectif-fortes/"
+to = "/fr/qui-sommes-nous/communaute-scientifique/collectif-fortes/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2009-les-roles-au-parlement-europeen-une-typologie-des-pratiques-de-representation/index.html"
@@ -719,8 +735,16 @@ from = "/fr/publications/2023-pedagogy-of-the-anthropocene-epoch-for-a-great-tra
 to = "/fr/publications-scientifiques/2023-pedagogy-of-the-anthropocene-epoch-for-a-great-transition/"
 
 [[redirects]]
+from = "/fr/recherche/frise-recherche/index.html"
+to = "/fr/recherche/projets-de-recherche/frise-recherche/"
+
+[[redirects]]
 from = "/fr/recherche/publications-scientifiques/2008-the-pan-african-parliament-in-the-strategic-partnership-between-the-eu-and-africa-winner-or-loser/index.html"
 to = "/fr/recherche/publications-hal/2008-the-pan-african-parliament-in-the-strategic-partnership-between-the-eu-and-africa-winner-or-loser/"
+
+[[redirects]]
+from = "/fr/a-propos/historique/index.html"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2023-educational-contextualization-how-does-higher-education-face-the-ecological-challenge/index.html"
@@ -876,7 +900,7 @@ to = "/fr/publications-scientifiques/2021-crise-ecologique-l-education-permet-de
 
 [[redirects]]
 from = "/le-projet/index.html"
-to = "/fr/a-propos/"
+to = "/fr/qui-sommes-nous/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/categories/collectif/forjoies/index.html"
@@ -1863,6 +1887,10 @@ from = "/fr/recherche/publications/publications-scientifiques/2021-les-enseignan
 to = "/fr/publications-scientifiques/2021-les-enseignants-chercheurs-face-a-des-disciplines-en-transition/"
 
 [[redirects]]
+from = "/fr/a-propos/communaute-scientifique/collectif-eco-dev/index.html"
+to = "/fr/qui-sommes-nous/communaute-scientifique/collectif-eco-dev/"
+
+[[redirects]]
 from = "/fr/publications-scientifiques/2020-second-order-or-second-hand-the-2019-ep-election-in-france/index.html"
 to = "/fr/recherche/publications-hal/2020-second-order-or-second-hand-the-2019-ep-election-in-france/"
 
@@ -2072,7 +2100,7 @@ to = "/fr/personnes/categories/collectif/les-compagnons/"
 
 [[redirects]]
 from = "/fr/projet-global/qui-sommes-nous/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/productions/offre-de-formation/seminaire-de-recherche/index.html"
@@ -2300,7 +2328,7 @@ to = "/fr/personnes/categories/formation/"
 
 [[redirects]]
 from = "/fr/a-propos/nos-conseils-scientifiques/index.html"
-to = "/fr/a-propos/communaute-scientifique/"
+to = "/fr/qui-sommes-nous/communaute-scientifique/"
 
 [[redirects]]
 from = "/fr/recherche/publications-hal/2011-in-search-of-an-alternative-to-shareholder-value-maximization-1/index.html"
@@ -2344,7 +2372,7 @@ to = "/fr/recherche/publications-hal/2020-electoral-accountability-in-the-europe
 
 [[redirects]]
 from = "/tag/campus-de-la-transition/index.html"
-to = "/fr/a-propos/"
+to = "/fr/qui-sommes-nous/"
 
 [[redirects]]
 from = "/fr/a-propos/equipe/xavier-de-benaze/index.html"
@@ -2456,7 +2484,7 @@ to = "/fr/recherche/publications-hal/2006-the-cumul-des-mandats-in-comtemporary-
 
 [[redirects]]
 from = "/fr/a-propos/projet/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/formations-a-la-demande-pour-les-enseignants/index.html"
@@ -2656,7 +2684,7 @@ to = "/fr/recherche/publications-hal/2008-le-parlement-europeen-est-il-vraiment-
 
 [[redirects]]
 from = "/fr/pedagogie/projet/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2006-the-cumul-des-mandats-in-comtemporary-french-politics-an-empirical-study-of-the-xiie-legislature-of/index.html"
@@ -2940,7 +2968,7 @@ to = ""
 
 [[redirects]]
 from = "/fr/a-propos/qui-sommes-nous/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/categories/recherche/conseil-academique/index.html"
@@ -3131,6 +3159,10 @@ from = "/presentation-des-formations-academiques/index.html"
 to = "/fr/formation/offre-formation/"
 
 [[redirects]]
+from = "/fr/a-propos/communaute-scientifique/collectif-fortes/index.html"
+to = "/fr/qui-sommes-nous/communaute-scientifique/collectif-fortes/"
+
+[[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2013-relational-capability-a-multidimensional-approach/index.html"
 to = "/fr/publications-scientifiques/2013-relational-capability-a-multidimensional-approach/"
 
@@ -3220,7 +3252,7 @@ to = "/fr/recherche/publications-hal/2024-not-so-weak-after-all-institutional-an
 
 [[redirects]]
 from = "/fr/projet-global/projet/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/publications-hal/2020-oikos-habiter-un-monde-commun-chapitre-2-vers-une-planete-inhabitable-et-un-monde-invivable-se-soign/index.html"
@@ -3444,7 +3476,7 @@ to = "/fr/recherche/publications-hal/2021-a-disruptive-moment-parliaments-brexit
 
 [[redirects]]
 from = "/fr/projet-global/partenaires/index.html"
-to = "/fr/a-propos/partenaires/"
+to = "/fr/qui-sommes-nous/partenaires/"
 
 [[redirects]]
 from = "/fr/publications-hal/2024-what-transition-to-teach-interview-with-dominique-bourg/index.html"
@@ -3776,7 +3808,7 @@ to = "/fr/personnes/cecile-renouard/"
 
 [[redirects]]
 from = "/fr/projet-global/index.html"
-to = "/fr/a-propos/"
+to = "/fr/qui-sommes-nous/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2022-holding-the-unaccountable-to-account-the-strategic-and-partisan-motivations-for-the-european-parliam/index.html"
@@ -3945,6 +3977,10 @@ to = "/fr/publications-scientifiques/2011-measuring-the-contribution-of-extracti
 [[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2010-l-europe-objet-d-attention-croissante-a-l-assemblee-nationale-analyse-longitudinale-des-questions-pa/index.html"
 to = "/fr/recherche/publications-hal/2010-l-europe-objet-d-attention-croissante-a-l-assemblee-nationale-analyse-longitudinale-des-questions-pa/"
+
+[[redirects]]
+from = "/fr/a-propos/communaute-scientifique/index.html"
+to = "/fr/qui-sommes-nous/communaute-scientifique/"
 
 [[redirects]]
 from = "/fr/2021-quelle-transition-enseigner/index.html"
@@ -4792,7 +4828,7 @@ to = "/fr/personnes/yves-perret/actualites/"
 
 [[redirects]]
 from = "/le-projet/oasis-colibris/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/nancy-tuchmann/index.html"
@@ -5032,7 +5068,7 @@ to = "/fr/publications-scientifiques/2023-pedagogy-of-the-anthropocene-epoch-for
 
 [[redirects]]
 from = "/2023/06/27/lorsque-lon-cherche-on-se-retrouve-au-campus/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2023-a-litmus-test-for-democratic-politics-in-europe-parliaments-brexit-and-the-future-of-the-european-un/index.html"
@@ -5188,7 +5224,7 @@ to = "/fr/recherche/publications-hal/2022-learn-to-jest-in-good-time-the-effect-
 
 [[redirects]]
 from = "/le-projet/presentation-complete/index.html"
-to = "/fr/a-propos/"
+to = "/fr/qui-sommes-nous/"
 
 [[redirects]]
 from = "/fr/evenements/2025/rencontres-forges/index.html"
@@ -5420,7 +5456,7 @@ to = "/fr/publications-scientifiques/2023-pedagogy-for-a-great-transition-a-nove
 
 [[redirects]]
 from = "/notre-projet/index.html"
-to = "/fr/a-propos/historique/"
+to = "/fr/qui-sommes-nous/nos-racines/"
 
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2009-multiple-office-holders-in-france-and-germany-dreaded-challengers-or-creatures-of-their-party/index.html"
