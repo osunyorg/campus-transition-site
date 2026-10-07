@@ -173,17 +173,8 @@ items:
       descendants_targets: []
       path: "/pages/formation/pedagogie"
       file: content/fr/pages/formation/pedagogie/_index.html
-    - title: Venir en séminaire
-      slug: venir-en-seminaire
-      target: "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/eco-lieu/venir-en-seminaire-avec-votre-organisation"
-      file: content/fr/pages/eco-lieu/venir-en-seminaire-avec-votre-organisation/_index.html
-    - title: Ressources
-      slug: ressources
+    - title: Communs pédagogiques
+      slug: communs-pedagogiques
       target: "/fr/formation/ressources/"
       kind: page
       new_tab: false
@@ -191,6 +182,15 @@ items:
       descendants_targets: []
       path: "/pages/formation/ressources"
       file: content/fr/pages/formation/ressources/_index.html
+    - title: Conseil en formation
+      slug: conseil-en-formation
+      target: "/fr/formation/conseil-en-formation/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/formation/conseil-en-formation"
+      file: content/fr/pages/formation/conseil-en-formation/_index.html
     - title: Actualités de la formation
       slug: actualites-de-la-formation
       target: "/fr/actualites/formation-2/"
@@ -202,7 +202,7 @@ items:
       file: content/fr/posts_categories/formation-2/_index.html
     descendants_targets:
     - "/fr/actualites/formation-2/"
-    - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
+    - "/fr/formation/conseil-en-formation/"
     - "/fr/formation/offre-formation/"
     - "/fr/formation/pedagogie/"
     - "/fr/formation/ressources/"
@@ -314,6 +314,7 @@ items:
   - "/fr/eco-lieu/experience/"
   - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
   - "/fr/formation/"
+  - "/fr/formation/conseil-en-formation/"
   - "/fr/formation/offre-formation/"
   - "/fr/formation/pedagogie/"
   - "/fr/formation/ressources/"
