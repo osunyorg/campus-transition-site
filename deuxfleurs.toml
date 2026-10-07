@@ -207,6 +207,10 @@ from = "/fr/equipe/yves-perret/index.html"
 to = "/fr/personnes/yves-perret/"
 
 [[redirects]]
+from = "/fr/recherche/projets-de-recherche/frise-recherche/index.html"
+to = "/fr/recherche/projets-de-recherche/frises-chronologiques/"
+
+[[redirects]]
 from = "/fr/publications/2012-facteur-12-pourquoi-il-faut-plafonner-les-revenus/index.html"
 to = "/fr/publications-scientifiques/2012-facteur-12-pourquoi-il-faut-plafonner-les-revenus/"
 
@@ -736,7 +740,7 @@ to = "/fr/publications-scientifiques/2023-pedagogy-of-the-anthropocene-epoch-for
 
 [[redirects]]
 from = "/fr/recherche/frise-recherche/index.html"
-to = "/fr/recherche/projets-de-recherche/frise-recherche/"
+to = "/fr/recherche/projets-de-recherche/frises-chronologiques/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2008-the-pan-african-parliament-in-the-strategic-partnership-between-the-eu-and-africa-winner-or-loser/index.html"
@@ -3065,6 +3069,10 @@ to = "/fr/formation/offre-formation/categories/etudiants/"
 [[redirects]]
 from = "/fr/2012-facteur-12-pourquoi-il-faut-plafonner-les-revenus/index.html"
 to = "/fr/publications-scientifiques/2012-facteur-12-pourquoi-il-faut-plafonner-les-revenus/"
+
+[[redirects]]
+from = "/fr/recherche/projets-de-recherche/frises-chronologiques-du-campus/index.html"
+to = "/fr/recherche/projets-de-recherche/frises-chronologiques/"
 
 [[redirects]]
 from = "/le-projet/lequipe/lea-eynaud/index.html"
