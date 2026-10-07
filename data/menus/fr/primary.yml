@@ -13,8 +13,8 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Historique
-      slug: historique
+    - title: Nos racines
+      slug: nos-racines
       target: "/fr/qui-sommes-nous/nos-racines/"
       kind: page
       new_tab: false
