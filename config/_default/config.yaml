@@ -17,9 +17,11 @@ params:
       layout: grid
     single:
       meta:
+        position: hero
         options:
           reading_time: false
           updated_at: false
+          with_labels: false
   programs:
     index:
       options:

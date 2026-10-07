@@ -35,12 +35,8 @@
                 width: columns(7)
         .content
             figure
-                img
-                    aspect-ratio: 4 / 3
-                    object-fit: cover
                 @include media-breakpoint-up(desktop)
-                    margin-right: var(--grid-gutter-negative)
-                    width: calc(#{columns(4)} - var(--grid-gutter-negative))
+                    width: columns(4)
                 @include media-breakpoint-down(desktop)
                     &.image-landscape,
                     &.image-portrait,
