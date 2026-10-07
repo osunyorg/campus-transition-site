@@ -4047,6 +4047,10 @@ from = "/fr/recherche/publications/publications-grand-public/2020-maitrise-carbo
 to = "/fr/publications-1/2025-maitrise-carbone-campus/"
 
 [[redirects]]
+from = "/fr/recherche/living-lab/mesurer-la-qualite-relationnelle-dans-les-eco-lieux/index.html"
+to = "/fr/recherche/projets-de-recherche/mesurer-la-qualite-relationnelle-dans-les-eco-lieux/"
+
+[[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2006-the-cumul-des-mandats-in-comtemporary-french-politics-an-empirical-study-of-the-xiie-legislature-of/index.html"
 to = "/fr/recherche/publications-hal/2006-the-cumul-des-mandats-in-comtemporary-french-politics-an-empirical-study-of-the-xiie-legislature-of/"
 
