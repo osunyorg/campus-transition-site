@@ -290,15 +290,6 @@ items:
       descendants_targets: []
       path: "/pages/seminaires-organises-par-le-campus"
       file: content/fr/pages/seminaires-organises-par-le-campus/_index.html
-    - title: Venir en séjour de recherche
-      slug: venir-en-sejour-de-recherche
-      target: "/fr/recherche/sejour-recherche/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/recherche/sejour-recherche"
-      file: content/fr/pages/recherche/sejour-recherche/_index.html
     - title: Publications scientifiques
       slug: publications-scientifiques
       target: "/fr/publications-scientifiques/"
@@ -322,7 +313,6 @@ items:
     - "/fr/publications-scientifiques/"
     - "/fr/recherche/living-lab/"
     - "/fr/recherche/recherche-publications/"
-    - "/fr/recherche/sejour-recherche/"
     - "/fr/seminaires-organises-par-le-campus/"
     path: "/pages/recherche"
     file: content/fr/pages/recherche/_index.html
@@ -343,7 +333,6 @@ items:
   - "/fr/recherche/"
   - "/fr/recherche/living-lab/"
   - "/fr/recherche/recherche-publications/"
-  - "/fr/recherche/sejour-recherche/"
   - "/fr/seminaires-organises-par-le-campus/"
 - title: Actualités
   slug: actualites
