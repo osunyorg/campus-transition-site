@@ -1,13 +1,9 @@
 .hero
     .content
         .hero-text
-            @include media-breakpoint-up(desktop)
-                width: calc(#{columns(7)} + var(--column-width))
-            @include media-breakpoint-between(desktop, xl)
-                h1
+            h1
+                span
                     @include h2
-                .has-lead > p
-                    @include h4
             .has-lead > p
                 margin-top: $spacing-4
             .hero-actions
@@ -17,23 +13,31 @@
                 &:hover
                     background-color: $btn-hover-background !important
                     border-color: transparent
+            
+            @include media-breakpoint-up(desktop)
+                width: calc(#{columns(7)} + var(--column-width))
+            
+            @include media-breakpoint-between(desktop, xl)
+                h1
+                    @include h2
+                .has-lead > p
+                    @include h4
         
         .page__home &
-            padding-top: space(9)
             @include media-breakpoint-up(desktop)
-                padding-top: space(40)
                 align-items: stretch
                 hgroup
                     flex: 1
                     h1 + p
                         margin-top: $spacing-6
                         max-width: 42ch
+
     body:not(.events__page, .persons__page) &
-        .hero-text
-            margin-top: 0
-            @include media-breakpoint-up(desktop)
-                width: columns(7)
         .content
+            .hero-text
+                margin-top: 0
+                @include media-breakpoint-up(desktop)
+                    width: columns(7)
             figure
                 @include media-breakpoint-up(desktop)
                     width: columns(4)
@@ -44,6 +48,7 @@
                         margin-left: var(--grid-gutter-negative)
                         margin-right: var(--grid-gutter-negative)
                         margin-bottom: space(23)
+
     .breadcrumb-nav
         mask-image: none !important
         .breadcrumb-item
@@ -52,6 +57,11 @@
             &:not(.active)
                 &::before
                     color: var(--color-text)
+
+        @include media-breakpoint-up(desktop)
+            + .content
+                margin-top: $spacing-4
+
     // colors in hero and breadcrumb
     .ancestor-research &,
     .projects_categories__term &,
@@ -63,6 +73,7 @@
     .programs__section &
         border-bottom-width: 2px
         border-bottom-style: solid
+        overflow: hidden
         &.hero--with-image
             padding-bottom: space(9)
         .breadcrumb-nav
@@ -70,20 +81,49 @@
             margin-right: var(--grid-gutter-negative)
             padding-left: var(--grid-gutter)
             padding-right: var(--grid-gutter)
+            position: relative
+            @include media-breakpoint-up(desktop)
+                &::before,
+                &::after
+                    bottom: 0
+                    content: ''
+                    position: absolute
+                    top: 0
+                    width: 50vw
+                &::before
+                    left: 0
+                    transform: translateX(-100%)
+                &::after
+                    right: 0
+                    transform: translateX(100%)
+
     .ancestor-research &,
     .projects_categories__term &,
     .projects__page &,
     .projects__section &
         .breadcrumb-nav
             background: $site-blue
+            @include media-breakpoint-up(desktop)
+                &::before,
+                &::after
+                    background: $site-blue
     .ancestor-schooling &,
     .programs_categories__term &,
     .programs__section &
         .breadcrumb-nav
             background: $site-red
+            @include media-breakpoint-up(desktop)
+                &::before,
+                &::after
+                    background: $site-red
     .ancestor-eco-place &
         .breadcrumb-nav
             background: $site-green
+            @include media-breakpoint-up(desktop)
+                &::before,
+                &::after
+                    background: $site-green
+
     .page-research &,
     .page-eco-place &,
     .page-schooling &
@@ -91,36 +131,32 @@
         .content
             figure
                 margin-right: 0
+
             @include media-breakpoint-up(desktop)
                 padding-bottom: space(20)
+
             @include media-breakpoint-down(desktop)
                 display: flex
                 flex-direction: column
                 padding-top: $spacing-3
                 figure
                     align-items: center
-                    aspect-ratio: 3/2
                     display: flex
                     justify-content: flex-end
-                    margin-bottom: $spacing-3
-                    max-width: columns(6)
                     order: -1
-                    overflow: hidden
-                    picture
-                        width: 200%
-                        transform: translateX(-40%)
+                    margin-bottom: $spacing-3 !important
+                    img
+                        aspect-ratio: 3/2
+                        object-fit: contain
+
     .page-research & 
         background: $site-blue
     .page-schooling & 
         background: $site-red
     .page-eco-place & 
         background: $site-green
-    @include media-breakpoint-up(desktop)
-        .breadcrumb-nav + .content
-            padding-top: space(20)
+
     @include media-breakpoint-down(desktop)
-        .breadcrumb-nav
-            margin-bottom: $spacing-4
         .page__home &
             margin-bottom: 0
             .hero-text
