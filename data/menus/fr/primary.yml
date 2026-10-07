@@ -191,7 +191,17 @@ items:
       descendants_targets: []
       path: "/pages/formation/ressources"
       file: content/fr/pages/formation/ressources/_index.html
+    - title: Actualités de la formation
+      slug: actualites-de-la-formation
+      target: "/fr/actualites/formation-2/"
+      kind: category
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/posts_categories/formation-2"
+      file: content/fr/posts_categories/formation-2/_index.html
     descendants_targets:
+    - "/fr/actualites/formation-2/"
     - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
     - "/fr/formation/offre-formation/"
     - "/fr/formation/pedagogie/"
@@ -297,6 +307,7 @@ items:
     path: "/pages/recherche"
     file: content/fr/pages/recherche/_index.html
   descendants_targets:
+  - "/fr/actualites/formation-2/"
   - "/fr/eco-lieu/"
   - "/fr/eco-lieu/devenir-benevole/"
   - "/fr/eco-lieu/domaine/"
