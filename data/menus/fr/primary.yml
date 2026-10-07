@@ -214,17 +214,8 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Domaine de Forges
-      slug: domaine-de-forges
-      target: "/fr/eco-lieu/domaine/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/eco-lieu/domaine"
-      file: content/fr/pages/eco-lieu/domaine/_index.html
-    - title: Expérience de l'éco-lieu
-      slug: experience-de-l-eco-lieu
+    - title: La vie collective
+      slug: la-vie-collective
       target: "/fr/eco-lieu/experience/"
       kind: page
       new_tab: false
@@ -232,8 +223,17 @@ items:
       descendants_targets: []
       path: "/pages/eco-lieu/experience"
       file: content/fr/pages/eco-lieu/experience/_index.html
-    - title: Venir en séminaire avec votre organisme
-      slug: venir-en-seminaire-avec-votre-organisme
+    - title: Le domaine de Forges
+      slug: le-domaine-de-forges
+      target: "/fr/eco-lieu/domaine/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/eco-lieu/domaine"
+      file: content/fr/pages/eco-lieu/domaine/_index.html
+    - title: L'accueil de groupes et d'organisations
+      slug: l-accueil-de-groupes-et-d-organisations
       target: "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
       kind: page
       new_tab: false
