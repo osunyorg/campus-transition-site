@@ -1,0 +1,354 @@
+---
+title: Menu principal
+items:
+- title: Le Campus
+  slug: le-campus
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Qui sommes-nous ?
+    slug: qui-sommes-nous
+    target: "/fr/qui-sommes-nous/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Nos racines
+      slug: nos-racines
+      target: "/fr/qui-sommes-nous/nos-racines/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/qui-sommes-nous/nos-racines"
+      file: content/fr/pages/qui-sommes-nous/nos-racines/_index.html
+    - title: Organisation et gouvernance
+      slug: organisation-et-gouvernance
+      target: "/fr/qui-sommes-nous/organisation-et-gouvernance/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/qui-sommes-nous/organisation-et-gouvernance"
+      file: content/fr/pages/qui-sommes-nous/organisation-et-gouvernance/_index.html
+    - title: Communauté scientifique
+      slug: communaute-scientifique
+      target: "/fr/qui-sommes-nous/communaute-scientifique/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/qui-sommes-nous/communaute-scientifique"
+      file: content/fr/pages/qui-sommes-nous/communaute-scientifique/_index.html
+    - title: Partenaires
+      slug: partenaires
+      target: "/fr/qui-sommes-nous/partenaires/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/qui-sommes-nous/partenaires"
+      file: content/fr/pages/qui-sommes-nous/partenaires/_index.html
+    descendants_targets:
+    - "/fr/qui-sommes-nous/communaute-scientifique/"
+    - "/fr/qui-sommes-nous/nos-racines/"
+    - "/fr/qui-sommes-nous/organisation-et-gouvernance/"
+    - "/fr/qui-sommes-nous/partenaires/"
+    path: "/pages/qui-sommes-nous"
+    file: content/fr/pages/qui-sommes-nous/_index.html
+  - title: Contact
+    slug: contact
+    target: "/fr/contact/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Nous rejoindre
+      slug: nous-rejoindre
+      target: "/fr/nous-rejoindre/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/nous-rejoindre"
+      file: content/fr/pages/nous-rejoindre/_index.html
+    - title: Venir au Campus
+      slug: venir-au-campus
+      target: "/fr/contact/venir-au-campus/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/contact/venir-au-campus"
+      file: content/fr/pages/contact/venir-au-campus/_index.html
+    descendants_targets:
+    - "/fr/contact/venir-au-campus/"
+    - "/fr/nous-rejoindre/"
+    path: "/pages/contact"
+    file: content/fr/pages/contact/_index.html
+  - title: Publications
+    slug: publications
+    target: "/fr/publications/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Le Manuel de la Grande Transition
+      slug: le-manuel-de-la-grande-transition
+      target: "/fr/publications/2024-manuel-de-la-grande-transition/"
+      kind: url
+      new_tab: false
+      children: []
+      descendants_targets: []
+    - title: Les Petits Manuels de la Grande Transition
+      slug: les-petits-manuels-de-la-grande-transition
+      target: "/fr/publications/petits-manuels-de-la-grande-transition/"
+      kind: url
+      new_tab: false
+      children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/fr/publications/2024-manuel-de-la-grande-transition/"
+    - "/fr/publications/petits-manuels-de-la-grande-transition/"
+    path: "/projects"
+    file: content/fr/projects/_index.html
+  descendants_targets:
+  - "/fr/contact/"
+  - "/fr/contact/venir-au-campus/"
+  - "/fr/nous-rejoindre/"
+  - "/fr/publications/"
+  - "/fr/publications/2024-manuel-de-la-grande-transition/"
+  - "/fr/publications/petits-manuels-de-la-grande-transition/"
+  - "/fr/qui-sommes-nous/"
+  - "/fr/qui-sommes-nous/communaute-scientifique/"
+  - "/fr/qui-sommes-nous/nos-racines/"
+  - "/fr/qui-sommes-nous/organisation-et-gouvernance/"
+  - "/fr/qui-sommes-nous/partenaires/"
+- title: Trois piliers
+  slug: trois-piliers
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Formation
+    slug: formation
+    target: "/fr/formation/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Offre de formation
+      slug: offre-de-formation
+      target: "/fr/formation/offre-formation/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/programs"
+      file: content/fr/programs/_index.html
+    - title: Pédagogie
+      slug: pedagogie
+      target: "/fr/formation/pedagogie/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/formation/pedagogie"
+      file: content/fr/pages/formation/pedagogie/_index.html
+    - title: Communs pédagogiques
+      slug: communs-pedagogiques
+      target: "/fr/formation/ressources/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/formation/ressources"
+      file: content/fr/pages/formation/ressources/_index.html
+    - title: Conseil en formation
+      slug: conseil-en-formation
+      target: "/fr/formation/conseil-en-formation/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/formation/conseil-en-formation"
+      file: content/fr/pages/formation/conseil-en-formation/_index.html
+    - title: Actualités de la formation
+      slug: actualites-de-la-formation
+      target: "/fr/actualites/formation-2/"
+      kind: category
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/posts_categories/formation-2"
+      file: content/fr/posts_categories/formation-2/_index.html
+    descendants_targets:
+    - "/fr/actualites/formation-2/"
+    - "/fr/formation/conseil-en-formation/"
+    - "/fr/formation/offre-formation/"
+    - "/fr/formation/pedagogie/"
+    - "/fr/formation/ressources/"
+    path: "/pages/formation"
+    file: content/fr/pages/formation/_index.html
+  - title: Éco-lieu
+    slug: eco-lieu
+    target: "/fr/eco-lieu/"
+    kind: page
+    new_tab: false
+    children:
+    - title: La vie collective
+      slug: la-vie-collective
+      target: "/fr/eco-lieu/experience/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/eco-lieu/experience"
+      file: content/fr/pages/eco-lieu/experience/_index.html
+    - title: Le domaine de Forges
+      slug: le-domaine-de-forges
+      target: "/fr/eco-lieu/domaine/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/eco-lieu/domaine"
+      file: content/fr/pages/eco-lieu/domaine/_index.html
+    - title: L'accueil de groupes et d'organisations
+      slug: l-accueil-de-groupes-et-d-organisations
+      target: "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/eco-lieu/venir-en-seminaire-avec-votre-organisation"
+      file: content/fr/pages/eco-lieu/venir-en-seminaire-avec-votre-organisation/_index.html
+    - title: Devenir bénévole
+      slug: devenir-benevole
+      target: "/fr/eco-lieu/devenir-benevole/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/eco-lieu/devenir-benevole"
+      file: content/fr/pages/eco-lieu/devenir-benevole/_index.html
+    - title: Actualités de l'éco-lieu
+      slug: actualites-de-l-eco-lieu
+      target: "/fr/actualites/eco-lieu/"
+      kind: category
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/posts_categories/eco-lieu"
+      file: content/fr/posts_categories/eco-lieu/_index.html
+    descendants_targets:
+    - "/fr/actualites/eco-lieu/"
+    - "/fr/eco-lieu/devenir-benevole/"
+    - "/fr/eco-lieu/domaine/"
+    - "/fr/eco-lieu/experience/"
+    - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
+    path: "/pages/eco-lieu"
+    file: content/fr/pages/eco-lieu/_index.html
+  - title: Recherche
+    slug: recherche
+    target: "/fr/recherche/"
+    kind: page
+    new_tab: false
+    children:
+    - title: La recherche au campus
+      slug: la-recherche-au-campus
+      target: "/fr/recherche/la-recherche-au-campus/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/recherche/la-recherche-au-campus"
+      file: content/fr/pages/recherche/la-recherche-au-campus/_index.html
+    - title: Notre offre pour les chercheurs
+      slug: notre-offre-pour-les-chercheurs
+      target: "/fr/recherche/notre-offre-pour-les-chercheurs/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/recherche/notre-offre-pour-les-chercheurs"
+      file: content/fr/pages/recherche/notre-offre-pour-les-chercheurs/_index.html
+    - title: Projets de recherche
+      slug: projets-de-recherche
+      target: "/fr/recherche/projets-de-recherche/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/recherche/projets-de-recherche"
+      file: content/fr/pages/recherche/projets-de-recherche/_index.html
+    - title: Publications scientifiques
+      slug: publications-scientifiques
+      target: "/fr/publications-scientifiques/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/publications"
+      file: content/fr/publications/_index.html
+    - title: Actualités de la recherche
+      slug: actualites-de-la-recherche
+      target: "/fr/actualites/recherche/"
+      kind: category
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/posts_categories/recherche"
+      file: content/fr/posts_categories/recherche/_index.html
+    descendants_targets:
+    - "/fr/actualites/recherche/"
+    - "/fr/publications-scientifiques/"
+    - "/fr/recherche/la-recherche-au-campus/"
+    - "/fr/recherche/notre-offre-pour-les-chercheurs/"
+    - "/fr/recherche/projets-de-recherche/"
+    path: "/pages/recherche"
+    file: content/fr/pages/recherche/_index.html
+  descendants_targets:
+  - "/fr/actualites/eco-lieu/"
+  - "/fr/actualites/formation-2/"
+  - "/fr/actualites/recherche/"
+  - "/fr/eco-lieu/"
+  - "/fr/eco-lieu/devenir-benevole/"
+  - "/fr/eco-lieu/domaine/"
+  - "/fr/eco-lieu/experience/"
+  - "/fr/eco-lieu/venir-en-seminaire-avec-votre-organisation/"
+  - "/fr/formation/"
+  - "/fr/formation/conseil-en-formation/"
+  - "/fr/formation/offre-formation/"
+  - "/fr/formation/pedagogie/"
+  - "/fr/formation/ressources/"
+  - "/fr/publications-scientifiques/"
+  - "/fr/recherche/"
+  - "/fr/recherche/la-recherche-au-campus/"
+  - "/fr/recherche/notre-offre-pour-les-chercheurs/"
+  - "/fr/recherche/projets-de-recherche/"
+- title: Actualités
+  slug: actualites
+  target: "/fr/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
+- title: Agenda
+  slug: agenda
+  target: "/fr/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/events"
+  file: content/fr/events/_index.html
+- title: Nous soutenir
+  slug: nous-soutenir
+  target: "/fr/nous-soutenir/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/nous-soutenir"
+  file: content/fr/pages/nous-soutenir/_index.html
+
