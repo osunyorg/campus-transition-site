@@ -907,10 +907,6 @@ from = "/fr/recherche/rci-tiers-lieu/index.html"
 to = "/fr/recherche/programmes-de-recherche/rci-tiers-lieu/"
 
 [[redirects]]
-from = "/fr/productions/offre-de-formation/atelier-des-6-portes/animer-l-atelier-des-6-portes/index.html"
-to = "/fr/publications/offre-de-formation/atelier-des-6-portes/animer-l-atelier-des-6-portes/"
-
-[[redirects]]
 from = "/fr/a-propos/equipe/clement-martel/programs/index.html"
 to = "/fr/personnes/clement-martel/programs/"
 
@@ -2181,6 +2177,10 @@ to = "/fr/publications-hal/2019-de-la-personne-comme-don-a-la-justice-des-commun
 [[redirects]]
 from = "/fr/a-propos/organisation-et-gouvernance/matthieu-vergnol/index.html"
 to = "/fr/personnes/matthieu-vergnol/"
+
+[[redirects]]
+from = "/fr/formation/offre-formation/atelier-des-6-portes/animer-latelier-des-6-portes-1/index.html"
+to = "/fr/formation/offre-formation/animer-latelier-des-6-portes-1/"
 
 [[redirects]]
 from = "/fr/equipe/categories/pole/domaine/index.html"
