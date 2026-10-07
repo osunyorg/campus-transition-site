@@ -9,8 +9,15 @@
                     @include h3
                 @include media-breakpoint-up(desktop)
                     .program-content
-                        row-gap: $spacing-3
-    .hero
+                        display: grid
+                        grid-template-columns: repeat(2, 1fr)
+                        gap: var(--grid-gutter)
+                        .program-title
+                            width: columns(6)
+                        .program-summary
+                            width: columns(4)
+                        .program-diploma
+                            display: none
         .buttons
             button
                 --btn-background: #{rgba($color-accent, 0.1)}
