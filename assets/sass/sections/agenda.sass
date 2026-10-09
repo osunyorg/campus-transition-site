@@ -1,0 +1,20 @@
+.block-agenda--list
+    @include media-breakpoint-down(desktop)
+        .event
+            &-subtitle,
+            &-dates
+                @include h5
+                text-transform: none
+            &-hours
+                @include small
+            &-schedule
+                margin: $spacing-1 0
+    @include in-page-without-sidebar
+        .event
+            &-subtitle,
+            &-dates,
+            &-hours
+                @include h5
+                text-transform: none
+            &-hours
+                @include small
