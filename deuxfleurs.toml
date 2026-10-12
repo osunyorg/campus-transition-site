@@ -4723,6 +4723,10 @@ from = "/fr/recherche/publications-scientifiques/2022-the-legislators-constituen
 to = "/fr/recherche/publications-hal/2022-the-legislators-constituency-orientation-and-citizens-satisfaction-with-democracy-results-from-a-4-c/"
 
 [[redirects]]
+from = "/fr/evenements/2026/rencontres-de-forges-decouvrir-lor-dans-nos-mains/index.html"
+to = "/fr/agenda/2026/rencontres-de-forges-decouvrir-lor-dans-nos-mains/"
+
+[[redirects]]
 from = "/fr/la-recherche/publications-scientifiques/2021-editorial-access-or-excess-redefining-the-boundaries-of-transparency-in-the-eu-s-decision-making/index.html"
 to = "/fr/recherche/publications-hal/2021-editorial-access-or-excess-redefining-the-boundaries-of-transparency-in-the-eu-s-decision-making/"
 
