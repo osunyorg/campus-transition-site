@@ -220,7 +220,7 @@ to = "/fr/personnes/yves-perret/"
 
 [[redirects]]
 from = "/fr/recherche/projets-de-recherche/frise-recherche/index.html"
-to = "/fr/recherche/projets-de-recherche/frises-chronologiques/"
+to = "/fr/recherche/la-recherche-au-campus/frises-chronologiques/"
 
 [[redirects]]
 from = "/fr/publications/2012-facteur-12-pourquoi-il-faut-plafonner-les-revenus/index.html"
@@ -772,7 +772,7 @@ to = "/fr/publications-scientifiques/2023-pedagogy-of-the-anthropocene-epoch-for
 
 [[redirects]]
 from = "/fr/recherche/frise-recherche/index.html"
-to = "/fr/recherche/projets-de-recherche/frises-chronologiques/"
+to = "/fr/recherche/la-recherche-au-campus/frises-chronologiques/"
 
 [[redirects]]
 from = "/fr/recherche/publications-scientifiques/2008-the-pan-african-parliament-in-the-strategic-partnership-between-the-eu-and-africa-winner-or-loser/index.html"
@@ -3196,7 +3196,7 @@ to = "/fr/publications-scientifiques/2012-facteur-12-pourquoi-il-faut-plafonner-
 
 [[redirects]]
 from = "/fr/recherche/projets-de-recherche/frises-chronologiques-du-campus/index.html"
-to = "/fr/recherche/projets-de-recherche/frises-chronologiques/"
+to = "/fr/recherche/la-recherche-au-campus/frises-chronologiques/"
 
 [[redirects]]
 from = "/le-projet/lequipe/lea-eynaud/index.html"
@@ -3445,6 +3445,10 @@ to = "/fr/recherche/publications-hal/2022-banking-on-meps-the-strategic-and-part
 [[redirects]]
 from = "/fr/recherche/publications/publications-scientifiques/2009-les-deputes-europeens-et-leur-role-sociologie-des-pratiques-parlementaires/index.html"
 to = "/fr/recherche/publications-hal/2009-les-deputes-europeens-et-leur-role-sociologie-des-pratiques-parlementaires/"
+
+[[redirects]]
+from = "/fr/recherche/projets-de-recherche/frises-chronologiques/index.html"
+to = "/fr/recherche/la-recherche-au-campus/frises-chronologiques/"
 
 [[redirects]]
 from = "/fr/2010-mesurer-la-contribution-des-entreprises-au-developpement-local-le-cas-des-petroliers-au-nigeria/index.html"
